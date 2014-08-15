@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<!-- *****************************************************************************************************************
+	 BLOG CONTENT
+	 ***************************************************************************************************************** -->
+
+	 <div class="container mtb">
+	 	<div class="row">
+	 	
+	 		<! -- SINGLE POST -->
+	 		<div class="col-lg-8">
+	 			<! -- Blog Post  -->
+		 		<p><img class="img-responsive" src="/assets/img/{{ | prepend: site.baseurl }}{{ page.img }}"></p>
+		 		<a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+		 		<p><csmall>{{ page.date | date: "%b %-d, %Y" }}.</csmall> | <csmall2>By: Admin - 3 Comments</csmall2></p>
+                  {{ content }}
+
+                
+                <div class="spacing"></div>
+<h6>SHARE:</h6>
+<p class="share">
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-tumblr"></i></a>
+    <a href="#"><i class="fa fa-google-plus"></i></a>		 		
+</p>
+		 		
+			</div><! --/col-lg-8 -->
+	 		{% include sidebar.html %}
+
+	 	</div><! --/row -->
+	 </div><! --/container -->

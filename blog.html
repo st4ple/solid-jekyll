@@ -1,0 +1,38 @@
+---
+layout: blog
+title: Blog
+permalink: /blog/
+---
+
+
+	<!-- *****************************************************************************************************************
+	 BLOG CONTENT
+	 ***************************************************************************************************************** -->
+
+	 <div class="container mtb">
+	 	<div class="row">
+
+	 	
+	 		<! -- BLOG POSTS LIST -->
+	 		<div class="col-lg-8">
+
+            {% for post in site.posts %}
+                <! -- Blog Post -->
+		 		<p><img class="img-responsive" src="{{ "/assets/img/" | prepend: site.baseurl }}{{ post.img }}"></p>
+		 		<a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+		 		<p><csmall>{{ post.date | date: "%b %-d, %Y" }}.</csmall> | <csmall2>By: Admin - 3 Comments</csmall2></p>
+                {{ post.excerpt }}
+		 		<p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+		 		<div class="hline"></div>
+		 		
+		 		<div class="spacing"></div>
+    {% endfor %}
+
+			</div><! --/col-lg-8 -->
+
+
+        {% include sidebar.html %}
+
+            
+	 	</div><! --/row -->
+	 </div><! --/container -->
