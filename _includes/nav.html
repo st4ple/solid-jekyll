@@ -19,9 +19,9 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="/blog/">BLOG</a></li>
-            <li><a href="{{ site.posts.first.url | prepend: site.baseurl }}">SINGLE POST</a></li>
+            <li><a href="{{ site.categories['blog'].first.url | prepend: site.baseurl }}">SINGLE POST</a></li>
             <li><a href="/portfolio/">PORTFOLIO</a></li>
-            <li><a href="/single-project/">SINGLE PROJECT</a></li>
+            <li><a href="{{ site.categories['projects'].first.url | prepend: site.baseurl }}">SINGLE PROJECT</a></li>
           </ul>
         </li>
       </ul>
