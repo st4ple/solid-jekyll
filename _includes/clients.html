@@ -2,18 +2,11 @@
     <div class="container">
         <div class="row centered">
             <h3>OUR CLIENTS</h3>
-            <div class="col-lg-3 col-md-3 col-sm-3">
-                <img src="{{ "/assets/img/clients/client01.png" | prepend: site.baseurl }}" class="img-responsive">
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
-                <img src="{{ "/assets/img/clients/client02.png" | prepend: site.baseurl }}" class="img-responsive">
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
-                <img src="{{ "/assets/img/clients/client03.png" | prepend: site.baseurl }}" class="img-responsive">
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
-                <img src="{{ "/assets/img/clients/client04.png" | prepend: site.baseurl }}" class="img-responsive">
-            </div>
+            {% for client in site.clients %}
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}" class="img-responsive">
+                </div>
+            {% endfor %}
         </div><! --/row -->
     </div><! --/container -->
 </div><! --/cwrap -->

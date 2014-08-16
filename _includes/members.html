@@ -1,73 +1,25 @@
 <div class="container mtb">
     <div class="row centered">
         <h3 class="mb">MEET OUR TEAM</h3>
+        
+        {% for member in site.members %}
         <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/team/team01.jpg" | prepend: site.baseurl }}" alt="">
+            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
                 <div class="he-view">
                     <div class="bg a0" data-animate="fadeIn">
                         <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
-                        <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-envelope"></i></a>
-                        <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-twitter"></i></a>
+                        {% for entry in member.social %}
+                            <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
+                        {% endfor %}
                     </div><!-- he bg -->
                 </div><!-- he view -->		
             </div><!-- he wrap -->
-            <h4>Mark Webber</h4>
-            <h5 class="ctitle">CEO</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <h4>{{ member.name }}</h4>
+            <h5 class="ctitle">{{ member.position }}</h5>
+            <p>{{ member.text }}</p>
             <div class="hline"></div>
-        </div><! --/col-lg-3 -->
-
-        <div class="col-lg-3 col-md-3 col-sm-3">
-            <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/team/team02.jpg" | prepend: site.baseurl }}" alt="">
-                <div class="he-view">
-                    <div class="bg a0" data-animate="fadeIn">
-                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
-                        <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-envelope"></i></a>
-                        <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-twitter"></i></a>
-                    </div><!-- he bg -->
-                </div><!-- he view -->		
-            </div><!-- he wrap -->
-            <h4>Paul Jameson</h4>
-            <h5 class="ctitle">LEAD DESIGNER</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <div class="hline"></div>
-        </div><! --/col-lg-3 -->
-
-        <div class="col-lg-3 col-md-3 col-sm-3">
-            <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/team/team03.jpg" | prepend: site.baseurl }}" alt="">
-                <div class="he-view">
-                    <div class="bg a0" data-animate="fadeIn">
-                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
-                        <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-envelope"></i></a>
-                        <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-twitter"></i></a>
-                    </div><!-- he bg -->
-                </div><!-- he view -->		
-            </div><!-- he wrap -->
-            <h4>Laura Sommers</h4>
-            <h5 class="ctitle">LEAD DEVELOPER</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <div class="hline"></div>
-        </div><! --/col-lg-3 -->
-
-        <div class="col-lg-3 col-md-3 col-sm-3">
-            <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/team/team04.jpg" | prepend: site.baseurl }}" alt="">
-                <div class="he-view">
-                    <div class="bg a0" data-animate="fadeIn">
-                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
-                        <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-envelope"></i></a>
-                        <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-twitter"></i></a>
-                    </div><!-- he bg -->
-                </div><!-- he view -->		
-            </div><!-- he wrap -->
-            <h4>Martin Blunt</h4>
-            <h5 class="ctitle">MARKETING</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <div class="hline"></div>
-        </div><! --/col-lg-3 -->		 	
-
+        </div><! --/col-lg-3 -->	 	
+        {% endfor %}
     </div><! --/row -->
 </div><! --/container -->
