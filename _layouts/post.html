@@ -11,7 +11,7 @@ layout: default
             <! -- Blog Post  -->
             <p><img class="img-responsive" src="/assets/img/blog/{{ | prepend: site.baseurl }}{{ page.img }}"></p>
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
-            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}.</csmall> | <csmall2>By: {{ page.author }}</csmall2></p>
+            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
               
             {{ content }}
 

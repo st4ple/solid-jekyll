@@ -1,3 +1,5 @@
+### GENERAL SETTINGS ###
+
 # Site settings
 title: SOLID.
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
@@ -9,12 +11,19 @@ markdown: kramdown
 permalink: /:categories/:title
 excerpt_separator: <!--more-->
 
-colors:
-  primary: "#00b3fe" #hex code without the hashtag "#929292"
-  primary_rgb: "0,179,254"
-  secondary: "#384452" #hex code without the hashtag "#3F3F3F"
+colors:  #in hex code if not noted else
+  primary: "#00b3fe"
+  primary_rgb: "0,179,254" #rgb. needed for transparency 
+  secondary: "#384452"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
 
-# Social networks usernames (many more available: google-plus, flickr, linkedin, etc.)
+# Social networks usernames (many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
   - title: dribbble
     url:
@@ -27,7 +36,19 @@ social:
   - title: tumblr
     url: 
     
-# Members information
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines: 
+    - Some Ave, 987,
+    - 23890, New York,
+    - United States.
+email: hello@solidtheme.com
+tel: +34 8493-4893
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+    
+# Members information. Shown on About page.
 members:
   - name: Mark Webber
     position: CEO
@@ -66,7 +87,7 @@ members:
       - title: twitter
         url: http://twitter.com/handle
     
-# Clients
+# Clients information. Shown on Home and About pages.
 clients:
   - name: dribbble
     img: client01.png
@@ -77,12 +98,11 @@ clients:
   - name: VimeoPro
     img: client04.png
     
-# Postal address (add as many lines as necessary)
-address:
-  - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 
+# Testimonial content. Shown on Home and About page. 
+testimonial:
+    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    author: Marcel Newman
+    position: WEB DESIGNER - BLACKTIE.CO

@@ -11,7 +11,7 @@ permalink: /contact/
         <div class="col-lg-8">
             <h4>Just Get In Touch!</h4>
             <div class="hline"></div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p>{{ site.about }}</p>
                 <form role="form">
                   <div class="form-group">
                     <label for="InputName1">Your Name</label>
@@ -37,9 +37,9 @@ permalink: /contact/
             <h4>Our Address</h4>
             <div class="hline"></div>
                 <p>
-                            {% for line in site.address.first.lines %}
-                                {{ line }} <br>
-		                    {% endfor %}
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
                 </p>
                 <p>
                     Email: {{ site.email }}<br/>
