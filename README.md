@@ -4,17 +4,17 @@ Solid. A Bootstrap theme for Jekyll.
 This is a Jekyll port of the Bootstrap theme by [blacktie.co](http://www.blacktie.co).
 
 ###Usage
+[Fork](https://github.com/st4ple/solid-jekyll/fork) this repository to get started. 
+#####Customize  
+Most general settings and data like site name, colors, address, etc. can be configured and changed right in the main config file: `/_config.yml`
+The content of the Home page can be changed here: `/home.html`
+The content of the About page can be changed here: `/about.html`
+The content of the Portfolio page can be changed here:`/portfolio.html`
+The content of the Contact page can be changed here:`/contact.html`
+#####Add content  
+Delete the demo content and publish your own content.
 
-1. Fork this repository to get started. 
-1. Customize:  
-`/_config.yml`: Most general settings and data like site name, colors, address, etc. can be configured and changed right in the main config file.  
-`/home.html` The content of the Home page can be changed here.  
-`/about.html` The content of the About page can be changed here.  
-`/portfolio.html`  The content of the Portfolio page can be changed here.  
-`/contact.html` The content of the Contact page can be changed here.  
-1. Add content:  
-Delete the demo content and publish your own content:  
-`/_posts/blog/` Create a Blog post in this directory by creating a file called `yyyy-mm-dd-name-of-post-like-this.markdown`  with the following template:
+Create a Blog post by creating a file called `yyyy-mm-dd-name-of-post-like-this.markdown` in the `/_posts/blog/` directory with the following template:
 ```markdown
 ---
 layout: post          #important: don't change this
@@ -33,7 +33,8 @@ This text will appear in the excerpt "post preview" on the Blog page that lists 
 <!--more-->
 This text will not be shown in the excerpt because it is after the excerpt separator.
 ```
-`/_posts/project/` Create a Project post in this directory to go in your Portfolio by creating a file called `yyyy-mm-dd-name-of-the-project.markdown` with the following template:
+
+Create a Project post to go in your Portfolio by creating a file called `yyyy-mm-dd-name-of-the-project.markdown` in the `/_posts/project/` directory with the following template:
 ```markdown
 ---
 layout: project       #important: don't change this
@@ -54,7 +55,8 @@ website: http://www.internet.com
 ####This is a heading
 This is a regular paragraph. Write as much as you like.
 ```
-`yyyy-mm-dd-do-i-have-a-question.markdown` Create a Question entry (that is listed in the Frequently Asked section on the Home page) in this directory by creating a file called  in the `/_posts/project/` with the following template:
+
+Create a Question entry (that is listed in the Frequently Asked section on the Home page) in this directory by creating a file called `yyyy-mm-dd-do-i-have-a-question.markdown` in the `/_posts/project/` directory with the following template:
 ```markdown
 ---
 layout: question
@@ -67,3 +69,5 @@ categories:
 ####Can I use this theme for my website?
 Of course you can!
 ```
+#####Publish
+To be continued!
