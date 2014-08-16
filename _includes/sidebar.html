@@ -1,4 +1,3 @@
-<! -- SIDEBAR -->
 <div class="col-lg-4">
     <h4>Search</h4>
     <div class="hline"></div>
@@ -6,14 +5,18 @@
             <br/>
             <input type="text" class="form-control" placeholder="Search something">
         </p>
-
     <div class="spacing"></div>
-
+    <h4>Subscribe</h4>
+    <div class="hline"></div>
+        <p>
+            <p class="rss-subscribe">Subscribe to this blog <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        </p>
+    <div class="spacing"></div>
     <h4>Categories</h4>
     <div class="hline"></div>
-    {% for category in site.categories %}{% unless category.first == "blog" or category.first == "projects" %}
+    {% for category in site.categories %}{% unless category.first == "blog" or category.first == "project" or category.first == "question" %}
         <p>
-            <a href="{{ category.url }}"><i class="fa fa-angle-right"></i>{{ category | first }}</a>
+            <a href="{{ category.url }}"><i class="fa fa-angle-right"></i> {{ category | first | capitalize }}</a>
             <span class="badge badge-theme pull-right">{{ category | last | size }}</span>
         </p>
     {% endunless %}{% endfor %}
@@ -37,19 +40,8 @@
     <h4>Popular Tags</h4>
     <div class="hline"></div>
     <p>
-        <a class="btn btn-theme" href="#" role="button">Design</a>
-        <a class="btn btn-theme" href="#" role="button">Wordpress</a>
-        <a class="btn btn-theme" href="#" role="button">Flat</a>
-        <a class="btn btn-theme" href="#" role="button">Modern</a>
-        <a class="btn btn-theme" href="#" role="button">Wallpaper</a>
-        <a class="btn btn-theme" href="#" role="button">HTML5</a>
-        <a class="btn btn-theme" href="#" role="button">Pre-processor</a>
-        <a class="btn btn-theme" href="#" role="button">Developer</a>
-        <a class="btn btn-theme" href="#" role="button">Windows</a>
-        <a class="btn btn-theme" href="#" role="button">Phothosop</a>
-        <a class="btn btn-theme" href="#" role="button">UX</a>
-        <a class="btn btn-theme" href="#" role="button">Interface</a>		            	
-        <a class="btn btn-theme" href="#" role="button">UI</a>		            	
-        <a class="btn btn-theme" href="#" role="button">Blog</a>		            	
+        {% for category in site.categories %}{% unless category.first == "blog" or category.first == "project" %}
+            <a class="btn btn-theme" href="{{ category.url }}" role="button">{{ category | first | capitalize }} ({{ category | last | size }})</a>	         
+        {% endunless %}{% endfor %}
     </p>
 </div>

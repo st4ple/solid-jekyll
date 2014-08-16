@@ -13,17 +13,10 @@
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="/">HOME</a></li>
+        <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="/blog/">BLOG</a></li>
+        <li {% if page.title == "Portfolio" %}class="active"{% endif %}><a href="/portfolio/">PORTFOLIO</a></li>
         <li {% if page.title == "About" %}class="active"{% endif %}><a href="/about/">ABOUT</a></li>
         <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="/contact/">CONTACT</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="/blog/">BLOG</a></li>
-            <li><a href="{{ site.categories['blog'].first.url | prepend: site.baseurl }}">SINGLE POST</a></li>
-            <li><a href="/portfolio/">PORTFOLIO</a></li>
-            <li><a href="{{ site.categories['projects'].first.url | prepend: site.baseurl }}">SINGLE PROJECT</a></li>
-          </ul>
-        </li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
