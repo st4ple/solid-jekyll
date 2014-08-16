@@ -7,7 +7,6 @@ permalink: /blog/
 <div class="container mtb">
     <div class="row">
 
-
         <! -- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
@@ -15,7 +14,7 @@ permalink: /blog/
                 <! -- Blog Post -->
                 <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}"></p>
                 <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}.</csmall> | <csmall2>By: Admin - 3 Comments</csmall2></p>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}.</csmall> | <csmall2>By: {{ post.author }}</csmall2></p>
                 {{ post.excerpt }}
                 <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
                 <div class="hline"></div>
