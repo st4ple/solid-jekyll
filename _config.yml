@@ -9,6 +9,11 @@ markdown: kramdown
 permalink: /:categories/:title
 excerpt_separator: <!--more-->
 
+colors:
+  primary: "#00b3fe" #hex code without the hashtag "#929292"
+  primary_rgb: "0,179,254"
+  secondary: "#384452" #hex code without the hashtag "#3F3F3F"
+
 # Social networks usernames (many more available: google-plus, flickr, linkedin, etc.)
 social:
   - title: dribbble
