@@ -6,7 +6,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">

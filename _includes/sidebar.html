@@ -1,53 +1,55 @@
-	 		<! -- SIDEBAR -->
-	 		<div class="col-lg-4">
-		 		<h4>Search</h4>
-		 		<div class="hline"></div>
-		 			<p>
-		 				<br/>
-		 				<input type="text" class="form-control" placeholder="Search something">
-		 			</p>
-		 			
-		 		<div class="spacing"></div>
-		 		
-		 		<h4>Categories</h4>
-		 		<div class="hline"></div>
-                {% for category in site.categories %}{% unless category.first == "blog" or category.first == "projects" %}
-			 		<p><a href="{{ category.url }}"><i class="fa fa-angle-right"></i>     {{ category | first }}
-</a> <span class="badge badge-theme pull-right">{{ category | last | size }}</span></p>
-{% endunless %}{% endfor %}
+<! -- SIDEBAR -->
+<div class="col-lg-4">
+    <h4>Search</h4>
+    <div class="hline"></div>
+        <p>
+            <br/>
+            <input type="text" class="form-control" placeholder="Search something">
+        </p>
 
-		 		<div class="spacing"></div>
-		 		
-		 		<h4>Recent Posts</h4>
-		 		<div class="hline"></div>
-					<ul class="popular-posts">
-                        	{% for post in site.categories['blog'] limit:4 %} 
-                        <li>
-		                    <a href="{{ post.url }}"><img src="{{ "/assets/img/blog/thumbs/" | prepend: site.baseurl }}{{ post.thumb }}" alt="Popular Post"></a>
-		                    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-		                    <em>Posted on {{ post.date | date_to_string }}</em>
-		                </li>
-	{% endfor %} 
-		            </ul>
-		            
-		 		<div class="spacing"></div>
-		 		
-		 		<h4>Popular Tags</h4>
-		 		<div class="hline"></div>
-		 			<p>
-		            	<a class="btn btn-theme" href="#" role="button">Design</a>
-		            	<a class="btn btn-theme" href="#" role="button">Wordpress</a>
-		            	<a class="btn btn-theme" href="#" role="button">Flat</a>
-		            	<a class="btn btn-theme" href="#" role="button">Modern</a>
-		            	<a class="btn btn-theme" href="#" role="button">Wallpaper</a>
-		            	<a class="btn btn-theme" href="#" role="button">HTML5</a>
-		            	<a class="btn btn-theme" href="#" role="button">Pre-processor</a>
-		            	<a class="btn btn-theme" href="#" role="button">Developer</a>
-		            	<a class="btn btn-theme" href="#" role="button">Windows</a>
-		            	<a class="btn btn-theme" href="#" role="button">Phothosop</a>
-		            	<a class="btn btn-theme" href="#" role="button">UX</a>
-		            	<a class="btn btn-theme" href="#" role="button">Interface</a>		            	
-		            	<a class="btn btn-theme" href="#" role="button">UI</a>		            	
-		            	<a class="btn btn-theme" href="#" role="button">Blog</a>		            	
-		 			</p>
-	 		</div>
+    <div class="spacing"></div>
+
+    <h4>Categories</h4>
+    <div class="hline"></div>
+    {% for category in site.categories %}{% unless category.first == "blog" or category.first == "projects" %}
+        <p>
+            <a href="{{ category.url }}"><i class="fa fa-angle-right"></i>{{ category | first }}</a>
+            <span class="badge badge-theme pull-right">{{ category | last | size }}</span>
+        </p>
+    {% endunless %}{% endfor %}
+
+    <div class="spacing"></div>
+
+    <h4>Recent Posts</h4>
+    <div class="hline"></div>
+        <ul class="popular-posts">
+            {% for post in site.categories['blog'] limit:4 %} 
+                <li>
+                    <a href="{{ post.url }}"><img src="{{ "/assets/img/blog/thumbs/" | prepend: site.baseurl }}{{ post.thumb }}" alt="Popular Post"></a>
+                    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+                <em>Posted on {{ post.date | date_to_string }}</em>
+            </li>
+            {% endfor %} 
+        </ul>
+
+    <div class="spacing"></div>
+
+    <h4>Popular Tags</h4>
+    <div class="hline"></div>
+    <p>
+        <a class="btn btn-theme" href="#" role="button">Design</a>
+        <a class="btn btn-theme" href="#" role="button">Wordpress</a>
+        <a class="btn btn-theme" href="#" role="button">Flat</a>
+        <a class="btn btn-theme" href="#" role="button">Modern</a>
+        <a class="btn btn-theme" href="#" role="button">Wallpaper</a>
+        <a class="btn btn-theme" href="#" role="button">HTML5</a>
+        <a class="btn btn-theme" href="#" role="button">Pre-processor</a>
+        <a class="btn btn-theme" href="#" role="button">Developer</a>
+        <a class="btn btn-theme" href="#" role="button">Windows</a>
+        <a class="btn btn-theme" href="#" role="button">Phothosop</a>
+        <a class="btn btn-theme" href="#" role="button">UX</a>
+        <a class="btn btn-theme" href="#" role="button">Interface</a>		            	
+        <a class="btn btn-theme" href="#" role="button">UI</a>		            	
+        <a class="btn btn-theme" href="#" role="button">Blog</a>		            	
+    </p>
+</div>
