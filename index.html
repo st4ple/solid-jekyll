@@ -4,9 +4,6 @@ title: Home
 permalink: /
 ---
 
-<!-- *****************************************************************************************************************
- SERVICE LOGOS
- ***************************************************************************************************************** -->
 <div id="service">
     <div class="container">
         <div class="row centered">
@@ -34,16 +31,12 @@ permalink: /
 
 {% include portfolio.html title="LATEST WORKS" limit=10 %}
 
-<!-- *****************************************************************************************************************
- MIDDLE CONTENT
- ***************************************************************************************************************** -->
-
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-4 col-lg-offset-1">
             <h4>More About Our Agency.</h4>
             <p>{{ site.about }}</p>
-            <p><br/><a href="/about/" class="btn btn-theme">More Info</a></p>
+            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
         </div>
 
         <div class="col-lg-3">
