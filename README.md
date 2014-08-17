@@ -16,8 +16,7 @@ The content of the Portfolio page can be changed here:`/portfolio.html`
 The content of the Contact page can be changed here:`/contact.html`
 ####Add content  
 Delete the demo content and publish your own content.
-
-###Blog post
+#####Blog post
 Create a Blog post by creating a file called `yyyy-mm-dd-name-of-post-like-this.markdown` in the `/_posts/blog/` directory with the following template:
 ```markdown
 ---
@@ -37,8 +36,7 @@ This text will appear in the excerpt "post preview" on the Blog page that lists 
 <!--more-->
 This text will not be shown in the excerpt because it is after the excerpt separator.
 ```
-
-###Project post
+#####Project post
 Create a Project post to go in your Portfolio by creating a file called `yyyy-mm-dd-name-of-the-project.markdown` in the `/_posts/project/` directory with the following template:
 ```markdown
 ---
@@ -60,8 +58,7 @@ website: http://www.internet.com
 ####This is a heading
 This is a regular paragraph. Write as much as you like.
 ```
-
-###Question entry
+#####Question entry
 Create a Question entry (that is listed in the Frequently Asked section on the Home page) in this directory by creating a file called `yyyy-mm-dd-do-i-have-a-question.markdown` in the `/_posts/project/` directory with the following template:
 ```markdown
 ---
