@@ -43,7 +43,7 @@ permalink: /
             <h4>Frequently Asked</h4>
             <div class="hline"></div>
             {% for post in site.categories['question'] %} 
-                <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
             {% endfor %}
         </div>
 
@@ -51,7 +51,7 @@ permalink: /
             <h4>Latest Posts</h4>
             <div class="hline"></div>
             {% for post in site.categories['blog'] limit:5 %} 
-                <p><a href="{{ post.url }}">{{ post.title }}.</a></p>
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
             {% endfor %} 
         </div>
 
