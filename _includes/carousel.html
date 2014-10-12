@@ -11,12 +11,12 @@
         <div class="carousel-inner">
             {% for img in page.carousel.first %}
                 <div class="item active">
-                    <img src="/assets/img/project/carousel/{{ | prepend: site.baseurl }}{{ img }}" alt="">
+                    <img src="{{ "/assets/img/project/carousel/" | prepend: site.baseurl }}{{ img }}" alt="">
                 </div>
             {% endfor %}
             {% for img in page.carousel offset:1 %}
                 <div class="item">
-                    <img src="/assets/img/project/carousel/{{ | prepend: site.baseurl }}{{ img }}" alt="">
+                    <img src="{{ "/assets/img/project/carousel/" | prepend: site.baseurl }}{{ img }}" alt="">
                 </div>
             {% endfor %}
         </div>
