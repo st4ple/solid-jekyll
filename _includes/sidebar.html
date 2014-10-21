@@ -16,7 +16,7 @@
     <div class="hline"></div>
     {% for category in site.categories %}{% unless category.first == "blog" or category.first == "project" or category.first == "question" %}
         <p>
-            <a href="{{ category.url }}"><i class="fa fa-angle-right"></i> {{ category | first | capitalize }}</a>
+            <a href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}"><i class="fa fa-angle-right"></i> {{ category | first | capitalize }}</a>
             <span class="badge badge-theme pull-right">{{ category | last | size }}</span>
         </p>
     {% endunless %}{% endfor %}
@@ -41,7 +41,7 @@
     <div class="hline"></div>
     <p>
         {% for category in site.categories %}{% unless category.first == "blog" or category.first == "project" %}
-            <a class="btn btn-theme" href="{{ category.url }}" role="button">{{ category | first | capitalize }} ({{ category | last | size }})</a>	         
+            <a class="btn btn-theme" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}" role="button">{{ category | first | capitalize }} ({{ category | last | size }})</a>	         
         {% endunless %}{% endfor %}
     </p>
 </div>
