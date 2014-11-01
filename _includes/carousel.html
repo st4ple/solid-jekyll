@@ -2,9 +2,13 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            {% for img in page.carousel %}
+                <li data-target="#carousel-example-generic" data-slide-to="{{ forloop.index0 }}" 
+                {% if forloop.index0 == 0 %}
+                    class="active"
+                {% endif %}>
+                </li>
+            {% endfor %}
         </ol>
 
         <!-- Wrapper for slides -->
@@ -20,5 +24,5 @@
                 </div>
             {% endfor %}
         </div>
-    </div><! --/Carousel -->
+    </div> <!--/Carousel -->
 </div>
