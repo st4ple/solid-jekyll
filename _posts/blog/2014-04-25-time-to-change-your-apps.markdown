@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "แสงกับการถ่ายภาพ"
-date: 11/5/2014 3:20:05 AM 
+date: 5/11/2014 3:20:05 AM 
 author: Admin
 categories: 
 - blog 
