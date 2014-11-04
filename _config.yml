@@ -47,8 +47,8 @@ tel: 095 0841882
     
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
-    position: CEO
+  - name: khim Leena
+    position: Photographer & DESIGNER
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team01.jpg
     social:
@@ -56,13 +56,13 @@ members:
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
+  - name: Jan  Sittipol
+    position: Marketing & Developer
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team02.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:name@domain.com
+        url: piemruethai.s@gmail.com
       - title: twitter
         url: http://twitter.com/handle
   - name: Laura Sommers
@@ -88,15 +88,9 @@ members:
 clients:
   - name: dribbble
     img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "We are Photographer website"
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
