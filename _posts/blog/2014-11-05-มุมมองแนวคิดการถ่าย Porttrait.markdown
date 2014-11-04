@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "มุมมองและแนวคิดการถ่าย Portrait"
-date:   11/5/2014 1:53:30 AM 
+date:   5/11/2014 1:53:30 AM 
 author: Admin
 categories: 
 - blog
