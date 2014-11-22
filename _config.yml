@@ -66,8 +66,6 @@ members:
       - title: twitter
         url: http://twitter.com/handle
     
-# Clients information. Shown on Home and About pages.
-    
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "We are Photographer website"
 
