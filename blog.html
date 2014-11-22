@@ -10,8 +10,19 @@ permalink: /blog/
         <! -- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
-           <a class="twitter-timeline" href="https://twitter.com/sketchbook59" data-widget-id="514076642910535680">ทวีตโดย @sketchbook59</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+            {% for post in site.categories['blog'] %}
+                <! -- Blog Post -->
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
+                </a>    
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+                {{ post.excerpt }}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+                <div class="hline"></div>
+
+                <div class="spacing"></div>
+            {% endfor %}
 
         </div><! --/col-lg-8 -->
 
