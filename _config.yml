@@ -49,7 +49,7 @@ tel: 095 0841882
 members:
   - name: khim Leena
     position: Photographer & DESIGNER
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    text: 
     img: team01.jpg
     social:
       - title: envelope #use for email address
@@ -58,7 +58,7 @@ members:
         url: http://twitter.com/handle
   - name: Jan  Sittipol
     position: Marketing & Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    text: 
     img: team04.jpg
     social:
       - title: envelope #use for email address
