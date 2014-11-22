@@ -20,10 +20,6 @@ permalink: /blog/
                 {{ post.excerpt }}
                 <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
                 <div class="hline"></div>
-
-                <div class="spacing"></div>
-            {% endfor %}
-
                 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -34,6 +30,10 @@ permalink: /blog/
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+
+                <div class="spacing"></div>
+            {% endfor %}
 
         </div><! --/col-lg-8 -->
 
