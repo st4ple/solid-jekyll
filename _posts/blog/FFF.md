@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "เทคนิคการถ่ายภาพหน้าชัดหลังเบลอ"
-date: 11/5/2014 3:30:25 AM 
+date: 12/17/2014 9:53:44 PM 
 author: Admin
 categories:
 - blog
