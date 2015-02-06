@@ -51,6 +51,16 @@ img {
 	max-width: 100%;
 }
 
+ul {
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+ol {
+    margin-left: 0;
+    padding-left: 26px;
+}
+
 a { 
     color:{{ site.colors.link }};
     padding: 0;
@@ -207,9 +217,9 @@ a:focus {
 
 #headerwrap {
 	background-color: {{ site.colors.primary }};
-	min-height: 550px;
+	min-height: 0px;
 	padding-top: 100px;
-	padding-bottom: 0px;
+	padding-bottom: 50px;
 	text-align: center;
 }
 
@@ -229,8 +239,8 @@ a:focus {
 
 /* Services Wrap */
 #service {
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #service i {
@@ -385,6 +395,28 @@ a:focus {
 #blue h3 {
 	color: white;
 	margin-left: 15px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: 600px;
+  max-height: 600px;
+  margin: 0 auto;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #ccc \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #666;
+  border-radius: 10px;
 }
 
 .ctitle {
