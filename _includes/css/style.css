@@ -51,6 +51,16 @@ img {
 	max-width: 100%;
 }
 
+ul {
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+ol {
+    margin-left: 0;
+    padding-left: 26px;
+}
+
 a { 
     color:{{ site.colors.link }};
     padding: 0;
@@ -207,9 +217,9 @@ a:focus {
 
 #headerwrap {
 	background-color: {{ site.colors.primary }};
-	min-height: 550px;
+	min-height: 0px;
 	padding-top: 100px;
-	padding-bottom: 0px;
+	padding-bottom: 50px;
 	text-align: center;
 }
 
@@ -229,8 +239,8 @@ a:focus {
 
 /* Services Wrap */
 #service {
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #service i {
