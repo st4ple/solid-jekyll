@@ -1,0 +1,55 @@
+---
+layout: default_header
+title: Tips and Tricks
+permalink: /development/tips_tricks/
+---
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="container mtb">
+	<div class="row">
+        <div class="col-lg-8">
+	    	<h4>Class Tips</h4>
+            <div class="hline"></div>
+            	<h6>Doing well in the Course</h6>
+                    <ul>
+    	                <li>Attend class - Material covered in class will be implemented in labs.</li>
+    	                <li>Attend labs - Work done in labs will provide a framework for your assignments.</li>
+    	                <li>Do assignments on your own - these will serve as inspiration for your exam questions.</li>
+                    </ul>
+	            <h6>Learning Java</h6>
+                    <ul>
+                	   <li>Learn to "play computer" - be able to hand-trace program execution.</li>
+                    </ul>
+            <h4>Java Tricks</h4>
+            <div class="hline"></div>
+            	<h6>Shortcuts</h6>
+                    <ul>
+                		<li>Tired of writing <code>System.out.println()</code>? Next time type <code>sout</code> and press Tab.</li>
+                		<li>Don't format code by hand. Instead, right-click and select Format, or press Alt+Shift+f.</li>
+                		<li>Avoid scrolling through lots of code by using the Outline pane to navigate.</li>
+                		<li>Assigning a value based on an if-else? Try replacing:
+            			    <code>
+<pre>if (a > b) {
+  max = a;
+}
+else {
+  max = b;
+}</pre>
+						    </code>
+						    with this:
+    						<code>
+    							max = (a > b) ? a : b;
+                			</code>
+            		    </li>
+                    </ul>
+            	<h6>Debugging</h6>
+                    <ul>
+            		    <li><code>// comments</code> help document your program. This is great for you to review later, and to ensure proper grading. A quick way of commenting lines of code is to highlight them and then hit ctrl+/.</li>
+                    </ul>
+        </div><! --/col-lg-8 -->
+
+        {% include sidebar_classes.html %}
+        
+    </div><! --/row -->    
+</div><! --/container -->
