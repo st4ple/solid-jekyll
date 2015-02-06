@@ -12,10 +12,10 @@ carousel:
 - mc-emr_02.jpg
 - mc-emr_03.jpg
 client: Orant Charities
-website: http://www.orantcharities.org/
+website: https://github.com/SZanlongo/MC-EMR/
 ---
 ####Mobile Clinic Electronic Medical Records
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-
-####Our Proposal
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Provides a robust, reliable system for managing patient records during triage.
+Patient records are added/modified on iPads. Patients can be registered or looked up using their fingerprint when paired with a Tactivo fingerprint reader.
+Records are synchronized with a local server running on a MacBook Air.
+Records are synchronized between the local server and a cloud server where records can be viewed.
