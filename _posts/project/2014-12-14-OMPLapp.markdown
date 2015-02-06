@@ -1,0 +1,18 @@
+---
+layout: project
+title:  "Open Motion Planning Library"
+date:   2014-12-17 17:59:32
+author: Mark Moll
+categories:
+- project
+img: omplapp_01.jpg
+thumb: omplapp-thumb01.jpg
+carousel:
+- omplapp_01.jpg
+- omplapp_02.jpg
+- omplapp_03.jpg
+
+website: http://ompl.kavrakilab.org/
+---
+####Open Motion Planning Library
+Fork of OMPL. Goal is to add Time on top of the traditional spatial dimensions used in calculating robot collisions.
