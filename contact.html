@@ -4,37 +4,42 @@ title: Contact
 permalink: /contact/
 ---
 
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 <div id="contactwrap"></div>
 
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-8">
-            <h4>Just Get In Touch!</h4>
+            <h4>Get In Touch!</h4>
             <div class="hline"></div>
                 <p>{{ site.about }}</p>
-                <form role="form">
-                  <div class="form-group">
-                    <label for="InputName1">Your Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
-                  </div>
-                  <div class="form-group">
-                    <label for="InputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
-                  </div>
-                  <div class="form-group">
-                    <label for="InputSubject1">Subject</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
-                  </div>
-                  <div class="form-group">
-                    <label for="message1">Message</label>
-                    <textarea class="form-control" id="message1" rows="3"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-theme">Submit</button>
+                <form action="https://getsimpleform.com/messages?form_api_token=d13749883e17be136984e5a03c1b5cd3" method="post" onSubmit="javascript: return confirm('Are you sure you want to submit this?');">
+                    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                    <!-- <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' /> -->
+                    <!-- all your input fields here.... -->
+                    <div class="form-group">
+                        <label for="InputName1">Your Name</label>
+                        <input type="text" class="form-control" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputEmail1">Email Address</label>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputSubject1">Subject</label>
+                        <input type="text" class="form-control" name="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message1">Message</label>
+                        <textarea class="form-control" name="message" rows="3"></textarea>
+                    </div>
+                    <input type='submit' value='Submit' />             
                 </form>
         </div><! --/col-lg-8 -->
 
         <div class="col-lg-4">
-            <h4>Our Address</h4>
+            <h4>Address</h4>
             <div class="hline"></div>
                 <p>
                     {% for line in site.address.first.lines %}
@@ -42,10 +47,15 @@ permalink: /contact/
                     {% endfor %}
                 </p>
                 <p>
-                    Email: {{ site.email }}<br/>
-                    Tel: {{ site.tel }}
+                    <!-- Email: {{ site.email }}<br/> -->
+                    <!-- Tel: {{ site.tel }} -->
                 </p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <h4>Office Hours</h4>
+            <div class="hline"></div>
+                <p>By appointment</p>            
+            <h4>Mailbox</h4>                
+            <div class="hline"></div>
+                <p>ECS 356</p>
         </div>
     </div><! --/row -->
 </div><! --/container -->

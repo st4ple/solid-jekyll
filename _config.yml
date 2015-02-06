@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Sebastian Zanlongo
+description: "GitHub page for Sebastian Zanlongo"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+baseurl: #important: start with /
+url: #"http://yourdomain.com"
 
 # Build settings
 markdown: kramdown
@@ -26,84 +26,41 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url:
-  - title: twitter
-    url: 
-  - title: instagram
-    url: 
-  - title: tumblr
-    url: 
+  - title: github
+    url: https://github.com/SZanlongo
+  - title: linkedin
+    url: https://www.linkedin.com/pub/sebastian-zanlongo/63/462/b06
+  # - title: twitter
+  #   url: 
+  # - title: instagram
+  #   url: 
+  # - title: tumblr
+  #   url: 
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
+    - 11200 SW 8th St,
+    - ECS 232B,
+    - Miami, FL 33199,
     - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+# email: 
+# tel: 
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
     
 # Members information. Shown on About page.
-members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team02.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team03.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team04.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
+# members:
+#   - name: Sebastian Zanlongo
+#     position: Graduate Researcher
+#     text: Graduate researcher at Florida International University.
+#     img: 
+#     social:
+#       - title: envelope #use for email address
+#         url: mailto:
+#       - title: twitter
+#         url: http://twitter.com/handle
     
-# Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
-    
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-
-# Testimonial content. Shown on Home and About page. 
-testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+# Shown in footer on every page and also separately on Home and Contact page
+about: "Graduate researcher at Florida International University. Currently working on minimalistic approaches for single-operator control of multiple semi-autonomous vehicles."

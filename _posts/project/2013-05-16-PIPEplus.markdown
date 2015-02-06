@@ -1,0 +1,18 @@
+---
+layout: project
+title:  "PIPEplus"
+date:   2012-12-17 17:59:32
+author: Liu Su
+categories:
+- project
+img: pipeplus_01.jpg
+thumb: pipeplus-thumb01.jpg
+carousel:
+- pipeplus_01.jpg
+- pipeplus_02.jpg
+- pipeplus_03.jpg
+
+website: https://github.com/SZanlongo/PIPEplus
+---
+####PIPE+
+Petri net model creator and checker.

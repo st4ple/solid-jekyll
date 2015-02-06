@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "Mobile Clinic Electronic Medical Records"
+date:   2013-4-28 16:54:46
+author: Sebastian Zanlongo
+categories:
+- project
+img: mc-emr_01.jpg
+thumb: mc-emr-thumb01.jpg
+carousel:
+- mc-emr_01.jpg
+- mc-emr_02.jpg
+- mc-emr_03.jpg
+client: Orant Charities
+website: https://github.com/SZanlongo/MC-EMR/
+---
+####Mobile Clinic Electronic Medical Records
+Provides a robust, reliable system for managing patient records during triage.
+Patient records are added/modified on iPads. Patients can be registered or looked up using their fingerprint when paired with a Tactivo fingerprint reader.
+Records are synchronized with a local server running on a MacBook Air.
+Records are synchronized between the local server and a cloud server where records can be viewed.
