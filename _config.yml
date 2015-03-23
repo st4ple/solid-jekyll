@@ -2,7 +2,7 @@
 
 # Site settings
 title: IEEE@IIT
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Welcome to the new IEEE@IIT website! We have rebuilt it with a mobile-first design to make it simpler to use and update, as well as faster. No longer are we using WordPress - instead we are using a static site generator called <a href="http://jekyllrb.com/" target="_blank">Jekyll."
 analytics: 
 baseurl: "/testweb" #important: start with /
 url: "http://natashaw.github.io"
