@@ -100,7 +100,7 @@ clients:
     img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "IEEE (pronounced I-Triple-E), which stands for the Institute of Electrical and Electronics Engineers, is known as the world's largest professional association for the advancement of technology. Here at the Illinois Institute of Technology, IEEE represents one of the largest student organizations on campus. Though it may seem from the name that we consist of students only from the Electrical and Computer Engineering department, we in fact encompass all different engineering fields and welcome this diversity. Our organization strives to further students' professional and educational development through a wide array of opportunities. Please take a look at what we have to offer, and come visit the IEEE Office located in Siegel Hall 013!"
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
