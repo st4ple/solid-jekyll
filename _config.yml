@@ -4,7 +4,7 @@
 title: IEEE@IIT
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 analytics: 
-baseurl: "/solid-jekyll" #important: start with /
+baseurl: "/testweb" #important: start with /
 url: "http://natashaw.github.io"
 
 # Build settings
