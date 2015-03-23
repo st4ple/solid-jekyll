@@ -31,12 +31,10 @@ permalink: /
     <!--
 </div><! --/service --> 
 
-{% include portfolio.html title="LATEST PROJECTS" limit=5 %}
-
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-4 col-lg-offset-1">
-            <h4>More About IEEE.</h4>
+            <h4>Welcome to IEEE@IIT!</h4>
             <p>{{ site.about }}</p>
             <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
         </div>
@@ -56,6 +54,6 @@ permalink: /
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
             {% endfor %} 
         </div>
-
+    {% include portfolio.html title="LATEST PROJECTS" limit=5 %}
     </div><! --/row -->
 </div><! --/container -->
