@@ -2,7 +2,7 @@
 
 # Site settings
 title: IEEE@IIT
-description: "Welcome to the new IEEE@IIT website! We have rebuilt it with a mobile-first design to make it simpler to use and update, as well as faster. No longer are we using WordPress - instead we are using a static site generator called <a href="http://jekyllrb.com/" target="_blank">Jekyll."
+description: IEEE@IIT is Illinois Tech's branch of the Institute of Electrical and Electronics Engineers (IEEE). Read the <a href='{{ site.baseurl }}/about/'>About Us page</a> to learn more.
 analytics: 
 baseurl: "/testweb" #important: start with /
 url: "http://natashaw.github.io"
