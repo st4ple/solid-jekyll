@@ -26,9 +26,8 @@ permalink: /
                 <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
             </div>		 				
         </div>
-    </div><! --/container -->
+    </div><! --/container --/>
 
-    <!--
 </div><! --/service --> 
 
 <div class="container mtb">
@@ -54,6 +53,8 @@ permalink: /
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
             {% endfor %} 
         </div>
+        
     {% include portfolio.html title="LATEST PROJECTS" limit=5 %}
+    
     </div><! --/row -->
 </div><! --/container -->
