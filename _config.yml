@@ -2,7 +2,7 @@
 
 # Site settings
 title: IEEE@IIT
-description: IEEE@IIT is Illinois Tech's branch of the Institute of Electrical and Electronics Engineers (IEEE). Read the <a href='{{ site.baseurl }}/about/'>About Us page</a> to learn more.
+description: "Illinois Tech's branch of the Institute of Electrical and Electronics Engineers (IEEE)."
 analytics: 
 baseurl: "/testweb" #important: start with /
 url: "http://natashaw.github.io"
