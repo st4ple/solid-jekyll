@@ -26,15 +26,15 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
+  - title: youtube
     url:
   - title: facebook
     url:
   - title: twitter
     url: 
-  - title: instagram
+  - title: google-plus
     url: 
-  - title: tumblr
+  - title: pinterest
     url: 
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
