@@ -38,13 +38,13 @@ social:
     url: 
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+#address:
+ # - lines: 
+  #  - Some Ave, 987,
+   # - 23890, New York,
+    #- United States.
+email: ebonyxscape@gmail.com
+#tel: +34 8493-4893
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
