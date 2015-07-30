@@ -27,15 +27,15 @@ colors:  #in hex code if not noted else
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
   - title: youtube
-    url:
+    url:https://www.youtube.com/channel/UCbx0K0paV95EJjYbMj5dTUw/playlists?view_as=public
   - title: facebook
-    url:
+    url:https://www.facebook.com/jessica.mack.969
   - title: twitter
-    url: 
+    url: https://twitter.com/EbonyXscape
   - title: google-plus
-    url: 
+    url: https://plus.google.com/u/0/b/103958741643444989426/103958741643444989426/about/p/pub?hl=en
   - title: pinterest
-    url: 
+    url: https://www.pinterest.com/jessmack678/boards/
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 #address:
