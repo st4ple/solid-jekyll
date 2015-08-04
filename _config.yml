@@ -100,10 +100,10 @@ members:
 #    img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "Unconventional color reveals a different perspective on stories whether they be artistic, technical, or both."
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
-    message: "I have always believed that there is power in the arts and with today's STEM demands there will hopefully be much more collaboration between the two. This website is a way to do just that by sharing important information about the arts, technology, and my own artistsic endevours. This is a world of creators."
+    message: "I have always believed that there is power in the arts and with today's STEM demands there will hopefully be much more collaboration between the two. This website is a way to do just that by sharing important information about the arts, technology, and my own artistsic endevours. This is a world of unconventionally colored creators."
     author: Jessica Mack
     position: WEB DESIGNER - ARTIST OF SIX SENSES
