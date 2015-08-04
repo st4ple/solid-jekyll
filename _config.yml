@@ -28,12 +28,12 @@ colors:  #in hex code if not noted else
 social:
   - title: youtube
     url: https://www.youtube.com/channel/UCbx0K0paV95EJjYbMj5dTUw/playlists?view_as=public
-  - title: facebook
-    url: https://www.facebook.com/jessica.mack.969
+ # - title: facebook
+#    url: https://www.facebook.com/jessica.mack.969
   - title: twitter
     url: https://twitter.com/EbonyXscape
-  - title: google-plus
-    url: https://plus.google.com/u/0/b/103958741643444989426/103958741643444989426/about/p/pub?hl=en
+#  - title: google-plus
+#    url: https://plus.google.com/u/0/b/103958741643444989426/103958741643444989426/about/p/pub?hl=en
   - title: pinterest
     url: https://www.pinterest.com/jessmack678/boards/
     
