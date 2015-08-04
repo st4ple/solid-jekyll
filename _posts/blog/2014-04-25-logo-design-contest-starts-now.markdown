@@ -1,31 +1,33 @@
 ---
 layout: post
-title: "Logo design contest starts now"
+title: "The Creator"
 date: 2014-04-25 16:54:46
-author: Admin
+author: Jessica Mack
 categories:
-- blog
-- Tips&Tricks
-- Code-Snippets
+- Creators
+- World
+
 img: post03.jpg
 thumb: thumb03.jpg
 ---
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+<b>The Creator</b> is someone who creates, or makes. You may think "well make what?" Well, the what is irrevelant. It just matters that you create. The idea of the Creator is extremely significant to me because I believe the world was created by God, as I am a Christian. Eveything and everyone seems so individualistic and unique that it seems to be an intricate pot made by a masterful potter.
 
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <!--more-->
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+With this thought in mind, I am just so fascinated by all the things that are available in this world and the people who contribute by making something, specfically in the arts and in technology.
+<!--more-->
+I have always been someone engaged by artistic endeavours, but upon entering college I was repeatedly reminded that the arts "would not feed me." I understood that, but my heart is still set on the arts even in the midst of my technology related major.
 
-Contrary to popular belief, <b>Lorem Ipsum is not simply random text</b>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<
-
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-####Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+<b>However,</b> I grew up singing, dancing, writing, playing instruments, acting, and creating visual art. Focusing on my technoglogical major has caused frequent feelings that I don't have time to work on my art, that I may have to just lose it, and that it would continue to be a full-time dream. I did something called soul searching and found through various "What should I do with my life" quizzes, reading old journal entries, and looking at old projects that the arts is forever in my heart. Another thing to consider is that there are various things and people in this world that inspire me.
 
 
->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+<!--It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.< -->
+
+####Sharing is Caring
+I then realized that I just had to find a way. My way was to create this wesbsite and tell you about things and people that interest me and inspire me. Along with these retellings, I want to share my creative work with you! I will make sure that everyone is aware of my posts and projects.
+
+
+<!-->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
 
-[hampden]: https://github.com/jekyll/jekyll
+[hampden]: https://github.com/jekyll/jekyll-->
