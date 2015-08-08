@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Creator"
-date: 2014-04-25 16:54:46
+date: 2015-08-08 16:54:46
 author: Jessica Mack
 categories:
 - Creators
@@ -19,15 +19,5 @@ I have always been someone engaged by artistic endeavours, but upon entering col
 
 <b>However,</b> I grew up singing, dancing, writing, playing instruments, acting, and creating visual art. Focusing on my technoglogical major has caused frequent feelings that I don't have time to work on my art, that I may have to just lose it, and that it would continue to be a full-time dream. I did something called soul searching and found through various "What should I do with my life" quizzes, reading old journal entries, and looking at old projects that the arts is forever in my heart. Another thing to consider is that there are various things and people in this world that inspire me.
 
-
-<!--It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.< -->
-
 ####Sharing is Caring
 I then realized that I just had to find a way. My way was to create this wesbsite and tell you about things and people that interest me and inspire me. Along with these retellings, I want to share my creative work with you! I will make sure that everyone is aware of my posts and projects.
-
-
-<!-->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-
-[hampden]: https://github.com/jekyll/jekyll-->
