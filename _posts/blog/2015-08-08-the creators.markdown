@@ -6,7 +6,6 @@ author: Jessica Mack
 categories:
 - blog                #important: leave this here
 - Creators
-- ...
 img: post01.jpg       #place image (850x450) with this name in /assets/img/blog/
 thumb: thumb01.jpg    #place thumbnail (70x70) with this name in /assets/img/blog/thumbs/
 ---
