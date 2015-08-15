@@ -1,31 +1,16 @@
 ---
 layout: post
-title: "Logo design contest starts now"
-date: 2014-04-25 16:54:46
-author: Admin
+title: "IEEE@IIT hosts first meeting of semester"
+date: 2013-03-08 16:54:32
+author: Vijai
 categories:
 - blog
-- Tips&Tricks
-- Code-Snippets
-img: post03.jpg
-thumb: thumb03.jpg
+img: 
+thumb: 
 ---
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+The IEEE Student Chapter at IIT had their first general meeting of this semester on Thursday, 28 February in the Siegal hall auditorium. Since it was the first meeting students were curious about the agenda. George Williams, Secretary of the Students Chapter, on behalf of the President started the discussion by introducing the IEEE@IIT members to the students and then speaking about the meeting agenda including the introduction of new executive board members, upcoming IEEE@IIT events, internship matching, projects funded by IEEE and scholarships awarded by IEEE as well as announcing a T-shirt contest. After the introduction of members, George spoke about the upcoming events, like a barbecue party planned after Spring break. Upcoming events will be notified to students via e-mail and the Facebook group.
 
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <!--more-->
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Students seeking internship have an opportunity to apply via IEEE. All that is needed is to send their resume &#x74;&#x6f;&#x69;&#x65;&#x65;&#x65;&#x40;<span class="oe_displaynone">null</span>&#x69;&#x69;&#x74;&#x2e;&#x65;&#x64;&#x75; (the official email id of IEEE@IIT). There are few projects that are funded by IEEE, like Raspberry Pi, Quadcopter, Mutitouch project, Guitar Amp and Ardupilot. The first project meeting is scheduled for 14th March in the Galvin Center, located in the IIT Tower, 16th floor. As per the recent announcement, the Raspberry Pi project has received the maximum attention among students. Hence, that project is expected to be discussed elaborately. After the commencement of projects, the meeting office would be shifted to Seigal Hall basement. George asked the interested students to talk to IEEE@IIT members, or mail them if they have any queries about the projects. They have also created an online sign-up sheet for the project participation.
 
-Contrary to popular belief, <b>Lorem Ipsum is not simply random text</b>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<
-
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-####Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-
-
->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-
-[hampden]: https://github.com/jekyll/jekyll
+Talking about the scholarships awarded by IEEE, there are currently three scholarships open to IEEE members viz., the Richard E. Merwin Student Scholarship, Lance Stafford Larson Student Scholarship and Upsilon Pi Epsilon Scholarship. Bidusha Poudyal, one of the scholarship holders, who is also in the executive body, strongly encouraged applying for the scholarships. Students who are interested in graph/logo designing have an opportunity to design the IEEE T-shirt, and get awarded a whopping $100. Finally, the meeting ended with membership queries. George and other members explained what benefits one gets after he/she is an IEEE student member. All queries regarding IEEE@IIT can be forwarded to &#x69;&#x65;&#x65;&#x65;&#x40;<span class="oe_displaynone">null</span>&#x69;&#x69;&#x74;&#x2e;&#x65;&#x64;&#x75;.
