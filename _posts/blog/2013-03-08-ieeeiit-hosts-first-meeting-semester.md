@@ -6,8 +6,8 @@ author: Vijai
 categories:
 - blog
 - general board meeting
-img: 
-thumb: 
+img: nopicture.jpg
+thumb: nopicture.jpg
 ---
 
 The IEEE Student Chapter at IIT had their first general meeting of this semester on Thursday, 28 February in the Siegal hall auditorium. Since it was the first meeting students were curious about the agenda. George Williams, Secretary of the Students Chapter, on behalf of the President started the discussion by introducing the IEEE@IIT members to the students and then speaking about the meeting agenda including the introduction of new executive board members, upcoming IEEE@IIT events, internship matching, projects funded by IEEE and scholarships awarded by IEEE as well as announcing a T-shirt contest. After the introduction of members, George spoke about the upcoming events, like a barbecue party planned after Spring break. Upcoming events will be notified to students via e-mail and the Facebook group.
