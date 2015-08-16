@@ -1,31 +1,19 @@
 ---
 layout: post
-title:  "Our new logo is here"
-date:   2014-04-25 16:54:46
-author: Admin
+title:  "IEEE Second General Meeting"
+date:   2013-04-06
+author: Vijai
 categories: 
 - blog
-- Web-Design
-- Development
-img: post02.jpg
-thumb: thumb02.jpg
+- general board meeting
+img: nopicture.jpg
+thumb: nopicture.jpg
 ---
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+IEEE@IIT organized their second general body meeting of the Spring semester on Thursday 4th April. The agenda of meeting included discussion about projects funded by IEEE, T-shirt design contest, election/nominations for the executive board, upcoming company tours and IEEE spring barbeque. Kicking off the meeting, George Williams, Secretary of the Student’s Chapter, welcomed everyone at the second meeting of IEEE@IIT.
+<!--more-->
+The students were very enthusiastic about the T-shirt design contest. Around 10 design nominations were shown to the audience, and the winner would be awarded a whopping $100 and the winning design would also be printed. There are a few upcoming company tours organized by IEEE@IIT. The first one is the ComEd West Loop Substation Tour, which was organized Friday 5th April. There is also another company tour to S&C Electric on 19th April and the deadline to sign-up is 15th April. Moreover, possible future tours to companies like Motorola Mobility, Nokia-Siemens Networks, GE are being discussed.
 
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <!--more-->
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Discussing the projects that are funded by IEEE, like Raspberry Pi, Quadcopter, the Mutitouch project, Guitar Amp and Ardupilot, George asked the interested students to attend the project meeting in the Galvin Center at IIT Tower, 16thfloor on 11th April. A video showcasing the Raspberry Pi project was shown in the meeting too. Although the design is not going to be the same as in video, a general idea about what to do in the project was easily inferred from the video. Juan Wang, PhD scholar talked about the Multitouch project that she will also be responsible for heading. Showing a video on creating a Multitouch tablet, she said that the project would have some similar design steps. Interested students can still join any of the projects by signing the online sheet created for project participation, and attending the next project meeting on 11th April.
 
-Contrary to popular belief, <b>Lorem Ipsum is not simply random text</b>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<
-
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-####Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-
-
->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-
-[hampden]: https://github.com/jekyll/jekyll
+The nominations for IEEE@IIT executive board were open till 7th April. Elections will be held on 22nd April until 25thApril, right before the next general meeting. Till the election date, one can campaign for his/her nominee. The IEEE Spring barbeque will be held on 26th April at the Siegel Field, where you have the opportunity to meet the new executive members as well interact with other group members. All queries regarding IEEE@IIT can be forwarded to [&#x69;&#x65;&#x65;&#x65;&#x40;<span class="oe_displaynone">null</span>&#x69;&#x69;&#x74;&#x2e;&#x65;&#x64;&#x75;](mailto:&#x69;&#x65;&#x65;&#x65;&#x40;&#x69;&#x69;&#x74;&#x2e;&#x65;&#x64;&#x75). Students will be notified about upcoming events via e-mail and Facebook group.
