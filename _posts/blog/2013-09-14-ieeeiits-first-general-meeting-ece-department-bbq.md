@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IEEE@IIT’s first General Meeting, ECE Department BBQ"
-date: 2014-09-14
+date: 2013-09-14
 author: Vijai
 categories: 
 - blog 
