@@ -7,6 +7,7 @@ categories:
 - event
 - guest speaker
 - goldman sachs
+- announcement
 img: nopicture.jpg
 thumb: nopicture.jpg
 ---
