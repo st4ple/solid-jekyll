@@ -6,6 +6,8 @@ author: Eric Tendian
 categories: 
 - event
 - ieee bbq
+- halloween
+- announcement
 img: nopicture.jpg
 thumb: nopicture.jpg
 ---
