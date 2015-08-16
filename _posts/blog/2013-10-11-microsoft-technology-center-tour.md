@@ -7,6 +7,7 @@ categories:
 - event
 - tour
 - microsoft
+- announcement
 img: nopicture.jpg
 thumb: nopicture.jpg
 ---
