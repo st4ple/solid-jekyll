@@ -6,7 +6,7 @@ author: Vijai
 categories: 
 - blog 
 - general board meeting
-- ieee bbq
+- ece bbq
 img: nopicture.jpg
 thumb: nopicture.jpg
 ---
