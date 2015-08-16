@@ -4,7 +4,6 @@ title:  "IEEE First Project Meeting"
 date:   2013-11-07
 author: Eric Tendian
 categories: 
-- blog
 - announcement
 - project meeting
 img: nopicture.jpg
