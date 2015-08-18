@@ -21,3 +21,17 @@ I have always been someone engaged by artistic endeavours, but upon entering col
 
 ####Sharing is Caring
 I then realized that I just had to find a way. My way was to create this wesbsite and tell you about things and people that interest me and inspire me. Along with these retellings, I want to share my creative work with you! I will make sure that everyone is aware of my posts and projects.
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'ebonyxscape';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
