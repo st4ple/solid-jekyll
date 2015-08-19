@@ -39,9 +39,9 @@ permalink: /
         </div>
 
         <div class="col-lg-3">
-            <h4>Frequently Asked</h4>
+            <h4>Job Postings</h4>
             <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
+            {% for post in site.categories['job','internship','coop'] %} 
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
             {% endfor %}
         </div>
