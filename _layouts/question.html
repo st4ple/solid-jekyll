@@ -1,19 +1,20 @@
 ---
 layout: default
-wrap_title: 'Frequently asked'
+wrap_title: 'Job Postings'
 ---
 
 {% include wrap.html %}
 
 <div class="container mtb">
     <div class="row">
-        <! -- SINGLE POST -->
+        <! -- MULTIPLE POST -->
+        {% for post in site.categories['job','internship','coop'] %}
         <div class="col-lg-8">
             <! -- Blog Post  -->
           <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
 
             {{ content }}
-
+        {% endfor %}
             <div class="spacing"></div>
             <!-- <h6>SHARE:</h6>
             <p class="share">
