@@ -41,7 +41,7 @@ permalink: /
         <div class="col-lg-3">
             <h4>Job Postings</h4>
             <div class="hline"></div>
-            {% for post in site.categories['job','internship','coop'] %} 
+            {% for post in site.categories['job' || 'internship' || 'coop'] %} 
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
             {% endfor %}
         </div>
@@ -49,7 +49,7 @@ permalink: /
         <div class="col-lg-3">
             <h4>Latest Posts</h4>
             <div class="hline"></div>
-            {% for post in site.categories['blog', 'announcement'] limit:5 %} 
+            {% for post in site.categories['blog' || 'announcement'] limit:5 %} 
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
             {% endfor %} 
         </div>
