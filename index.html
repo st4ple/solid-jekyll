@@ -47,9 +47,9 @@ permalink: /
         </div>
 
         <div class="col-lg-3">
-            <h4>Latest Posts</h4>
+            <h4>Announcements</h4>
             <div class="hline"></div>
-            {% for post in site.categories['blog' || 'announcement'] limit:5 %} 
+            {% for post in site.categories['announcement'] limit:5 %} 
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
             {% endfor %} 
         </div>
