@@ -3,7 +3,7 @@ layout: post
 title:  "IEEE@IIT unveils 1st Project Meeting"
 date:   2013-11-09
 author: Vijai
-categories: 
+categories:
 - blog
 - project meeting
 img: nopicture.jpg
@@ -22,4 +22,4 @@ Ardupilot group members described how they’re learning about “Arduino” by 
 
 Juan, who is also the project leader of Multi-touch project, spoke about their current standing. Currently, they have nine students working in the team. She talked about the various hardware and software enhancements that the group has planned to do in future. And, that included building a frame to fix the screens together and electric circuit to protect the LEDs, achieve human-computer interaction, and correctly compile the source-codes.
 
-At the end, Eric Tendian, webmaster of IEEE@IIT, showed the new IEEE@IIT website to the attendees, launched last week. Any student interested in working on any of the project can mail to [&#x69;&#x65;&#x65;&#x65;&#x40;<span class="oe_displaynone">null</span>&#x69;&#x69;&#x74;&#x2e;&#x65;&#x64;&#x75;](mailto:&#x69;&#x65;&#x65;&#x65;&#x40;&#x69;&#x69;&#x74;&#x2e;&#x65;&#x64;&#x75).
+At the end, Eric Tendian, webmaster of IEEE@IIT, showed the new IEEE@IIT website to the attendees, launched last week. Any student interested in working on any of the project can mail to [&#x69;&#x65;&#x65;&#x65;&#x40;&#x69;&#x69;&#x74;&#x2e;&#x65;&#x64;&#x75;](mailto:&#x69;&#x65;&#x65;&#x65;&#x40;&#x69;&#x69;&#x74;&#x2e;&#x65;&#x64;&#x75).

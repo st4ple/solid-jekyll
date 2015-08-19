@@ -3,8 +3,8 @@ layout: post
 title: "IEEE@IIT’s first General Meeting, ECE Department BBQ"
 date: 2013-09-14
 author: Vijai
-categories: 
-- blog 
+categories:
+- blog
 - general board meeting
 - ece bbq
 img: nopicture.jpg
@@ -19,4 +19,4 @@ Juan Wang, Project Chair of IEEE@IIT gave a brief overview of all four IEEE-spon
 
 IEEE@IIT has plans to conduct tours to the Microsoft Technology Center, S&C Electric and many more activities that will be announced later. Also, students have the chance to participate in an online competition called IEEEXtreme. The organization is seeking students to fulfill the vacant positions of Program Chair, Newsletter Editor and Webmaster.
 
-Anyone interested can contact IEEE at [&#x69;&#x65;&#x65;&#x65;&#x40;<span class="oe_displaynone">null</span>&#x69;&#x69;&#x74;&#x2e;&#x65;&#x64;&#x75;](mailto:&#x69;&#x65;&#x65;&#x65;&#x40;&#x69;&#x69;&#x74;&#x2e;&#x65;&#x64;&#x75). Students will be notified about upcoming events/meetings via e-mail and the Facebook page.
+Anyone interested can contact IEEE at [&#x69;&#x65;&#x65;&#x65;&#x40;&#x69;&#x69;&#x74;&#x2e;&#x65;&#x64;&#x75;](mailto:&#x69;&#x65;&#x65;&#x65;&#x40;&#x69;&#x69;&#x74;&#x2e;&#x65;&#x64;&#x75). Students will be notified about upcoming events/meetings via e-mail and the Facebook page.
