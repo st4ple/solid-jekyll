@@ -41,7 +41,7 @@ permalink: /
         <div class="col-lg-3">
             <h4>Job Postings</h4>
             <div class="hline"></div>
-            {% for post in site.categories['internship'] %} 
+            {% for post in site.categories['internship','job','coop'] %} 
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
             {% endfor %}
         </div>
