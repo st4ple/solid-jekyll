@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row centered">
             <h3>SPONSORED BY</h3>
-            {% for client in site.clients %}
+            {% for sponsor in site.sponsors %}
                 <div class="col-lg-3 col-md-3 col-sm-3">
-                    <img src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}" class="img-responsive">
+                    <img src="{{ "/assets/img/sponsors/" | prepend: site.baseurl }}{{ sponsor.img }}" class="img-responsive">
                 </div>
             {% endfor %}
         </div><! --/row -->
