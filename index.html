@@ -41,10 +41,10 @@ permalink: /
         <div class="col-lg-3">
             <h4>Job Postings</h4>
             <div class="hline"></div>
-            {% for post in site.categories limit: 5 %} 
-            {% if site.categories['coop'] %}
+            {% for post in site.categories['coop'] limit: 5 %} 
+            
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endif %}
+            
             {% endfor %}
         </div>
 
