@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "IEEE First Project Meeting"
-date:   2013-01-29
+date:   2014-01-29
 author: Eric Tendian
 categories: 
 - announcement
