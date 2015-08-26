@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "IEEE First Project Meeting"
+title:  "IEEE National Information Session"
 date:   2014-03-11
 author: Eric Tendian
 categories: 
@@ -22,6 +22,6 @@ Kelley started off the presentation by giving a brief introduction about IEEE, i
 
 Her presentation included in detail, the process involved in publishing papers and journals within IEEE. She explained about all the aspects of being a successful author within IEEE, places and means to look for to gather resources, parts that have to be included in a scientific paper, how to submit it and monitor the status of its approval and it being published. Interested students who are looking to become an IEEE author can visit <a href="http://www.ieee.org/go/authorship" target="_blank">www.ieee.org/go/authorship</a>. Resources and reference papers can be accessed from the library at <a href="http://www.ieee.org/ieeexplore" target="_blank">www.ieee.org/ieeexplore</a>.
 
-Kelley can be reached by mail at <a href="mailto:&#x6a;&#x61;&#x6c;&#x79;&#x6e;&#x2e;&#x6b;&#x65;&#x6c;&#x6c;&#x65;&#x79;&#x40;&#x69;&#x65;&#x65;&#x65;&#x2e;&#x6f;&#x72;&#x67;" target="_blank">&#x6a;&#x61;&#x6c;&#x79;&#x6e;&#x2e;&#x6b;&#x65;&#x6c;&#x6c;&#x65;&#x79;&#x40;<span class="oe_displaynone">null</span>&#x69;&#x65;&#x65;&#x65;&#x2e;&#x6f;&#x72;&#x67;</a> or find her on the website at <a href="http://www.ieee.org/go/clientservices" target="_blank">www.ieee.org/go/clientservices</a>.
+Kelley can be reached by mail at <a href="mailto:&#x6a;&#x61;&#x6c;&#x79;&#x6e;&#x2e;&#x6b;&#x65;&#x6c;&#x6c;&#x65;&#x79;&#x40;&#x69;&#x65;&#x65;&#x65;&#x2e;&#x6f;&#x72;&#x67;" target="_blank">&#x6a;&#x61;&#x6c;&#x79;&#x6e;&#x2e;&#x6b;&#x65;&#x6c;&#x6c;&#x65;&#x79;&#x40;&#x69;&#x65;&#x65;&#x65;&#x2e;&#x6f;&#x72;&#x67;</a> or find her on the website at <a href="http://www.ieee.org/go/clientservices" target="_blank">www.ieee.org/go/clientservices</a>.
 
 ### [VIEW PRESENTATION SLIDES HERE](https://drive.google.com/file/d/0B1UAlPhcNDLgaFlQQjZWd2JWb2s/edit?usp=sharing)
