@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "IEEE First Project Meeting"
+title:  "Welcome New IEEE Chapter Website"
 date:   2014-01-29
 author: Eric Tendian
 categories: 
