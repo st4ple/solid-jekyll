@@ -7,7 +7,7 @@ categories:
 - announcement
 - event
 - guest speaker
-- national
+- ieee national
 img: nopicture.jpg
 thumb: nopicture.jpg
 ---
