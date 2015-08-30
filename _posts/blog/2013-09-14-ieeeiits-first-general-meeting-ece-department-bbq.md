@@ -5,7 +5,7 @@ date: 2013-09-14
 author: Vijai
 categories:
 - blog
-- general board meeting
+- general body meeting
 - ece bbq
 img: nopicture.jpg
 thumb: nopicture.jpg
