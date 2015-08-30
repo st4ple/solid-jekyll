@@ -5,7 +5,7 @@ date:   2013-04-06
 author: Vijai
 categories:
 - blog
-- general board meeting
+- general body meeting
 img: nopicture.jpg
 thumb: nopicture.jpg
 ---
