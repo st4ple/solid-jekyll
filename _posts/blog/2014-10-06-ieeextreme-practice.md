@@ -7,6 +7,7 @@ categories:
 - announcement
 - event
 - contest
+- ieeextreme
 img: nopicture.jpg
 thumb: nopicture.jpg
 ---
