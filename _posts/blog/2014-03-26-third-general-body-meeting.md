@@ -10,5 +10,5 @@ img: nopicture.jpg
 thumb: nopicture.jpg
 ---
 
-WHEN: 03/26/2014 12:50pm - 03/26/2014 1:50pm
+WHEN: 03/26/2014 12:50pm - 03/26/2014 1:50pm  
 WHERE: Siegel Hall Auditorium
