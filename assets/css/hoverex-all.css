@@ -1,10 +1,10 @@
 .he-wrap
 {
-	position:center;
+	position:relative;
 	zoom:1;
 
 	*display:inline;
-	position:center;
+	position:relative;
 }
 .he-view,.he-zoom
 {
