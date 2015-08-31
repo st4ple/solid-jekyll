@@ -448,7 +448,7 @@ csmall {
     display:none; 
     height:auto;
     margin:0;
-    float: left;
+    float: center;
 }
 .show {
     display: none; 
@@ -467,12 +467,13 @@ csmall {
 .hide, .show {
     opacity: .95;
     margin-right: 0;
-    float: left;
+    float: center;
     margin-bottom: 25px;
 }
 
 .hide:hover, .show:hover {
     opacity: 1;
+    margin-bottom: 25px;
 }
 
 .list p{
@@ -480,11 +481,9 @@ csmall {
     margin:0;
 }
 .question {
-    float: left;
+    float: center;
     height: auto;
     width: 90%;
-    line-height: 20px;
-    padding-left: 20px;
     margin-bottom: 25px;
 }
 
