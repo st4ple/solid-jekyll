@@ -441,8 +441,8 @@ csmall {
 
 /* Collapsible Feature @natashaw */
 .collapsible { 
-    vertical-align: top; 
-    height:auto !important; 
+    margin-right: -15px;
+    margin-left: -15px;
 }
 .list {
     display:none; 
