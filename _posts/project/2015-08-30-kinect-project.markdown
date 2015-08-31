@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Kinect Project"
-date:   2014-04-25 16:54:46
+date:   2015-08-30
 author: Brandon Dotson
 categories:
 - project
