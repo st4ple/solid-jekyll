@@ -456,7 +456,7 @@ collapsible {
 	
 }
 
-.show:target + .hide {
+.hide:target + .show {
 	display: inline; 
 	
 }
