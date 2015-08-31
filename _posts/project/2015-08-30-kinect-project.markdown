@@ -10,7 +10,6 @@ thumb: kinect.jpg
 carousel:
 - cKinect01.jpg
 - cKinect02.jpg
-client: 
 website: 
 ---
 ####Kinect Project
