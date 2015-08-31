@@ -456,17 +456,17 @@ collapsible {
 	
 }
 
-.show:target + .hide {
+.hide:target + .show {
 	display: inline; 
 	
 }
 
-.show:target {
+.hide:target {
 	display: none; 
 	
 }
 
-.show:target ~ .list {
+.hide:target ~ .list {
 	display:inline; 
 	
 }
