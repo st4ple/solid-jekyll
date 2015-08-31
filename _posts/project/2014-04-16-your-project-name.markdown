@@ -1,14 +1,14 @@
 ---
 layout: project
-title:  "YOUR PROJECT NAME"
-date:   2014-04-25 16:54:46
+title:  "COMING SOON"
+date:   2015-08-29
 author: Marcel Newman
 categories:
 - project
-img: portfolio_09.jpg
+img: comingsoon.jpg
 thumb: thumb02.jpg
 carousel:
-- single01.jpg
+- single.jpg
 - single02.jpg
 - single03.jpg
 client: Wonder Corp.
