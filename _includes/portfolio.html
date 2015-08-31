@@ -2,7 +2,7 @@
     <div class="portfolio-centered">
         {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
         <div class="recentitems portfolio">
-            {% for project in site.categories['project'] limit:3 %}
+            {% for project in site.categories['project'] limit:1 %}
                 <div class="portfolio-item graphic-design">
                     <div class="he-wrap tpl6">
                     <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.img }}" alt="">
