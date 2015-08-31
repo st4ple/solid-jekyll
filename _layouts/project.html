@@ -21,7 +21,7 @@ layout: default
             <div class="hline"></div>
             <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
             <p><b>Leader:</b> {{ page.leader }}</p>
-            <p><b>Tags:</b> {% for tag in page.tags %}{{ page.tag | append:', ' }} {% endfor %}</p>
+            <p><b>Tags:</b> {% for tag in page.tags %}{{ tag | append:', ' }} {% endfor %}</p>
             <p><b>Link:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
         </div>
     </div><! --/row -->
