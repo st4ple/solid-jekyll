@@ -451,22 +451,22 @@ collapsible {
 	
 }
 
-.show {
+.hide {
 	display: none; 
 	
 }
 
-.hide:target + .show {
+.show:target + .hide {
 	display: inline; 
 	
 }
 
-.hide:target {
+.show:target {
 	display: none; 
 	
 }
 
-.hide:target ~ .list {
+.show:target ~ .list {
 	display:inline; 
 	
 }
