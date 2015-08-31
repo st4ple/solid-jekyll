@@ -440,52 +440,45 @@ csmall {
 }
 
 /* Collapsible Feature @natashaw */
-.collapsible { 
-    margin-right: -15px;
-    margin-left: -15px;
+collapsible { 
+	vertical-align: top; 
+	height:auto !important; 
+	
 }
+
 .list {
-    display:none; 
-    height:auto;
-    margin:0;
-    float: center;
+	display:none; 
+	
 }
+
 .show {
-    display: none; 
+	display: none; 
+	
 }
+
 .hide:target + .show {
-    display: inline; 
+	display: inline; 
+	
 }
+
 .hide:target {
-    display: none; 
+	display: none; 
+	
 }
+
 .hide:target ~ .list {
-    display:inline; 
+	display:inline; 
+	
 }
 
-/*style the (+) and (-) */
-.hide, .show {
-    opacity: .95;
-    margin-right: 0;
-    float: center;
-    margin-bottom: 25px;
+@media print {
+	.hide, .show {
+		display: none; 
+		
+	} 
+	
 }
 
-.hide:hover, .show:hover {
-    opacity: 1;
-    margin-bottom: 25px;
-}
-
-.list p{
-    height:auto;
-    margin:0;
-}
-.question {
-    float: center;
-    height: auto;
-    width: 90%;
-    margin-bottom: 25px;
-}
 
 /* Contact Page */
 #contactwrap {
