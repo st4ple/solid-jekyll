@@ -2,7 +2,7 @@
 layout: project
 title:  "Kinect Project"
 date:   2015-08-30
-leader: FirstName LastName
+leader: "FirstName LastName"
 categories:
 - project
 tags:
