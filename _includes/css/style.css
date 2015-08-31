@@ -439,47 +439,6 @@ csmall {
 	background: {{ site.colors.primary }};
 }
 
-/* Collapsible Feature @natashaw */
-collapsible { 
-	vertical-align: top; 
-	height:auto !important; 
-	
-}
-
-.list {
-	display:none; 
-	
-}
-
-.show {
-	display: none; 
-	
-}
-
-.show:target + .hide {
-	display: inline; 
-	
-}
-
-.hide:target {
-	display: none; 
-	
-}
-
-.show:target ~ .list {
-	display:inline; 
-	
-}
-
-@media print {
-	.hide, .show {
-		display: none; 
-		
-	} 
-	
-}
-
-
 /* Contact Page */
 #contactwrap {
 	background: url(../img/contact.jpg) no-repeat center top;
