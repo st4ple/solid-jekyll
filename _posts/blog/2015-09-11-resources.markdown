@@ -10,7 +10,7 @@ img: post01.jpg       #place image (850x450) with this name in /assets/img/blog/
 thumb: thumb01.jpg    #place thumbnail (70x70) with this name in /assets/img/blog/thumbs/
 ---
 
-<b>Sometimes<b>, I am overwhelmed by my fellow Computer Information Systems majors that are thinking about tech startups or working in offices when I just want to immerse myself in the arts and be a little bit of a tech enthusiast. For instance, I currently have an internship in which I am a Web Developer/Designer. This is actually fantastic because as an artist I need to promote myself in as many ways as possible. For instance...
+<b>Sometimes</b>, I am overwhelmed by my fellow Computer Information Systems majors that are thinking about tech startups or working in offices when I just want to immerse myself in the arts and be a little bit of a tech enthusiast. For instance, I currently have an internship in which I am a Web Developer/Designer. This is actually fantastic because as an artist I need to promote myself in as many ways as possible. For instance...
 ####Blogging 
  <a href="https://github.com/">Github</a> is my go-to for my website developing. Why? Well...my website is totally FREE! I am an undergraduate in college so free is really good right now. Even if I am not sharing a project that is coming up, I can still share the everyday journey. Also, I like to recommend things like music or talk about something that I think is amazing. For me, time is irrelevant, so when it comes to things like music, I will recommend songs from artists that I think are great no matter the time. Some people may say "that song came out last month and why you are still listening to it?"
 
