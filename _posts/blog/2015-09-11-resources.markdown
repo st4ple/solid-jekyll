@@ -1,7 +1,7 @@
 ---
 layout: post          #important: don't change this
 title: "Resources"
-date: 2015-08-08 04:16:00
+date: 2015-08-11 04:16:00
 author: Jessica Mack
 categories:
 - blog                #important: leave this here
