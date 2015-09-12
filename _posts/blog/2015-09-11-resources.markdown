@@ -6,6 +6,8 @@ author: Jessica Mack
 categories:
 - blog                #important: leave this here
 - Tamar Davis
+img: post01.jpg       #place image (850x450) with this name in /assets/img/blog/
+thumb: thumb01.jpg    #place thumbnail (70x70) with this name in /assets/img/blog/thumbs/
 ---
 
 <b>Sometimes<b>, I am overwhelmed by my fellow Computer Information Systems majors that are thinking about tech startups or working in offices when I just want to immerse myself in the arts and be a little bit of a tech enthusiast. For instance, I currently have an internship in which I am a Web Developer/Designer. This is actually fantastic because as an artist I need to promote myself in as many ways as possible. For instance...
