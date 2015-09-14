@@ -22,7 +22,7 @@ permalink: /
             <h4>Announcements</h4>
             <div class="hline"></div>
             {% for post in site.categories['announcement'] limit:5 %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
             {% endfor %} 
         </div>
     </div><! --/row -->
