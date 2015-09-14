@@ -1,5 +1,18 @@
-Solid. A Bootstrap theme for Jekyll.
-============
+# IEEE@IIT Website
+
+This is the website for the IEEE Illinois Institute of Technology student branch. The website is live at [ieeeiit.me](http://ieeeiit.me/).
+
+## Tools used
+
+* [Jekyll](http://jekyllrb.com/), a static site generator
+* [Solid](https://st4ple.github.io/solid-jekyll/), a Bootstrap theme for Jekyll
+
+---
+
+Old README:
+
+## Solid. A Bootstrap theme for Jekyll.
+
 ![Screenshot](https://st4ple.github.io/solid-jekyll/assets/img/browser.png)
 
 This is a [Jekyll](http://jekyllrb.com/) port of the [Solid theme](http://www.blacktie.co/2014/05/solid-multipurpose-theme/) by [blacktie.co](http://www.blacktie.co/). Visit the [live demo](https://st4ple.github.io/solid-jekyll/) for a preview. 
