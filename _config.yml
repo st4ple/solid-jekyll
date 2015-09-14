@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+title: IEEE@IIT
+description: "Illinois Tech's branch of the Institute of Electrical and Electronics Engineers (IEEE)."
+analytics: 
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "http://ieeeiit.me"
 
 # Build settings
 markdown: kramdown
@@ -26,81 +26,95 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
   - title: facebook
-    url:
+    url: https://www.facebook.com/IEEEIIT
   - title: twitter
-    url: 
-  - title: instagram
-    url: 
-  - title: tumblr
-    url: 
+    url: https://twitter.com/ieeeiit
+  - title: linkedin
+    url: http://www.linkedin.com/groups/IEEE-Chicago-Section-2073200
+  - title: github
+    url: https://github.com/IEEE-IIT
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
+    - 3301 South Dearborn, Rm 013
+    - Chicago, IL 60616
     - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+email: ieee@iit.edu
+# tel: +34 8493-4893
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
     
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  - name: Panth Shah
+    position: President
+    text: pshah80@hawk.iit.edu
     img: team01.jpg
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  - name: Mete Morris
+    position: Vice President
+    text: mmorri13@hawk.iit.edu
     img: team02.jpg
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  - name: Jay Sharma
+    position: Membership Chair
+    text: jsharma3@hawk.iit.edu
     img: team03.jpg
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  - name: Nikita Chandapur
+    position: Project Chair
+    text: nchandap@hawk.iit.edu
     img: team04.jpg
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-    
+  - name: Viral Mehta
+    position: Program Chair
+    text: vmehta12@hawk.iit.edu
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com  
+  - name: Sreeram Haridas
+    position: Industry Relations
+    text: sharida3@hawk.iit.edu
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com 
+  - name: Natasha Wijoyo
+    position: Webmaster
+    text: nwijoyo@hawk.iit.edu
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com      
+  - name: Robert Burke
+    position: IEEE-Chicago Branch Mentor
+    text: robert.burke@culligan.com
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com 
+
 # Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+sponsors:
+  - name: IIT Armour College of Engineering
+    img: armourlogo.png
+  - name: IEEE Chicago Section
+    img: ieeechicagologo.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "Here at the Illinois Institute of Technology, IEEE represents one of the largest student organizations on campus.  Our organization strives to further students' professional and educational development through a wide array of opportunities. Please take a look at what we have to offer, and come visit the IEEE Office located in Siegel Hall 013!"
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
