@@ -4,7 +4,7 @@
 title: IEEE@IIT
 description: "Illinois Tech's branch of the Institute of Electrical and Electronics Engineers (IEEE)."
 analytics: 
-baseurl: "/testweb" #important: start with /
+baseurl: "/ieeeiitwebsite" #important: start with /
 url: "http://ieeeiit.me"
 
 # Build settings
