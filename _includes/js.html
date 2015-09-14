@@ -19,6 +19,10 @@
 </script>
 {% endif %}
 <script>
+if ($('#jobs').length) {
+  addJobs();
+}
+
 // Portfolio
 (function($) {
 	"use strict";
@@ -60,11 +64,8 @@
 			var winWidth = $(window).width(), 
 			columnNumber = 1;
 		
-			if (winWidth > 1200) {
-				columnNumber = 5;
-			} else if (winWidth > 950) {
-				columnNumber = 4;
-			} else if (winWidth > 600) {
+			
+			if (winWidth > 600) {
 				columnNumber = 3;
 			} else if (winWidth > 400) {
 				columnNumber = 2;
@@ -100,3 +101,18 @@
 	});
 })(jQuery);
 </script>
+
+  <!-- Collapsible -->
+  <script language="JavaScript" type="text/javascript">
+  <!-- Copyright 2005, Sandeep Gangadharan -->
+  <!-- For more free scripts go to http://www.sivamdesign.com/scripts/ -->
+  <!--
+  if (document.getElementById) {
+  document.writeln('<style type="text/css"><!--')
+  document.writeln('.texter {display:none} @media print {.texter {display:block;}}')
+  document.writeln('//--></style>') }
+  function openClose(theID) {
+  if (document.getElementById(theID).style.display == "block") { document.getElementById(theID).style.display = "none" }
+  else { document.getElementById(theID).style.display = "block" } }
+  // -->
+  </script>
