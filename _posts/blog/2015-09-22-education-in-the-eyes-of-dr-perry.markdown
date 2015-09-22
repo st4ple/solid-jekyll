@@ -14,7 +14,7 @@ thumb: thumb01.jpg
 <b>Dr. Steve Perry</b>  is an author, educator, and speaker who has worked extensively in trying to turn education around for children. I had the privilege of hearing him speak on September 19, 2015 at the College of Charleston. He specifically talked about how people of color, like myself, need to lift up our children and ourselves to bring equality to education. He took his time to talk about the numbers and statistics, like 1/12 white students can gain information from a scientific journal, while it is 1/50 for black students.
 
 He is a Creator who grew up in third generation poverty and was the son of a sixteen year old mother. People would think that they could fill out the story, but he and his mother both earned college degrees. There were people who invested in Dr. Perry along the way. There were people who believed in him. Like he said on Saturday, "everyone is a starter."
-
+<!--more-->
 ####Our Broken System
 There is an inherent problem in the United States, in which there is not an equality among education. There is no need to rattle off the statistics of the disparity between education of students of color versus students who are white. Dr. Perry made a point to say that the gap is actually "sustained racism." The Broken System also takes time to say what's wrong with kids of color? This can be found in statements like "those children simply cannot be taught." Dr. Perry said that it is the adult's job to teach their children.
 
