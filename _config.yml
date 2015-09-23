@@ -6,7 +6,7 @@ description: "Pulling together the Creators that inspire me and make me think in
 analytics: UA-50546869-2
 baseurl: "/solid-jekyll" #important: start with /
 url: "http://ebonyxscape.github.io/solid-jekyll/"
-<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
+#<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 #"http://st4ple.github.io"
 
 # Build settings
