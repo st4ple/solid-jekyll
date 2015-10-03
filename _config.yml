@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
+title: Ebony Xscape.
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 analytics: UA-50546869-2
 baseurl: "/solid-jekyll" #important: start with /
@@ -13,9 +13,9 @@ permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031" 
+  primary: "#199815" #"#F70031" 
   primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
-  secondary: "#384452" #"#33004D"
+  secondary: "#403506" #"#33004D"
   link: "#428bca"
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
@@ -26,84 +26,84 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url:
+  #- title: youtube
+    #url: https://www.youtube.com/channel/UCbx0K0paV95EJjYbMj5dTUw/playlists?view_as=public
+ # - title: facebook
+#    url: https://www.facebook.com/jessica.mack.969
   - title: twitter
-    url: 
-  - title: instagram
-    url: 
-  - title: tumblr
-    url: 
+    url: https://twitter.com/EbonyXscape
+#  - title: google-plus
+#    url: https://plus.google.com/u/0/b/103958741643444989426/103958741643444989426/about/p/pub?hl=en
+  - title: pinterest
+    url: https://www.pinterest.com/jessmack678/boards/
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+#address:
+ # - lines: 
+  #  - Some Ave, 987,
+   # - 23890, New York,
+    #- United States.
+email: ebonyxscape@gmail.com
+#tel: +34 8493-4893
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
     
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team02.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team03.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team04.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
+#  - name: Mark Webber
+#    position: CEO
+ #   text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+#    img: team01.jpg
+ #   social:
+#      - title: envelope #use for email address
+ #       url: mailto:name@domain.com
+  #    - title: twitter
+   #     url: http://twitter.com/handle
+#  - name: Paul Jameson
+#    position: Lead Designer
+#    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ #   img: team02.jpg
+#    social:
+#      - title: envelope #use for email address
+#        url: mailto:name@domain.com
+#      - title: twitter
+ #       url: http://twitter.com/handle
+#  - name: Laura Sommers
+#    position: Lead Developer
+#    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ #   img: team03.jpg
+  #  social:
+#      - title: envelope #use for email address
+#        url: mailto:name@domain.com
+#      - title: twitter
+#        url: http://twitter.com/handle
+#  - name: Martin Blunt
+#    position: Marketing
+ #   text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+#    img: team04.jpg
+ #   social:
+#      - title: envelope #use for email address
+ #       url: mailto:name@domain.com
+#      - title: twitter
+ #       url: http://twitter.com/handle
     
 # Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+#clients:
+ # - name: dribbble
+  #  img: client01.png
+#  - name: Code is Poetry
+#    img: client02.png
+#  - name: Vimeo
+#    img: client03.png
+#  - name: VimeoPro
+#    img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "Unconventional color reveals a different perspective on stories whether they be artistic, technical, or both."
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+    message: "I have always believed that there is power in the arts and with today's STEM demands there will hopefully be much more collaboration between the two. This website is a way to do just that by sharing important information about the arts, technology, and my own artistsic endevours. This is a world of unconventionally colored creators."
+    author: Jessica Mack
+    position: WEB DESIGNER - ARTIST OF SIX SENSES
