@@ -4,8 +4,8 @@
 title: Ebony Xscape.
 description: "Pulling together the Creators that inspire me and make me think in the arts, sciences, and even mixing the two. It's storytelling in unconventional color."
 analytics: UA-50546869-2
-baseurl: "/blog" #important: start with /
-url: "http://ebonyxscape.github.io/blog/"
+baseurl: "/home" #important: start with /
+url: "http://ebonyxscape.github.io/home/"
 #<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 #"http://st4ple.github.io"
 
