@@ -23,9 +23,11 @@ However, other statues of David were made, which typically depict David after he
 <b>Both Davids give a different message to viewers.</b> Both are on a platform above the viewer. One can look up to a person who has an idea or wants to do something. Then, one can look up to a person who takes the idea and runs with it. 
 
 Sources
--http://peaceofwestphalia.org/?page_id=108
--https://www.khanacademy.org/humanities/renaissance-reformation/high-ren-florence-rome/michelangelo/v/michelangelo-david-marble-1501-04-galleria-dell-accademia-florence
--https://www.khanacademy.org/humanities/monarchy-enlightenment/baroque-art1/baroque-italy/a/bernini-david
+<ol>
+<li><a href>http://peaceofwestphalia.org/?page_id=108>Image of Davids</a></li>
+<li><a href>https://www.khanacademy.org/humanities/renaissance-reformation/high-ren-florence-rome/michelangelo/v/michelangelo-david-marble-1501-04-galleria-dell-accademia-florence>Information on Michelangelo's David</a></li>
+<li><a href>https://www.khanacademy.org/humanities/monarchy-enlightenment/baroque-art1/baroque-italy/a/bernini-david>Information on Bernini's David</a></li>
+</ol>
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
