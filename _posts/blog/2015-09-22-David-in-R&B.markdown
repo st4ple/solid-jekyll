@@ -6,8 +6,8 @@ author: Jessica Mack
 categories: 
 - blog
 - VisualArt
-img: post01.jpg
-thumb: thumb01.jpg
+img: 01.01_Michelangelo_vs_Bernini_David.jpg
+thumb: 01.01_Michelangelo_vs_Bernini_David.jpg
 ---
 
 <b>Before we get started,</b>  no I am not talking about rhythm and blues. However, we could talk about that later. 
