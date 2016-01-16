@@ -2,12 +2,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <h4>About</h4>
+                <h4 class="centre">About</h4>
                 <div class="hline-w"></div>
                 <p>{{ site.about }}</p>
             </div>
             <div class="col-lg-4">
-                <h4>Social Links</h4>
+                <h4 class="centre">Contacts And Social Links</h4>
                 <div class="hline-w"></div>
                 <p>
                     {% for network in site.social %}
@@ -16,7 +16,7 @@
                 </p>
             </div>
             <div class="col-lg-4">
-                <h4>Our Bunker</h4>
+                <h4 class="centre">Locate The University</h4>
                 <div class="hline-w"></div>
                 <p>
                     {% for line in site.address.first.lines %}
