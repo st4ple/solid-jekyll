@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: UNIVERSITY OF BOTSWANA - FACULTY OF SCIENCE
+title: UNIVERSITY OF BOTSWANA FACULTY OF SCIENCE
 description: "Welcome To All Things Science In The University of Botswana."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
@@ -38,7 +38,7 @@ social:
     url: 
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-# address:
+address:
 #   - lines: 
 #     - Some Ave, 987,
 #     - 23890, New York,
@@ -51,7 +51,7 @@ address:
     - Gaborone, Botswana
     - Private Bag 0022
 email: someemail@mail.com
-tel: +267 355 0000
+tel: +267 355-0000
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
