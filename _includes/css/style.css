@@ -96,8 +96,10 @@ a:focus {
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
+/* ATTEMPTING TO CHANGE NAVBAR HEIGHT */
 .navbar {
 	min-height: 70px;
+	max-height: 100px;
 	padding-top: 10px;
 	margin-bottom: 0px;
 }
