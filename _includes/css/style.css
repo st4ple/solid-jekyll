@@ -214,10 +214,10 @@ a:focus {
 /*	################################################################
 	SITE WRAPS
 ################################################################# */
-/*ATTEMPTED CHANGES HERE*/
+/*ATTEMPTED BACKGROUND CHANGES HERE*/
 #headerwrap {
-	/*background-color: {{ site.colors.primary }};*/
-	background-image: url('/assets/img/home-page-logo.png') no-repeat center top;
+	background-color: {{ site.colors.primary }};
+	/*background-image: url('/assets/img/home-page-logo.png') no-repeat center top;*/
 	min-height: 0px;
 	padding-top: 100px;
 	padding-bottom: 50px;
@@ -252,7 +252,6 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	/*width: 70%;*/
 	padding-top: 60px;
 	margin-bottom: 60px;
 	display: block;
@@ -264,7 +263,6 @@ a:focus {
 }
 
 .portfolio {
-	width: 70%;
 	padding:0 !important;
 	margin:0 !important;
 	display:block;
