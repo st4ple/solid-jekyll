@@ -99,7 +99,7 @@ a:focus {
 /* ATTEMPTING TO CHANGE NAVBAR HEIGHT */
 .navbar {
 	min-height: 70px;
-	max-height: 100px;
+	max-height: 75px;
 	padding-top: 10px;
 	margin-bottom: 0px;
 }
@@ -290,10 +290,11 @@ a:focus {
 	font-size:13px;
 }
 
+/* MADE CHANGES HERE */
 .tpl6 .bg
 {
 	height:100%;
-	width:100%;
+	width:80%;
 	background-color:{{ site.colors.primary }};
 	background-color:rgba({{ site.colors.primary_rgb }},.9);
 	text-align:center;
