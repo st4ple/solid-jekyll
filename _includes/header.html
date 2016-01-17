@@ -1,21 +1,17 @@
-.background {
-    width: 100%;
-    height: 100%;
-    background-image: url('/assets/img/home-page-logo.png');
-    position: absolute;
-    z-index: 1;
+.headerwrap {
+    background-image: url("/assets/img/home-page-logo.png");
 }
 
 <div id="headerwrap">
     <div class="container">
         <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 himg">
+                <img src="{{ "/assets/img/UB-logo.png" | prepend: site.baseurl }}" class="img-responsive">
+            </div>
             <div class="col-lg-8 col-lg-offset-2">
                 <h1>UNIVERSITY OF BOTSWANA</h3>
                 <h3>FACULTY OF SCIENCE.</h1>
                 <h5>Welcome to all things sicence within the University of Botswana.</h5>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 himg">
-                <img src="{{ "/assets/img/UB-logo.png" | prepend: site.baseurl }}" class="img-responsive">
             </div>
             <!--<div class="col-lg-8 col-lg-offset-2 himg">-->
             <!--    <img src="{{ "/assets/img/home-page-logo.png" | prepend: site.baseurl }}" class="img-responsive">-->
