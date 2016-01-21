@@ -19,7 +19,7 @@
         <li {% if page.title == "Departments" %}class="active"{% endif %}><a href="{{"/departments/" | prepend: site.baseurl }}">DEPARTMENTS</a></li>
         
         <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">NEWS & ANNOUNCEMENTS</a>
-          <ul>
+          <ul class="dropdown-menu">
             <li><a href="#">Faculty Events</a></li>
             <li><a href="#">Seminars</a></li>
             <li><a href="#">Promotions</a></li>
