@@ -10,6 +10,9 @@
       </button>
       <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>
     </div>
+    
+    <!--FROM HERE-->
+    <nav id="nav">
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
@@ -34,5 +37,6 @@
       </ul>
       <ul class="dropdown-menu">DEPARTMENTS</ul>
     </div><!--/.nav-collapse -->
+    </nav>
   </div>
 </div>
