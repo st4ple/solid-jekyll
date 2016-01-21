@@ -15,25 +15,27 @@
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         <li {% if page.title == "Departments" %}class="active"{% endif %}><a href="{{"/departments/" | prepend: site.baseurl }}">DEPARTMENTS</a></li>
         
-        <li {% if page.title == "Blog" %}class="active"{% endif %}><span class="fa fa-caret-down"></span><a href="{{"/blog/" | prepend: site.baseurl }}">NEWS & ANNOUNCEMENTS</a>
-        
-          <ul class="dropdown-menu">
-            <li><a href="#">Faculty Events</a></li>
-            <li><a href="#">Seminars</a></li>
-            <li><a href="#">Promotions</a></li>
-            <li><a href="#">Awards</a></li>
-            <li><a href="#">Visitors</a></li>
-            <li><a href="#">Job Vacancies</a></li>
-          </ul>
-        </li>
+        <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">NEWS & ANNOUNCEMENTS</a></li>
         
         <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">PEOPLE</a></li>
         <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">ALUMNI</a></li>
         <li {% if page.title == "Portfolio" %}class="active"{% endif %}><a href="{{"/portfolio/" | prepend: site.baseurl }}">GALLERY</a></li>
         <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a></li>
         <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
+        
+        <li><a href="#">DEPARTMENTS</a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Faculty Events</a></li>
+            <li><a href="#">Seminars</a></li>
+            <li><a href="#">Promotions</a></li>
+            <li><a href="#">Awards</a></li>
+            <li><a href="#">Visitors</a></li>
+            <li><a href="#">Job Vacancies</a></li>
+        </ul>
+        </li>
+      
       </ul>
-      <ul class="dropdown-menu">DEPARTMENTS</ul>
+      
     </div><!--/.nav-collapse -->
   </div>
 </div>
