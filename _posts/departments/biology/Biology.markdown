@@ -3,7 +3,7 @@ layout: departments
 title:  "BIOLOGY"
 categories:
 - biology
-img: '/assets/img/departments/biology'
+img: '/assets/img/departments/biology/bioImg.jpg'
 carousel:
 - c1.jpg
 - c2.jpg
