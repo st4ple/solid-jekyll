@@ -38,7 +38,7 @@ social:
     url: 
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
+#address:
 #   - lines: 
 #     - Some Ave, 987,
 #     - 23890, New York,
