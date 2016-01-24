@@ -46,7 +46,12 @@ permalink: /
 </div><!--/service -->
 
 
+
+<!--DEPARTMENT SECTOR-->
+<h3>DEPARTMENTS</h3>
 {% include departments.html %}
+
+
 
 <div class="container mtb">
     <div class="row">
@@ -64,7 +69,7 @@ permalink: /
             <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
         </div>
 
-        <div class="col-lg-3">
+        <div class="col-lg-4 col-lg-offset-1">
             <h4>Looking For Us? Find Us Here.</h4>
             <div class="hline"></div>
             {% for post in site.categories['question'] %} 
