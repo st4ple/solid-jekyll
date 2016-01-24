@@ -4,14 +4,15 @@ title: Home
 permalink: /
 ---
 
+<!--IMAGES AND/OR CAROUSEL-->
+<!--<img src="/assets/img/dna_img.jpg">-->
+<!--</br>-->
+
 <div id="service">
     <div class="container">
         <div class="row centered">
             
             </br></br>
-            <!--IMAGES AND/OR CAROUSEL-->
-            <!--<img src="/assets/img/dna_img.jpg">-->
-            </br>
             
             <div class="col-md-4">
                 <i class="fa fa-star fa-3x"></i>
@@ -48,7 +49,7 @@ permalink: /
 
 
 <!--DEPARTMENT SECTOR-->
-<h3>DEPARTMENTS</h3>
+<h3 style="centered">DEPARTMENTS</h3>
 {% include departments.html %}
 
 
@@ -69,7 +70,7 @@ permalink: /
             <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
         </div>
 
-        <div class="col-lg-4 col-lg-offset-1">
+        <div class="col-lg-3 col-lg-offset-1">
             <h4>Looking For Us? Find Us Here.</h4>
             <div class="hline"></div>
             {% for post in site.categories['question'] %} 
