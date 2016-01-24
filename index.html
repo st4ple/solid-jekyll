@@ -49,7 +49,7 @@ permalink: /
 
 <div class="container mtb">
     <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-4">
             <h4>Latest News And Events</h4>
             <div class="hline"></div>
             {% for post in site.categories['blog'] limit:5 %} 
@@ -63,7 +63,7 @@ permalink: /
             <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
         </div>
 
-        <div class="col-lg-3">
+        <div class="col-lg-4">
             <h4>Looking For Us? Find Us Here.</h4>
             <div class="hline"></div>
             {% for post in site.categories['question'] %} 
