@@ -68,11 +68,11 @@ members:
   - name: Prof.B.Moseki
     position: Deputy Dean, Faculty of Science
     text: BSc (UB), M.Phil (Aberdeen), PhD (Essex)
-    img: DEPUTY_DEAN.jpg
+    img: team02.jpg
     social:
       - title: envelope #use for email address
         url: mosekib@mopipi.ub.bw
-      - title: twitter
+      - title: user
         url: http://twitter.com/handle
   - name: L.M. Paledi
     position: Faculty Administrator
@@ -81,16 +81,16 @@ members:
     social:
       - title: envelope #use for email address
         url:  paledi@mopipi.ub.bw
-      - title: twitter
+      - title: user
         url: http://twitter.com/handle
   - name: P.G. Morapedi
     position: Manager, Human Resources
     text: BA + PGDE (UB), MSc (Hr+ER) (Brunel University)
-    img: MANAGER_HUM_RES.jpg
+    img: team02.jpg
     social:
       - title: envelope #use for email address
         url: morapedip@mopipi.ub.bw
-      - title: twitter
+      - title: user
         url: http://twitter.com/handle
     
 # Clients information. Shown on Home and About pages.
