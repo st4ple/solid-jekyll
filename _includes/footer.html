@@ -4,7 +4,6 @@
             <div class="col-lg-4">
                 <h4 class="centre">About</h4>
                 <div class="hline-w"></div>
-                © 2016 University of Botswana
                 <p>{{ site.about }}</p>
             </div>
             <div class="col-lg-4">
@@ -14,8 +13,8 @@
                     {% for network in site.social %}
                         <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
                     {% endfor %}
-                    {{ site.email}}
-                    {{ site.tel}}
+                    <a href="mailto:{{ site.email}}">{{ site.email}}</a>
+                    <a href="tel:{{ site.tel }}">{{ site.tel }}</a>
                 </p>
             </div>
             <div class="col-lg-4">
