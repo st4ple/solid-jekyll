@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Logo design contest starts now"
+title: "Professor Mokgwathi is the new DVC, Student Affairs"
 date: 2014-04-25 16:54:46
 author: Admin
 categories:
