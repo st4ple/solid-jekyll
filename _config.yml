@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: UB F.O.S
+title: University of Botswana F.O.S
 description: "Welcome To All Things Science In The University of Botswana."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
