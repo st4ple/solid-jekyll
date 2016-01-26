@@ -56,7 +56,7 @@ permalink: /
 
 <div class="container mtb">
     <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-lg-offset-1">
             <h4>Latest News And Events</h4>
             <div class="hline"></div>
             {% for post in site.categories['blog'] limit:5 %} 
@@ -64,18 +64,18 @@ permalink: /
             {% endfor %} 
         </div>
         
-        <div class="col-lg-4 col-lg-offset-1">
-            <h4>Find Out More About Our Faculty.</h4>
-            <p>{{ site.about }}</p>
-            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
-        </div>
-
         <div class="col-lg-3 col-lg-offset-1">
             <h4>Looking For Us? Find Us Here.</h4>
             <div class="hline"></div>
             {% for post in site.categories['question'] %} 
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
             {% endfor %}
+        </div>
+        
+        <div class="col-lg-4 col-lg-offset-1">
+            <h4>Find Out More About Our Faculty.</h4>
+            <p>{{ site.about }}</p>
+            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
         </div>
 
     </div><!--/row -->
