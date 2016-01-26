@@ -26,22 +26,22 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  # - title: dribbble
-  #   url:
+  - title: dribbble
+    url:
   - title: facebook
     url: https://www.facebook.com/pages/University-of-Botswana/106350239395508
   - title: twitter
     url: 
   - title: youtube
     url:
-  -title: google-plus
+  - title: google-plus
    url:
-  -title: linkedin
+  - title: linkedin
    url:
-  # - title: instagram
-  #   url: 
-  # - title: tumblr
-  #   url: 
+  - title: instagram
+    url: 
+  - title: tumblr
+    url: 
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 #address:
