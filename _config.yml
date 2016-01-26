@@ -26,16 +26,22 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
+  # - title: dribbble
+  #   url:
   - title: facebook
-    url:
+    url: https://www.facebook.com/pages/University-of-Botswana/106350239395508
   - title: twitter
     url: 
-  - title: instagram
-    url: 
-  - title: tumblr
-    url: 
+  - title: youtube
+    url:
+  -title: google-plus
+   url:
+  -title: linkedin
+   url:
+  # - title: instagram
+  #   url: 
+  # - title: tumblr
+  #   url: 
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 #address:
@@ -107,7 +113,7 @@ clients:
     img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "© 2016 University of Botswana"
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
