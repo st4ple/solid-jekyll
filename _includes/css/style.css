@@ -509,7 +509,7 @@ a.anchor{
 /* Style The Dropdown Button */
 .dropbtn {
     background-color: transparent;
-    color: {{ site.colors.primary }};
+    color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -545,9 +545,10 @@ a.anchor{
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+    
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #6666ff;
 }
