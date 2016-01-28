@@ -508,8 +508,8 @@ a.anchor{
 
 /* Style The Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
+    background-color: transparent;
+    color: {{ site.colors.primary }};
     padding: 16px;
     font-size: 16px;
     border: none;
