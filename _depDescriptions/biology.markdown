@@ -1,5 +1,5 @@
 ---
-layout: departments
+layout: post
 title:  "BIOLOGY"
 categories:
 - departments
