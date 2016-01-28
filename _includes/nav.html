@@ -14,7 +14,9 @@
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         <div class="dropdown"><li {% if page.title == "Departments" %}class="active"{% endif %} class="dropbtn">
-          <a href="{{"/departments/" | prepend: site.baseurl }}">DEPARTMENTS</a></li><div class="dropdown-content">
+          <a href="{{"/departments/" | prepend: site.baseurl }}">
+            <button class="dropbtn">DEPARTMENTS</button>
+            </a></li><div class="dropdown-content">
             <a href="#">Link 1</a><a href="#">Link 2</a>
             <a href="#">Link 3</a></div></div>
         <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">NEWS	&#38; ANNOUNCEMENTS</a></li>
