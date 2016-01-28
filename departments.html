@@ -21,7 +21,7 @@ permalink: /departments/
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
                 </a>
-            </div><!--/col-lg-5-->
+            
             
             <div class="col-lg-5">
                 <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
@@ -30,6 +30,8 @@ permalink: /departments/
                 
                 <div class="hline"></div>
                 <div class="spacing"></div>
+            </div><!--/col-lg-5-->
+            
             </div><!--/col-lg-5-->
 
         {% endfor %}
