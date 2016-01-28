@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "Collection of Certificates"
+title: "BIOLOGY"
 date: 2014-04-25 16:54:46
 author: Admin
 categories:
 - blog
 - Tips&Tricks
 - Code-Snippets
-<!--img: post03.jpg-->
-<!--thumb: thumb03.jpg-->
+img: bioImg.jpg
 ---
 
 <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
