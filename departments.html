@@ -15,26 +15,25 @@ permalink: /departments/
 
 <div class="container mtb">
     <div class="row">
+        
+        <div class="hline"></div>
+        
+        <div class="col-lg-6">
+            <a href="/cs/">
+                <img src="/assets/img/departments/compsciImg.jpg" style="width:600px;height:500px">
+            </a>
+        </div><!--/col-lg-6-->
 
-        {% for post in site.categories['departments'] %}
-            <div class="col-lg-6">
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <img class="img-responsive" src="{{ "/assets/img/departments/" | prepend: site.baseurl }}{{ post.img }}">
-                </a>
-            </div><!--/col-lg-5-->
-
-            <div class="col-lg-6">
-                <div class="hline"></div>
-                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-                {{ post.excerpt }}
-                <p><a href="{{ post.url | prepend: site.baseurl }}">[Visit The Department]</a></p>
+        <div class="col-lg-6">
+            <a href="/cs/"><h3 class="ctitle">COMPUTER SCIENCE</h3></a>
+            <pr>Discover and Interact with the tech-engulfed community that is our department of Computer Science.</pr>
+            <p><a href="/cs/">[Visit The Department]</a></p>
                 
-                <div class="spacing"></div>
-                <div class="hline"></div>
-                <div class="spacing"></div>
-            </div><!--/col-lg-5-->
-            <div class="spacing"></div><div class="spacing"></div><div class="spacing"></div>
-        {% endfor %}
+            <div class="spacing"></div>
+            <div class="hline"></div>
+            <div class="spacing"></div>
+        </div><!--/col-lg-5-->
+        <div class="spacing"></div><div class="spacing"></div><div class="spacing"></div>
 
     </div><! --/row -->
 </div><! --/container -->
