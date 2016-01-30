@@ -14,10 +14,10 @@
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         <li {% if page.title == "Departments" %}class="active"{% endif %}>
-          <a href="{{"/departments/" | prepend: site.baseurl }}"><div class="dropdown btn-theme">DEPARTMENTS</div></a></li>
-          <div class="dropdown-content">
+          <a href="{{"/departments/" | prepend: site.baseurl }}"><div class="btn-theme">DEPARTMENTS</a></li>
+          <div class="dropdown-content dropdown">
             <a href="#">Link 1</a><a href="#">Link 2</a>
-            <a href="#">Link 3</a></div>
+            <a href="#">Link 3</a></div></div>
         
         <!--<div class="dropdown"><li {% if page.title == "Departments" %}class="active"{% endif %} class="dropbtn">-->
         <!--  <a href="{{"/departments/" | prepend: site.baseurl }}">-->
