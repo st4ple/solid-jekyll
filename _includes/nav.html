@@ -10,10 +10,10 @@
       </button>
       <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>
     </div>
-    <div class="navbar-collapse collapse navbar-right dropdown">
+    <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
-        <li {% if page.title == "Departments" %}class="active dropbtn"{% endif %}>
+        <li {% if page.title == "Departments" %}class="active dropbtn dropdown"{% endif %}>
           <a href="{{"/departments/" | prepend: site.baseurl }}">DEPARTMENTS</a></li>
           <div class="dropdown-content">
             <a href="#">Link 1</a><a href="#">Link 2</a>
