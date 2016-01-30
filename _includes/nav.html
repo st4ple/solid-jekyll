@@ -13,11 +13,11 @@
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
-        <li {% if page.title == "Departments" %}class="active dropbtn dropdown"{% endif %}>
+        <div class="dropdown"><li {% if page.title == "Departments" %}class="active dropbtn"{% endif %}>
           <a href="{{"/departments/" | prepend: site.baseurl }}">DEPARTMENTS</a></li>
           <div class="dropdown-content">
             <a href="#">Link 1</a><a href="#">Link 2</a>
-            <a href="#">Link 3</a></div>
+            <a href="#">Link 3</a></div></div>
         
         <!--<div class="dropdown"><li {% if page.title == "Departments" %}class="active"{% endif %} class="dropbtn">-->
         <!--  <a href="{{"/departments/" | prepend: site.baseurl }}">-->
