@@ -15,19 +15,11 @@
         <li {% if page.title == "Home" %}class="active dropdown"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         <li {% if page.title == "Departments" %}class="active dropdown"{% endif %} class="dropdown"<span class="dropbtn dropdown"><a href="{{"/departments"/" | prepend: site.baseurl }}">DEPARTMENTS</span></a>
             <div class="dropdown-content dropdown">
-				      <a href="/cs">COMPUTER SCIENCE</a>
-				      <a href="#">BIOLOGY</a>
-				      <a href="#">MATHEMATICS</a>
-			      </div>
-	  	  </li>
-        
-        <!--<div class="dropdown"><li {% if page.title == "Departments" %}class="active"{% endif %} class="dropbtn">-->
-        <!--  <a href="{{"/departments/" | prepend: site.baseurl }}">-->
-        <!--    <span class="dropbtn">DEPARTMENTS</span>-->
-        <!--    </a></li><div class="dropdown-content">-->
-        <!--    <a href="#">Link 1</a><a href="#">Link 2</a>-->
-        <!--    <a href="#">Link 3</a></div></div>-->
-        
+            <a href="/cs">COMPUTER SCIENCE</a>
+            <a href="#">BIOLOGY</a>
+            <a href="#">MATHEMATICS</a>
+            </div>
+            </li>
         <li {% if page.title == "Blog" %}class="active dropdown"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">NEWS	&#38; ANNOUNCEMENTS</a></li>
         <li {% if page.title == "People" %}class="active dropdown"{% endif %}><a href="{{"/people/" | prepend: site.baseurl }}">PEOPLE</a></li>
         <li {% if page.title == "Contact" %}class="active dropdown"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">ALUMNI</a></li>
