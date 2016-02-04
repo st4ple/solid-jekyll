@@ -11,21 +11,61 @@ img: post01.jpg
 thumb: thumb01.jpg
 ---
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+# Creative Process
 
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <!--more-->
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Especially when working with friends & non-profit organizations, regardless if it is pro-bono work or paid work, the professional process needs to be followed.
 
-Contrary to popular belief, <b>Lorem Ipsum is not simply random text</b>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<
+When you (the client) take the time to fill out the questionnaire, we can both be certain that each other understands the project’s goals and history. As a brand designer, it is my job to provide the perfect solution for your company and ask the right questions. And as a representative of your company, your job is to educate me on your company goals and needs. This questionnaire also helps me to know that I am working with someone who cares about their brand as much as I will.
 
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+I like to be passionate about the projects I take on, and will only produce work based on my skills and expertise not someone else’s. I will utilize my skills in brand development and research, to provide a brand that will equally meet your company goals, fulfill your platform/product requirements, position you properly, reach your audience, and give you a competitive edge in your industry.
 
-####Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+In other words, If you just need a technical illustrator to vectorize your sketches, I may not be the right guy for you.
 
+This is how things roll.
 
->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+### 1. Foundation
+__a. Questionnaire__
+This is the most important phase of any project. It will ensure steady progress and remove the chance for the project to collapse by asking questions about the project goals and objectives in detail.
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+It will also keep us on check and ensures the objectives are met, and a project timeline is built.
 
-[hampden]: https://github.com/jekyll/jekyll
+This must happen on written form, not through Skype or phone. Both parties must have a clear understanding of the project goals written down to avoid clouding of expectations and objectives as the process moves along.
+
+Cost of service/product is not discussed prior to this stage, since it is impossible to value the project.
+
+__b. Follow-up__
+After completion of the questionnaire, you will be contacted to discuss your answers and the project in detail, and take notes of  special project requirements. From this stage we create a contract.
+
+__c. Contract Agreement__
+Once the contract has been reviewed and accepted, it is to be signed and returned along with the initial deposit. This is when you leave me the keys—in a sense—and also when the design process begins.
+
+### 2. Preparation
+Here, I spend time doing research on your target audience and competitors/heroes. Things that can help differentiate you from the rest, yet reach your goals and audience will be taken into consideration. This will fuel the next step.
+
+### Incubation
+This is the process that helps me internalize your design. Initial ideas are explored and as the goals and research simmer in, they influence the direction of the design. Many iterations of different ideas are sketched during this time.
+
+_Nope, you can’t see this. If the client interacts with the result of this process, I must start again, and it will be an endless loop. I can’t expect you to envision the best result, so I can’t let you worry at this point._
+
+### Intimation
+Out of all the possible directions, I select two or three of the best concepts for further exploration and fine-tuning. Again, creativity is not limited at this stage and another round of sketching takes place all while keeping the project goals in mind.
+
+_Nope, you can’t see this either. This is where the client wants a longer line, and a bigger circle, and a smaller font, and often slaughter a design by removing the design fluidity necessary for legibility, mobile sizing, and print and digital medium requirements, which I’m spending hours to analyze and refine._
+
+### Illumination
+This is where “The One” is found. At this point, a direction is chosen based on my expertise and the project’s goals. A cleaned up version of the sketch is re-drawn with guidelines to adjust spacing issues, curves and angles. More or less, this is what the final will look like excluding some minor changes.
+
+_You guessed it, can’t see it either. You’ll see it soon._
+
+### Verification
+The idea and solution is consciously verified, elaborated and applied to all deliverables
+
+__8. Digitalization__
+The final sketch is scanned and traced using vector-based software. Any last minute adjustments or tweaks will be made accordingly.
+
+__9. Final Artwork__
+With the artwork digitally traced, color is explored while keeping the goals, research findings and target audience in mind. Everything from size, spacing and alignment are all carefully considered based on the type of application(s) the artwork will be used on.
+
+### Delivery
+__10. Presentation & Deliverables__
+The final artwork is supplied along with a presentation documenting the creative process and pilgrimage of your new brand with every design decision that I made. Upon delivery, the final invoice will also be sent and the source file(s) will then be emailed after the payment has been made.
