@@ -42,53 +42,30 @@ permalink: /cs/
                 </p>
             </div>
         </div><!--row-centered-->
-        
-        
-        <div class="row centered">
-        <div class="col-lg-3">
-            <h4>Latest News And Events</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
-        </div>
-        
-        <div class="col-lg-4 col-lg-offset-1">
-            <h4><a href="#">More About Our Department</a></h4>
-        </div>
-
-        <div class="col-lg-3">
-            <h4>Looking For Us Geeks? Find Us Here.</h4>
-            <div class="hline"></div>
-            <a href="#">Place Link To Departmental Whereabouts Here</a>
-        </div>
-
-    </div><!--/row -->
-    
-    
     </div><!--/container -->
-</div><!--/service -->
 
 
-<!--<div class="container mtb">-->
-<!--    <div class="row">-->
-<!--        <div class="col-lg-3">-->
-<!--            <h4>Latest News And Events</h4>-->
-<!--            <div class="hline"></div>-->
-<!--            {% for post in site.categories['blog'] limit:5 %} -->
-<!--                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>-->
-<!--            {% endfor %} -->
-<!--        </div>-->
+
+    <div class="container mtb">
+        <div class="row">
+            <div class="col-lg-3">
+                <h4>Latest News And Events</h4>
+                <div class="hline"></div>
+                {% for post in site.categories['blog'] limit:5 %} 
+                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                {% endfor %} 
+            </div>
         
-<!--        <div class="col-lg-4 col-lg-offset-1">-->
-<!--            <h4><a href="#">More About Our Department</a></h4>-->
-<!--        </div>-->
+            <div class="col-lg-4 col-lg-offset-1">
+                <h4><a href="#">More About Our Department</a></h4>
+            </div>
 
-<!--        <div class="col-lg-3">-->
-<!--            <h4>Looking For Us Geeks? Find Us Here.</h4>-->
-<!--            <div class="hline"></div>-->
-<!--            <a href="#">Place Link To Departmental Whereabouts Here</a>-->
-<!--        </div>-->
+            <div class="col-lg-3">
+                <h4>Looking For Us Geeks? Find Us Here.</h4>
+                <div class="hline"></div>
+                <a href="#">Place Link To Departmental Whereabouts Here</a>
+            </div>
+        </div><!--/row-->
+    </div><!--/container-->
 
-<!--    </div><!--/row -->
-<!--</div><!--/container -->
+</div><!--/service -->
