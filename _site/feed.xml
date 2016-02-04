@@ -1,12 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+
+    <title>Eric Tirado</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <!--<link rel="stylesheet" href="/css/main.css">-->
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+    <body>
+        <!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Eric Tirado</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li ><a href="/">HOME</a></li>
+        <li ><a href="/blog/">BLOG</a></li>
+        <!-- <li ><a href="/portfolio/">PORTFOLIO</a></li> -->
+        <!-- <li ><a href="/about/">ABOUT</a></li> -->
+        <li ><a href="/hire/">HIRE ME</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+
+            <div id="blue">
+    <div class="container">
+        <div class="row">
+            <h3></h3>
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /blue -->
+
+
+    <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eric Tirado</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>/site/</link>
-    <atom:link href="/site/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Feb 2016 10:13:03 -0500</pubDate>
-    <lastBuildDate>Thu, 04 Feb 2016 10:13:03 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 04 Feb 2016 13:27:26 -0500</pubDate>
+    <lastBuildDate>Thu, 04 Feb 2016 13:27:26 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -73,8 +142,8 @@
 &lt;p&gt;The final artwork is supplied along with a presentation documenting the creative process and pilgrimage of your new brand with every design decision that I made. Upon delivery, the final invoice will also be sent and the source file(s) will then be emailed after the payment has been made.&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jan 2016 11:54:46 -0500</pubDate>
-        <link>/site/blog/professionalism/branding/my-creative-process</link>
-        <guid isPermaLink="true">/site/blog/professionalism/branding/my-creative-process</guid>
+        <link>/blog/professionalism/branding/my-creative-process</link>
+        <guid isPermaLink="true">/blog/professionalism/branding/my-creative-process</guid>
         
         
         <category>blog</category>
@@ -94,8 +163,8 @@
 &lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
-        <link>/site/project/your-project-name</link>
-        <guid isPermaLink="true">/site/project/your-project-name</guid>
+        <link>/project/your-project-name</link>
+        <guid isPermaLink="true">/project/your-project-name</guid>
         
         
         <category>project</category>
@@ -111,8 +180,8 @@
 &lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
-        <link>/site/project/your-project-name</link>
-        <guid isPermaLink="true">/site/project/your-project-name</guid>
+        <link>/project/your-project-name</link>
+        <guid isPermaLink="true">/project/your-project-name</guid>
         
         
         <category>project</category>
@@ -128,8 +197,8 @@
 &lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
-        <link>/site/project/your-project-name</link>
-        <guid isPermaLink="true">/site/project/your-project-name</guid>
+        <link>/project/your-project-name</link>
+        <guid isPermaLink="true">/project/your-project-name</guid>
         
         
         <category>project</category>
@@ -145,8 +214,8 @@
 &lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
-        <link>/site/project/your-project-name</link>
-        <guid isPermaLink="true">/site/project/your-project-name</guid>
+        <link>/project/your-project-name</link>
+        <guid isPermaLink="true">/project/your-project-name</guid>
         
         
         <category>project</category>
@@ -162,8 +231,8 @@
 &lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
-        <link>/site/project/your-project-name</link>
-        <guid isPermaLink="true">/site/project/your-project-name</guid>
+        <link>/project/your-project-name</link>
+        <guid isPermaLink="true">/project/your-project-name</guid>
         
         
         <category>project</category>
@@ -179,8 +248,8 @@
 &lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
-        <link>/site/project/your-project-name</link>
-        <guid isPermaLink="true">/site/project/your-project-name</guid>
+        <link>/project/your-project-name</link>
+        <guid isPermaLink="true">/project/your-project-name</guid>
         
         
         <category>project</category>
@@ -196,8 +265,8 @@
 &lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
-        <link>/site/project/your-project-name</link>
-        <guid isPermaLink="true">/site/project/your-project-name</guid>
+        <link>/project/your-project-name</link>
+        <guid isPermaLink="true">/project/your-project-name</guid>
         
         
         <category>project</category>
@@ -213,8 +282,8 @@
 &lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
-        <link>/site/project/your-project-name</link>
-        <guid isPermaLink="true">/site/project/your-project-name</guid>
+        <link>/project/your-project-name</link>
+        <guid isPermaLink="true">/project/your-project-name</guid>
         
         
         <category>project</category>
@@ -230,8 +299,8 @@
 &lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
-        <link>/site/project/your-project-name</link>
-        <guid isPermaLink="true">/site/project/your-project-name</guid>
+        <link>/project/your-project-name</link>
+        <guid isPermaLink="true">/project/your-project-name</guid>
         
         
         <category>project</category>
@@ -240,3 +309,138 @@
     
   </channel>
 </rss>
+
+
+
+        <div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h4>About</h4>
+                <div class="hline-w"></div>
+                <p>Eric Tirado is a Web Developer, Hand Letterer, Designer, Online Teacher and a Christ follower. He just got married to a wonderful woman, and is in the process of rebuilding his online precense. Go to the contact page if you're looking to hire him.</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Social Links</h4>
+                <div class="hline-w"></div>
+                <p>
+                    
+                        <a href="iamtirado" class="btn-social btn-outline"><i class="fa fa-dribbble"></i></a>
+                    
+                        <a href="iamtirado" class="btn-social btn-outline"><i class="fa fa-facebook"></i></a>
+                    
+                        <a href="iamtirado" class="btn-social btn-outline"><i class="fa fa-twitter"></i></a>
+                    
+                        <a href="iamtirado" class="btn-social btn-outline"><i class="fa fa-instagram"></i></a>
+                    
+                        <a href="iamtirado" class="btn-social btn-outline"><i class="fa fa-tumblr"></i></a>
+                    
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Our Bunker</h4>
+                <div class="hline-w"></div>
+                <p>
+                    
+                        Orlando, FL <br>
+                    
+                        United States. <br>
+                    
+                </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/retina-1.1.0.js"></script>
+<script src="/assets/js/jquery.hoverdir.js"></script>
+<script src="/assets/js/jquery.hoverex.min.js"></script>
+<script src="/assets/js/jquery.prettyPhoto.js"></script>
+<script src="/assets/js/jquery.isotope.min.js"></script>
+<script src="/assets/js/custom.js"></script>
+
+<script>
+// Portfolio
+(function($) {
+	"use strict";
+	var $container = $('.portfolio'),
+		$items = $container.find('.portfolio-item'),
+		portfolioLayout = 'fitRows';
+		
+		if( $container.hasClass('portfolio-centered') ) {
+			portfolioLayout = 'masonry';
+		}
+				
+		$container.isotope({
+			filter: '*',
+			animationEngine: 'best-available',
+			layoutMode: portfolioLayout,
+			animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false
+		},
+		masonry: {
+		}
+		}, refreshWaypoints());
+		
+		function refreshWaypoints() {
+			setTimeout(function() {
+			}, 1000);   
+		}
+				
+		$('nav.portfolio-filter ul a').on('click', function() {
+				var selector = $(this).attr('data-filter');
+				$container.isotope({ filter: selector }, refreshWaypoints());
+				$('nav.portfolio-filter ul a').removeClass('active');
+				$(this).addClass('active');
+				return false;
+		});
+		
+		function getColumnNumber() { 
+			var winWidth = $(window).width(), 
+			columnNumber = 1;
+		
+			if (winWidth > 1200) {
+				columnNumber = 5;
+			} else if (winWidth > 950) {
+				columnNumber = 4;
+			} else if (winWidth > 600) {
+				columnNumber = 3;
+			} else if (winWidth > 400) {
+				columnNumber = 2;
+			} else if (winWidth > 250) {
+				columnNumber = 1;
+			}
+				return columnNumber;
+			}       
+			
+			function setColumns() {
+				var winWidth = $(window).width(), 
+				columnNumber = getColumnNumber(), 
+				itemWidth = Math.floor(winWidth / columnNumber);
+				
+				$container.find('.portfolio-item').each(function() { 
+					$(this).css( { 
+					width : itemWidth + 'px' 
+				});
+			});
+		}
+		
+		function setPortfolio() { 
+			setColumns();
+			$container.isotope('reLayout');
+		}
+			
+		$container.imagesLoaded(function () { 
+			setPortfolio();
+		});
+		
+		$(window).on('resize', function () { 
+		setPortfolio();          
+	});
+})(jQuery);
+</script>
+    </body>
+</html>
