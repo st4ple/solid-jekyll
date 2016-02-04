@@ -5,8 +5,7 @@ date: 2014-04-25 16:54:46
 author: Admin
 categories:
 - blog
-- Wordpress
-- Photoshop
+- Professionalism
 img: post01.jpg
 thumb: thumb01.jpg
 ---
@@ -16,7 +15,9 @@ thumb: thumb01.jpg
 Especially when working with friends & non-profit organizations, regardless if it is pro-bono work or paid work, the professional process needs to be followed.
 
 When you (the client) take the time to fill out the questionnaire, we can both be certain that each other understands the project’s goals and history. As a brand designer, it is my job to provide the perfect solution for your company and ask the right questions. And as a representative of your company, your job is to educate me on your company goals and needs. This questionnaire also helps me to know that I am working with someone who cares about their brand as much as I will.
+
 <!--more-->
+
 I like to be passionate about the projects I take on, and will only produce work based on my skills and expertise not someone else’s. I will utilize my skills in brand development and research, to provide a brand that will equally meet your company goals, fulfill your platform/product requirements, position you properly, reach your audience, and give you a competitive edge in your industry.
 
 In other words, If you just need a technical illustrator to vectorize your sketches, I may not be the right guy for you.
