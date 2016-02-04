@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: Contact
+title: Questionnaire
 permalink: /contact/
 ---
 
@@ -9,10 +9,14 @@ permalink: /contact/
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-8">
-            <h4>Just Get In Touch!</h4>
+            <h4>Project Questionnaire</h4>
             <div class="hline"></div>
-                <p>{{ site.about }}</p>
+                <p>{{ site.questionnaire }}</p>
                 <form role="form">
+                  <div class="form-group">
+                    <label for="InputName1">Your Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                  </div>
                   <div class="form-group">
                     <label for="InputName1">Your Name</label>
                     <input type="text" class="form-control" id="exampleInputName1">
@@ -34,16 +38,17 @@ permalink: /contact/
         </div><! --/col-lg-8 -->
 
         <div class="col-lg-4">
-            <h4>Our Address</h4>
+            <h4>Where I'm at</h4>
             <div class="hline"></div>
                 <p>
+                    EST Time Zone <br>
                     {% for line in site.address.first.lines %}
                         {{ line }} <br>
                     {% endfor %}
                 </p>
                 <p>
                     Email: {{ site.email }}<br/>
-                    Tel: {{ site.tel }}
+                    <!-- Tel: {{ site.tel }} -->
                 </p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
         </div>
