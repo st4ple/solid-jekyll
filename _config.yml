@@ -28,8 +28,8 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  #- title: youtube
-    #url: https://www.youtube.com/channel/UCbx0K0paV95EJjYbMj5dTUw/playlists?view_as=public
+  - title: youtube
+    url: https://www.youtube.com/channel/UCrbJDDPfYpXJwSjoP-cnhBQ
  # - title: facebook
 #    url: https://www.facebook.com/jessica.mack.969
   - title: twitter
