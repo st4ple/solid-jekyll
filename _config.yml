@@ -40,8 +40,8 @@ social:
     url: https://www.pinterest.com/jessmack678/boards/
   - title: instagram
     url: https://www.instagram.com/ebonyxscape/
-  - title: linkedin
-    url: https://www.linkedin.com/in/mackjessica
+ # - title: linkedin
+  #  url: https://www.linkedin.com/in/mackjessica
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 #address:
