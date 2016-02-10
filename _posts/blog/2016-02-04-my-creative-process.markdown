@@ -11,7 +11,7 @@ img: post01.jpg
 thumb: thumb01.jpg
 ---
 
-When you (the client) take the time to fill out the questionnaire, we can both be certain that each other understands the project’s goals and history. As a brand designer, it is my job to provide the perfect solution for your company and ask the right questions. And as a representative of your company, your job is to educate me on your company goals and needs. This questionnaire also helps me to know that I am working with someone who cares about their brand as much as I will.
+When you (the client) take the time to fill out [the questionnaire](http://erictirado.com/hire), we can both be certain that each other understands the project’s goals and history. As a brand designer, it is my job to provide the perfect solution for your company and ask the right questions. And as a representative of your company, your job is to educate me on your company goals and needs. This questionnaire also helps me to know that I am working with someone who cares about their brand as much as I will.
 
 <!--more-->
 
