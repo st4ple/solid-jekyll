@@ -6,17 +6,11 @@
     <div class="spacing"></div>
     <ul class="nav nav-pills nav-stacked" role="tablist">
         <li {% if page.title == "Computer Science Home" %}class="active"{% endif %}><a href="/cs/">HOME</a></li>
-        <li {% if page.title == "Programmes" %}class="active dropdown"{% endif %}><a href="/cs/programmes.html">Study Programmes</a></li>
+        <li {% if page.title == "Programmes" %}class="active dropdown"{% endif %}><a href="/cs/programmes.html">Programmes of Study</a></li>
         <li {% if page.title == "Alliances" %}class="active dropdown"{% endif %}><a href="/cs/alliances.html">Alliances</a></li>
-        <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-            Some Dropdown Tab<span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Some Sub Link</a></li>
-                <li><a href="#">Some Sub Link</a></li>
-                <li><a href="#">Some Sub Link</a></li>
-            </ul>
-        </li>
+        <li {% if page.title == "Staff" %}class="active dropdown"{% endif %}><a href="/cs/staff.html">People</a></li>
+        <li {% if page.title == "Research" %}class="active dropdown"{% endif %}><a href="/cs/research.html">Research</a></li>
+        <li {% if page.title == "About Us" %}class="active dropdown"{% endif %}><a href="/cs/about_cs.html">About</a></li>
     </ul>
     
     <div class="hline"></div>
