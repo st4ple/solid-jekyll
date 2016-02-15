@@ -5,7 +5,7 @@
     <div class="hline"></div>
     <div class="spacing"></div>
     <ul class="nav nav-pills nav-stacked" role="tablist">
-        <li class="active"><a href="/cs/">HOME</a></li>
+        <li {% if page.title == "Computer Science Home" %}class="active"{% endif %}><a href="/cs/">HOME</a></li>
         <li><a href="#">Department Tab 1</a></l
         <li><a href="#">Department Tab 2</a></li>
         <li><a href="#">Department Tab 3</a></li>
@@ -19,7 +19,7 @@
             </ul>
         </li>
         <li><a href="#">Department Tab 5</a></li>
-        <li><a href="/cs/programme.html">Programme</a></li>
+        <li {% if page.title == "Programmes" %}class="active dropdown"{% endif %}><a href="/cs/programmes.html">Study Programmes</a></li>
         <li {% if page.title == "Alliances" %}class="active dropdown"{% endif %}><a href="/cs/alliances.html">*Alliances*</a></li>
         <li><a href="#">Department Tab 8</a></li>
         <li class="dropdown">
