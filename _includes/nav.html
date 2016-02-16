@@ -13,14 +13,15 @@
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active dropdown"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
-        <li {% if page.title == "Departments" %}class="active dropdown"{% endif %} class="dropdown"<span class="dropbtn dropdown">
-          <a href="{{"/departments"/" | prepend: site.baseurl }}">DEPARTMENTS</span></a>
-            <div class="dropdown-content dropdown">
-            <a href="/cs">COMPUTER SCIENCE</a>
-            <a href="#">BIOLOGY</a>
-            <a href="#">MATHEMATICS</a>
-            </div>
-            </li>
+        <li {% if page.title == "Departments" %}class="active dropdown"{% endif %} class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="{{"/departments/" | prepend: site.baseurl }}">
+          DEPARTMENTS<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/cs">COMPUTER SCIENCE</a></li>
+              <li><a href="#">BIOLOGY</a></li>
+              <li><a href="#">MATHEMATICS</a></li>
+            </ul>
+          </li>
         <li {% if page.title == "Blog" %}class="active dropdown"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">NEWS	&#38; ANNOUNCEMENTS</a></li>
         <li {% if page.title == "People" %}class="active dropdown"{% endif %}><a href="{{"/people/" | prepend: site.baseurl }}">PEOPLE</a></li>
         <li {% if page.title == "Contact" %}class="active dropdown"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">ALUMNI</a></li>
