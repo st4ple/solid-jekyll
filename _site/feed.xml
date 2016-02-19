@@ -49,6 +49,7 @@
       <ul class="nav navbar-nav">
         <li ><a href="/">HOME</a></li>
         <li ><a href="/blog/">BLOG</a></li>
+        <li ><a href="/process/">PROCESS</a></li>
         <!-- <li ><a href="/portfolio/">PORTFOLIO</a></li> -->
         <!-- <li ><a href="/about/">ABOUT</a></li> -->
         <li ><a href="/hire/">HIRE ME</a></li>
@@ -74,8 +75,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 19 Feb 2016 09:29:08 -0500</pubDate>
-    <lastBuildDate>Fri, 19 Feb 2016 09:29:08 -0500</lastBuildDate>
+    <pubDate>Fri, 19 Feb 2016 09:56:52 -0500</pubDate>
+    <lastBuildDate>Fri, 19 Feb 2016 09:56:52 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
