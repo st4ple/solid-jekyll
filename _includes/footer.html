@@ -11,12 +11,12 @@
                 <div class="hline-w"></div>
                 <p>
                     {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                        <a href="{{ network.url }}" target="_blank" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
                     {% endfor %}
                 </p>
             </div>
             <div class="col-lg-4">
-                <h4>Our Bunker</h4>
+                <h4>Find Me</h4>
                 <div class="hline-w"></div>
                 <p>
                     {% for line in site.address.first.lines %}
@@ -24,6 +24,6 @@
                     {% endfor %}
                 </p>
             </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+        </div><!--/row -->
+    </div><!--/container -->
+</div><!--/footerwrap -->
