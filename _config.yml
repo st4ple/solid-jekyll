@@ -38,6 +38,7 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
+    - Probably at Analog Coffee
     - Seattle, WA
     - United States.
 email: erinresso@gmail.com
@@ -70,7 +71,7 @@ members:
   #   img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Erin Resso makes things."
+about: "Not a n00b. Not yet a master."
 
 # Testimonial content. Shown on Home and About page.
 # testimonial:
