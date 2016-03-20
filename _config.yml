@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
+title: CityPlanningTechnician.Com
 description: "A website dedicated to mapping and GIS and Chuck Thomas portfolio."
 analytics: UA-50546869-2
 baseurl: "/" #important: start with /
@@ -26,25 +26,25 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
+  - title: linkedin
+    url: cleroythomas
   - title: facebook
-    url:
+    url:https://www.facebook.com/chuck.leroy.thomas
   - title: twitter
-    url: 
+    url: cleroythomas
   - title: instagram
-    url: 
-  - title: tumblr
+    url: cleroythomas
+  - title: 
     url: 
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
     - Some Ave, 987,
-    - 23890, New York,
+    - 77009, Houston,
     - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+email: cleroythomas@gmail.com
+tel: +(404) 926-6235
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
