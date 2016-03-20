@@ -2,9 +2,9 @@
 
 # Site settings
 title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "A website dedicated to mapping and GIS and Chuck Thomas portfolio."
 analytics: UA-50546869-2
-baseurl: "/solid-jekyll" #important: start with /
+baseurl: "/" #important: start with /
 url: "http://cityplanningtechnician.github.io"
 
 # Build settings
