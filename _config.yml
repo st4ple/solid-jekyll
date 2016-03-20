@@ -4,7 +4,7 @@
 title: CityPlanningTechnician.Com
 description: "A website dedicated to mapping and GIS and Chuck Thomas portfolio."
 analytics: UA-50546869-2
-baseurl: "/" #important: start with /
+baseurl: "" #important: start with /
 url: "http://cityplanningtechnician.github.io"
 
 # Build settings
@@ -29,7 +29,7 @@ social:
   - title: linkedin
     url: cleroythomas
   - title: facebook
-    url:https://www.facebook.com/chuck.leroy.thomas
+    url: https://www.facebook.com/chuck.leroy.thomas
   - title: twitter
     url: cleroythomas
   - title: instagram
@@ -51,9 +51,9 @@ tel: +(404) 926-6235
     
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
+  - name: Chuck Thomas
     position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    text: Urban Planner / GIS Expert / Web Developer
     img: team01.jpg
     social:
       - title: envelope #use for email address
