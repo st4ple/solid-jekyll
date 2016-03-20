@@ -4,7 +4,7 @@
 title: CityPlanningTechnician.Com
 description: "A website dedicated to mapping and GIS and Chuck Thomas portfolio."
 analytics: UA-50546869-2
-baseurl: "" #important: start with /
+baseurl: "http://cityplanningtechnician.github.io" #important: start with /
 url: "http://cityplanningtechnician.github.io"
 
 # Build settings
