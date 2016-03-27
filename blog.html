@@ -10,11 +10,11 @@ permalink: /blog/
         <! -- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
-            {% for post in site.categories['blog'] %}
+            {% for post in site.posts %}
                 <! -- Blog Post -->
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
-                </a>    
+                </a>
                 <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
                 <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
                 {{ post.excerpt }}
