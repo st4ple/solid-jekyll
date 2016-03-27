@@ -13,15 +13,23 @@ permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031" 
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  primary: "#00b3fe" #"#F70031"
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
   secondary: "#384452" #"#33004D"
   link: "#428bca"
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
-  
-  
+
+# Making projects separate from posts
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+  questions:
+    output: true
+    permalink: /questions/:title/
+
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
@@ -31,15 +39,15 @@ social:
   - title: facebook
     url:
   - title: twitter
-    url: 
+    url:
   - title: instagram
-    url: 
+    url:
   - title: tumblr
-    url: 
-    
+    url:
+
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
-  - lines: 
+  - lines:
     - Some Ave, 987,
     - 23890, New York,
     - United States.
@@ -48,7 +56,7 @@ tel: +34 8493-4893
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
+
 # Members information. Shown on About page.
 members:
   - name: Mark Webber
@@ -87,7 +95,7 @@ members:
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
-    
+
 # Clients information. Shown on Home and About pages.
 clients:
   - name: dribbble
@@ -98,11 +106,11 @@ clients:
     img: client03.png
   - name: VimeoPro
     img: client04.png
-    
+
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 
-# Testimonial content. Shown on Home and About page. 
+# Testimonial content. Shown on Home and About page.
 testimonial:
     message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
     author: Marcel Newman

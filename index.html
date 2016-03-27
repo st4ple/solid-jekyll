@@ -24,7 +24,7 @@ permalink: /
                 <h4>Quality Theme</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>		 				
+            </div>
         </div>
     </div><! --/container -->
 </div><! --/service -->
@@ -42,17 +42,17 @@ permalink: /
         <div class="col-lg-3">
             <h4>Frequently Asked</h4>
             <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            {% for question in site.questions %}
+                <p><a href="{{ question.url | prepend: site.baseurl }}">{{ question.title }}</a></p>
             {% endfor %}
         </div>
 
         <div class="col-lg-3">
             <h4>Latest Posts</h4>
             <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
+            {% for post in site.posts limit:5 %}
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
+            {% endfor %}
         </div>
 
     </div><! --/row -->
