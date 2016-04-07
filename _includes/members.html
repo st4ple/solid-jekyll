@@ -5,7 +5,7 @@
         {% for member in site.members %}
         <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
+            <img class="staff_img" src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
                 <div class="he-view">
                     <div class="bg a0" data-animate="fadeIn">
                         <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
@@ -19,10 +19,10 @@
             <h5 class="ctitle">{{ member.position }}</h5>
             <p>{{ member.text }}</p>
             <div class="hline"></div>
-        </div><! --/col-lg-3 -->	 	
+        </div><!--/col-lg-3 -->	 	
         {% endfor %}
         
-    </div><! --/row -->
+    </div><!--/row -->
     
     <p style="text-align:center"><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">Meet More Staff</a></p>
 
