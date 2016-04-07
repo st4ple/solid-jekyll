@@ -20,7 +20,10 @@
 		margin: 0;
 		padding: 0px;
 	} 
-
+.staff_img{
+	height: 100px;
+	width: 100px;
+}
 body { 
 	background: #ffffff; 
 	margin: 0; 
