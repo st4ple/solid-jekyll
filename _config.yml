@@ -62,18 +62,18 @@ members:
     img: DEAN.jpg
     social:
       - title: envelope #use for email address
-        url: Deanscience@mopipi.ub.bw
+        url: mailto:Deanscience@mopipi.ub.bw
       - title: user
         url: http://www.ub.bw/content/id/2559/pid/2082/ac/1/fac/1/dep/79/Prof-M.P-Modisi/
   - name: Prof.B.Moseki
     position: Deputy Dean, Faculty of Science
     text: BSc (UB), M.Phil (Aberdeen), PhD (Essex)
-    img: Unknown.jpg
+    img: user.png
     social:
       - title: envelope #use for email address
-        url: mosekib@mopipi.ub.bw
+        url: mailto:mosekib@mopipi.ub.bw
       - title: user
-        url: http://twitter.com/handle
+        url: creationhub.github.io
   - name: L.M. Paledi
     position: Faculty Administrator
     text: BA, MPA (UB)
@@ -82,16 +82,16 @@ members:
       - title: envelope #use for email address
         url:  paledi@mopipi.ub.bw
       - title: user
-        url: http://twitter.com/handle
+        url: creationhub.github.io
   - name: P.G. Morapedi
     position: Manager, Human Resources
     text: BA + PGDE (UB), MSc (Hr+ER) (Brunel University)
-    img: Unknown.jpg
+    img: user.png
     social:
       - title: envelope #use for email address
-        url: morapedip@mopipi.ub.bw
+        url: mailto:morapedip@mopipi.ub.bw
       - title: user
-        url: http://twitter.com/handle
+        url: creationhub.github.io
     
 # Clients information. Shown on Home and About pages.
 clients:
