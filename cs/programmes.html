@@ -8,7 +8,8 @@ permalink: /cs/programmes.html/
         
   <div class="row centered">
         <!--Content Should Go Here-->
-        <div class="col-lg-8">
+        {% for courses in site.programmes %}
+                <div class="col-lg-8">
                 <h1><a href="#pat" id="pat">PROGRAMMES AND TITLES</a></h1>
                 </br>
                 <p>The Department of Computer Science offers the following undergraduate and postgraduate programmes:
@@ -27,7 +28,7 @@ permalink: /cs/programmes.html/
                                 </div>
                                 <div class="collapse panel-collapse" id="cla1">
                                         <div class="panel-body">
-                                                {% include cs_courses.html %}
+                                                {{ cs_courses.cs }}
                                         </div>
                                 </div>
                         </div>
@@ -155,6 +156,7 @@ permalink: /cs/programmes.html/
                         </div>
                 </div>
         </div>
+        {% endfor %}
         
         <!--column lenght 8-->
         
