@@ -16,7 +16,7 @@ permalink: /cs/programmes.html/
                 Single major programme leading to the award of:
                 </p>
                 </br>
-                {% for courses in site._includes.cs_courses %}
+                <!--{% for courses in site._includes.cs_courses %}-->
                         <h3><a href="#ugp" id="ugp">BACHELOR OF SCIENCE(UNDERGRADUATE PROGRAMMES)</a></h3>
                         <div class="panel-group" id="accordian">
                                 <div class="panel panel-default">
@@ -27,7 +27,7 @@ permalink: /cs/programmes.html/
                                         </div>
                                         <div class="collapse panel-collapse" id="cla1">
                                                 <div class="panel-body">
-                                                        {{ cs_courses.cs }}
+                                                        {% include cs_courses.html %}
                                                 </div>
                                         </div>
                                 </div>
@@ -154,7 +154,7 @@ permalink: /cs/programmes.html/
                                         </div>
                                 </div>
                         </div>
-                {% endfor %}
+                <!--{% endfor %}-->
         </div>
         
         <!--column lenght 8-->
