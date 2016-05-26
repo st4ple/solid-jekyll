@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
+title: Code Your Day
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
@@ -26,24 +26,23 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
+  - title: github
+    url:   http://github.com/CodeYourDay
   - title: facebook
-    url:
-  - title: twitter
-    url: 
+    url:   http://www.facebook.com/elviraduraskovic
+  - title: youtube
+    url:   http://www.youtube.com/channel/UC1FVB3ELCDBktGUFDD_260g
   - title: instagram
-    url: 
-  - title: tumblr
-    url: 
+    url:   http://www.instagram.com
+
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
+    - My Residency
+    - 51550 Mali Losinj
+    - Croatia
+email: codeyourday@gmail.com
 tel: +34 8493-4893
 
 
@@ -100,7 +99,7 @@ clients:
     img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: <a href="/about/">For more about me click on me :-)</a>
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
