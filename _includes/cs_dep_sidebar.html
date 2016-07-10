@@ -5,7 +5,7 @@
     }
 </style>
 
-<div class="col-lg-4">
+<div class="col-lg-4 col-md-4 col-sm-4">
     
     <div class="spacing" style="position:fixed;"></div>
     <!--<h3 style="text-align:center;">Navigation</h3>-->
@@ -15,7 +15,6 @@
     <ul class="nav nav-pills nav-stacked">
         <h3 style="text-align:center;">Navigation</h3>
         <div class="hline"></div>
-        <div class="spacing"></div>
         <li {% if page.title == "Computer Science Home" %}class="active"{% endif %}><a href="/cs/">HOME</a></li>
         <li {% if page.title == "Computer Science - Programmes" %}class="active dropdown"{% endif %}> <!--class="dropdown">-->
             <a class="dropdown-toggle" data-toggle="dropdown" href="/cs/programmes.html">
@@ -34,9 +33,9 @@
             </ul>
         </li>
         <li {% if page.title == "Computer Science - Partnerships" %}class="active"{% endif %}><a href="/cs/partnerships.html">Partnerships</a></li>
-        <li {% if page.title == "Computer Science - Staff" %}class="active"{% endif %}><a href="/cs/staff.html">*People*</a></li>
-        <li {% if page.title == "Research" %}class="active"{% endif %}><a href="/cs/research.html">*Research*</a></li>
-        <li {% if page.title == "CS Communities" %}class="active"{% endif %}><a href="/cs/cs_communities.html">*Communities*</a></li>
+        <li {% if page.title == "Computer Science - Staff" %}class="active"{% endif %}><a href="/cs/staff.html">Staff</a></li>
+        <li {% if page.title == "Research" %}class="active"{% endif %}><a href="/cs/research.html">Research</a></li>
+        <li {% if page.title == "CS Communities" %}class="active"{% endif %}><a href="/cs/cs_communities.html">Communities</a></li>
         <li {% if page.title == "Gallery" %}class="active"{% endif %}><a href="/cs/gallery.html">*Gallery*</a></li>
         <li {% if page.title == "Computer Science - About Us" %}class="active"{% endif %}><a href="/cs/about_cs.html">*About*</a></li>
     </ul>
