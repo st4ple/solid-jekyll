@@ -35,6 +35,17 @@ social:
   - title: linkedin
     url:
     
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social_cs:
+  - title: facebook
+    url: https://www.facebook.com/ubcomputerscience/
+  - title: youtube
+    url:
+  - title: google-plus
+    url:
+  - title: linkedin
+    url:
+    
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 #address:
 #   - lines: 
