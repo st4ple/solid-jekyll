@@ -8,10 +8,13 @@
 	URL: http://alvarez.is
 	
 ################################################################# */ 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
+/*<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">*/
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,700,900);
+/*@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);*/
 @import url(https://fonts.googleapis.com/css?family=Lato:400,900);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
+
 
 /*	################################################################
 	1. GENERAL STRUCTURES
@@ -28,20 +31,20 @@ body {
 	background: #ffffff; 
 	margin: 0; 
 	height: 100%; 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	color: {{ site.colors.secondary }};
 	}
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Merriweather', serif;
 	font-weight: 700;
 }
 
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px; 
 	line-height: 24px;
