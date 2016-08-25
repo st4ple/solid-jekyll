@@ -8,73 +8,79 @@ permalink: /
 <!--<img src="/assets/img/dna_img.jpg">-->
 <!--</br>-->
 
-<div id="service">
-    <div class="container">
-        <div class="row centered">
-            
-            <div class="col-md-4">
-                <i class="fa fa-star fa-3x"></i>
-                <h4>Our Vision</h4>
-                <p>To promote excellence in teaching, research and service in Science and Mathematics,
-                   developing the critical abilities of students through the study of Science.
-                </p>
-            </div>
-            
-            <div class="col-md-4">
-                <i class="fa fa-trophy fa-3x"></i>
-                <h4>Our Objectives</h4>
-                <ul>
-                    <li>To cooperate with other Faculties in the training of various professionals, e.g. Bachelor of Education (B.Ed), Science and B.Ed, Secondary.</li>
-                    <li>To provide a firm Year 1 (level 100 courses) foundation in the Basic Sciences for those students who transfer to other faculties.</li>
-                    <li>To provide a firm intellectual base for those students who are designated for transfer to other institutions to take program which are not offered in this university e.g. Veterinary Science, Pharmacy etc.</li>
-                </ul>
-                <!--<p><br/><a href="#" class="btn btn-theme">For Example, Click Me!</a></p>-->
-            </div>
-            
-            <div class="col-md-4">
-                <i class="fa fa-location-arrow fa-3x"></i>
-                <h4>Our Mission</h4>
-                <p>To help students become responsible members of society through their education
-                   and proficiency in the various branches of Science.</p>
-                <p>
-                <!--<a href="#" class="btn btn-theme">More Info</a></p>-->
-            </div>
-            
-        </div>
-    </div><!--/container -->
-</div><!--/service -->
-
-
-<br> <br>
-<!--DEPARTMENT SECTOR-->
-<h3 style="text-align:center">DEPARTMENTS</h3>
-{% include departments.html %}
-
-
-
 <div class="container mtb">
-    <div class="row">
-        <div class="col-lg-5">
-            <h4>Latest News And Events</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
-        </div>
-        
-        <div class="col-lg-5 col-lg-offset-2">
-            <h4 style="text-align:right">Research Topics.</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
-                <p style="text-align:right"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
-        </div>
-        
-        <!--<div class="col-lg-4 col-lg-offset-1">-->
-        <!--    <h4>Find Out More About Our Faculty.</h4>-->
-        <!--    <p>{{ site.about }}</p>-->
-        <!--    <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>-->
-        <!--</div>-->
+
+	<div class="row space-top space-below">
+		<!-- CAROUSEL -->
+		{% include home_page_carousel.html %}
+	</div>
+	
+	<div class="row space-top space-below">
+		
+		<!-- NEWS COLUMN -->
+		<div class="col-lg-6 col-md-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">LATEST NEWS</h3>
+				</div>
+				<div class="panel-body">
+					{% for post in site.categories['blog'] limit:5 %} 
+						<p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+					{% endfor %} 
+				</div>
+			</div>
+		</div> <!-- /col-lg-5 -->
+		
+		<!-- EVENTS COLUMN -->
+		<div class="col-lg-6 col-md-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">UPCOMING EVENTS</h3>
+				</div>
+				<div class="panel-body">
+					{% for post in site.categories['question'] %} 
+						<p style="text-align:right"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+					{% endfor %}
+				</div>
+			</div>
+        </div> <!-- /col-lg-5 -->
 
     </div><!--/row -->
+	
+	<!-- QUICK LINKS -->
+	<!-- Departments, People, Research, Vacancies -->
+	<div class="row space-top space-below">
+		<div class="quick-link-block col-md-3 col-sm-6 col-xs-12">
+			<a href="/departments">
+				<span class="title">DEPARTMENTS</span>
+				<div class="hline"></div>
+				<span class="image" style="background-image: url(/assets/img/dna_img.jpg)"></span>
+			</a>
+		</div> <!-- /col-md-3 col-sm-6 col-xs-12 -->
+		<div class="quick-link-block col-md-3 col-sm-6 col-xs-12">
+			<a href="/departments">
+				<span class="title">PEOPLE</span>
+				<div class="hline"></div>
+				<span class="image" style="background-image: url(/assets/img/dna_img.jpg)"></span>
+			</a>
+		</div> <!-- /col-md-3 col-sm-6 col-xs-12 -->
+		<div class="quick-link-block col-md-3 col-sm-6 col-xs-12">
+			<a href="/departments">
+				<span class="title">RESEARCH</span>
+				<div class="hline"></div>
+				<span class="image" style="background-image: url(/assets/img/dna_img.jpg)"></span>
+			</a>
+		</div> <!-- /col-md-3 col-sm-6 col-xs-12 -->
+		<div class="quick-link-block col-md-3 col-sm-6 col-xs-12">
+			<a href="/departments">
+				<span class="title">VACANCIES</span>
+				<div class="hline"></div>
+				<span class="image" style="background-image: url(/assets/img/dna_img.jpg)"></span>
+			</a>
+		</div> <!-- /col-md-3 col-sm-6 col-xs-12 -->
+	</div>
+
 </div><!--/container -->
+
+
+<!--DEPARTMENT SECTOR-->

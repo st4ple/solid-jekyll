@@ -556,3 +556,53 @@ a.anchor{
 .dropdown:hover .dropbtn {
     background-color: #6666ff;
 }
+
+/* Styling of Quick Links on the home page */
+.quick-link-block {
+	background:#e0ded9;
+}
+
+.quick-link-block .title {
+	display: block;
+    font-size: 24px;
+    font-weight: bold;
+    left: 0;
+    line-height: 1.1;
+    min-height: 70px;
+	background:#000000;
+    padding: 16px 10px 12px 10px;
+    text-align: center;
+}
+
+.quick-link-block .image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 180px;
+    overflow: hidden;
+}
+	
+/* So as to prevent using 'br' tags */
+@media (min-width: 950px)
+.space-below {
+    margin-bottom: 50px;
+}
+@media (min-width: 950px)
+.space-top {
+    margin-top: 50px;
+}
+@media (min-width: 700px)
+.space-below {
+    margin-bottom: 30px;
+}
+@media (min-width: 700px)
+.space-top {
+    margin-top: 30px;
+}
+.space-below {
+    margin-bottom: 20px;
+}
+.space-below {
+    margin-top: 20px;
+}
