@@ -1,10 +1,10 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: hack-a-thon!
+title: Hack-A-Thon!
 description: "Building a better Boise, by connecting volunteer developers and local not-for-profit organizations"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
+baseurl:
 url: "https://boise-hack-a-thon.github.io/"
 
 # Build settings
@@ -49,15 +49,6 @@ tel:
 
 # Members information. Shown on About page.
 members:
-  - name: Ben Kline
-    position: Project Manager
-    text: Ben is free lance developer in town is the a student at http://bloc.io.
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:benkline@gmail.com
-      - title: twitter
-        url: http://twitter.com/boisebenkline
   - name: Richard Newman
     position: Director
     text:
@@ -67,23 +58,26 @@ members:
         url: mailto:richard@newmanworks.com
       - title: twitter
         url: http://twitter.com/rdnewman
+  - name: Ben Kline
+    position: Project Manager
+    text: Ben is a free lance developer in town is a student at [http://bloc.io](http://bloc.io).
+    img: team01.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:benkline@gmail.com
+      - title: twitter
+        url: http://twitter.com/boisebenkline
 
 # Clients information. Shown on Home and About pages.
 clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+  - name: #dribbble
+    img: #client01.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: ""
+about: "Hack your community!"
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
     message: "There is just no other way that small, cash strapped organizations like mine would otherwise be able to share our stories. It is important that everyone, not matter what it is, deserve to have their story heard."
     author: Jessica Adams
-    position: Counselor/Trainer - Growing up Gay in Idaho - http://www.jessica-adams.com
+    position: Counselor/Trainer - http://www.jessica-adams.com - Growing up Gay in Idaho

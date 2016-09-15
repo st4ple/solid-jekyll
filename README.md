@@ -43,9 +43,7 @@ carousel:
 client: Company XY
 website: http://www.internet.com
 ---
-####This is a heading
-This is a regular paragraph. Write as much as you like.
-```
+
 #####Question entry
 Create a Question entry (that is listed in the Frequently Asked section on the Home page) in this directory by creating a file called `yyyy-mm-dd-do-i-have-a-question.markdown` in the `/_posts/project/` directory with the following template:
 ```markdown
