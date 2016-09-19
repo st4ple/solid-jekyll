@@ -44,18 +44,16 @@ permalink: /
         <div class="col-lg-3">
             <h4>How do these Hack-a-thons work?</h4>
             <div class="hline"></div>
-            {{ site.rules }}
+            <p>{{ site.rules }}</p>
             <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">About</a></p>
-            <!-- {% for post in site.categories['question'] %} -->
-        </div>
+          </div>
 
         <div class="col-lg-3">
             <h4>More Questions? Contact us!</h4>
             <div class="hline"></div>
-            {{ site.contact }}
+            <p>{{ site.contact }}</p>
             <p><br/><a href="{{ "/contact/" | prepend: site.baseurl }}" class="btn btn-theme">Contact</a></p>
-            <!-- {% for post in site.categories['blog'] limit:5 %} -->
-        </div>
+          </div>
 
     </div><! --/row -->
 </div><! --/container -->
