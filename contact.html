@@ -12,24 +12,13 @@ permalink: /contact/
             <h4>Just Get In Touch!</h4>
             <div class="hline"></div>
                 <p>{{ site.about }}</p>
-                <form "https://www.enformed.io/4a04f2mc" method="POST" role="form">
-                  <div class="form-group">
-                    <label for="InputName1">Your Name</label>
-                    <input type="text" name="name" class="form-control" id="InputName1">
-                  </div>
-                  <div class="form-group">
-                    <label for="InputEmail1">Email address</label>
-                    <input type="email" name="email" class="form-control" id="InputEmail1">
-                  </div>
-                  <div class="form-group">
-                    <label for="InputSubject1">Are you a developer, organization, or sponsor?</label>
-                    <input type="text" name="subject" class="form-control" id="InputSubject1">
-                  </div>
-                  <div class="form-group">
-                    <label for="message1">Any questions that we can get back to you with an answer for, or maybe could post at our FAQ section?</label>
-                    <textarea name="message" class="form-control" id="message1" rows="3"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-theme">Submit</button>
+
+                <form action="https://formspree.io/benkline@gmail.com"
+                      method="POST">
+                    <p>What's your name?<br><input type="text" name="name"</p>
+                    <p>What email should we contact you with?<br><input type="email" name="_replyto"></p>
+                    <p>Do you have any specific questions we can get back to you with? Something we should have in our <a href="{{"/about/" | prepend: site.baseurl }}">FAQ section</a> maybe?<br><textarea rows="3" name="question"></textarea></p>
+                    <p><input type="submit" value="Send"></p>
                 </form>
         </div><! --/col-lg-8 -->
     </div><! --/row -->
