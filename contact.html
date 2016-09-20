@@ -9,15 +9,15 @@ permalink: /contact/
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-8">
-            <h4>Just Get In Touch!</h4>
+            <h4>Hello, we're the Boise Hack-a-thon organization, it's nice to meet you!</h4>
+            <p>Could you tell us a bit about yourself so we can get back to you with some specifics regarding your interests?<p>
+            <p>Thanks!<p>
             <div class="hline"></div>
-                <p>{{ site.about }}</p>
-
-                <form action="https://formspree.io/benkline@gmail.com"
-                      method="POST">
-                    <p>What's your name?<br><input type="text" name="name"</p>
-                    <p>What email should we contact you with?<br><input type="email" name="_replyto"></p>
-                    <p>Do you have any specific questions we can get back to you with? Something we should have in our <a href="{{"/about/" | prepend: site.baseurl }}">FAQ section</a> maybe?<br><textarea rows="3" name="question"></textarea></p>
+                <form action="https://formspree.io/benkline@gmail.com" method="POST">
+                    <p>So... what's your name?<br><input type="text" name="name"</p>
+                    <p>What's your email?<br><input type="email" name="_replyto"></p>
+                    <p>Are you interested in competing, are you an non-profit interested in collaborating with a team of developers, or are you interested in helping sponsor the event?<br><input type="text" name="type"</p>
+                    <p>Do you have any specific questions we can get back to you with? <br><textarea rows="3" columns="10" name="question"></textarea></p>
                     <p><input type="submit" value="Send"></p>
                 </form>
         </div><! --/col-lg-8 -->

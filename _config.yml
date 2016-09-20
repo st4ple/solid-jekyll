@@ -1,8 +1,8 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: Hack-A-Thon!
-description: "Building a better Boise, by connecting volunteer developers and local not-for-profit organizations"
+title: Hack Boise!
+description: "Building a better Boise, by connecting developers, not-for-profit organizations, and our awesome sponsors!"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl:
 url: "https://boise-hack-a-thon.github.io/"
@@ -69,14 +69,14 @@ tel:
 #         url: http://twitter.com/boisebenkline
 
 # Sponsor information. Shown on Home and About pages.
-sponsors:
-  - name: just an example - imagine your name here
-    img: sponsor02.png
-  - name: another example
-    img: sponsor03.png
+# sponsors:
+#   - name: just an example - imagine your name here
+#     img: sponsor02.png
+#   - name: another example
+#     img: sponsor03.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Building an (even) better Boise!"
+about: "Building an (even) better Boise through bringing not-for-profit organizations, for-profit sponsors, and developer / designers together for mutual benefit and radness."
 
 # # Testimonial content. Shown on Home and About page.
 # testimonial:
