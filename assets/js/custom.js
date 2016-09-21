@@ -8,12 +8,16 @@
 		jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'light_square',slideshow:false,overlay_gallery: false,social_tools:false,deeplinking:false});
 	}); 
 
+})(jQuery);
+
+
+(function($){
 	
+// accordion focus	
 	$('#accordion').on('shown.bs.collapse', function () {
 		var panel = $(this).find('.in');
 		$('html, body').animate({
 			scrollTop: panel.offset().top
 		}, 500);
 	});
-		
-})(jQuery);
+});
