@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script>
-            (function($){
 	
-// accordion focus	
-	$('#accordion').on('shown.bs.collapse', function () {
-		var panel = $(this).find('.in');
-		$('html, body').animate({
-			scrollTop: panel.offset().top
-		}, 500);
-	});
-});
-        </script>
-    </head>
-
     {% include head.html %}
 
     <body>
