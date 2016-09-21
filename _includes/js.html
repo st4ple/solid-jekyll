@@ -56,6 +56,13 @@
 				return false;
 		});
 		
+		$('#accordian').on('shown.bs.collapse', function () {
+			var panel = $(this).find('.in');
+			$('html, body').animate({
+				scrollTop: panel.offset().top
+			}, 500);
+		});
+		
 		function getColumnNumber() { 
 			var winWidth = $(window).width(), 
 			columnNumber = 1;
