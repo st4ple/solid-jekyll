@@ -84,11 +84,6 @@
 			}, 500);
 		});
 		
-		$('body').on('click', 'caption', function(e) {
-			$(this).find('i').toggleClass('icon-minus').toggleClass('icon-plus');
-			$(this).next('table').toggle();
-		});
-		
 		function getColumnNumber() { 
 			var winWidth = $(window).width(), 
 			columnNumber = 1;
