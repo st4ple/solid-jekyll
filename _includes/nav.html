@@ -11,7 +11,7 @@
       <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>
     </div>
     <div class="navbar-collapse collapse navbar-right">
-      <ul class="nav navbar-nav nav-pills">
+      <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active dropdown"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         <li {% if page.title == "Departments" %}class="active dropdown"{% endif %} class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="{{"/departments/" | prepend: site.baseurl }}">
