@@ -1,5 +1,5 @@
 <!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top nav-pills" role="navigation">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -11,7 +11,7 @@
       <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>
     </div>
     <div class="navbar-collapse collapse navbar-right">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav nav-pills">
         <li {% if page.title == "Home" %}class="active dropdown"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         <li {% if page.title == "Departments" %}class="active dropdown"{% endif %} class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="{{"/departments/" | prepend: site.baseurl }}">
