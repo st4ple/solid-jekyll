@@ -582,7 +582,17 @@ a.anchor{
     height: 180px;
     overflow: hidden;
 }
-	
+
+/* #Custom Panel - News & Events */
+.panel-news-events {
+  border-color: #384452;
+}
+.panel-news-events > .panel-heading {
+  color: #fff;
+  background-color: #384452;
+  border-color: #384452;
+}
+
 /* So as to prevent using 'br' tags */
 @media (min-width: 950px)
 .space-below {

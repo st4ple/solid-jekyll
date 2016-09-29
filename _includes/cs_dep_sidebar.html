@@ -1,45 +1,61 @@
 <style>
-    /* Ensuring proper positioning of the navbar*/
+	/* Ensuring proper positioning of the navbar*/
     .affix {
       top: 20px;
     }
+	
+	#navCol {
+		background-color:#384452;
+		color:#ffffff;
+		margin: 0px 20% 0px 20%;
+	
+	}
+	
+	.affix {
+		width:auto;
+	}
 </style>
 
-<div class="col-lg-4 col-md-4 col-sm-4">
+<div class="col-lg-4 col-md-4">
+
+<!-- <div data-spy="affix" data-offset-top="50" data-offset-bottom="200"> -->
+
     
-    <div class="spacing" style="position:fixed;"></div>
-    <!--<h3 style="text-align:center;">Navigation</h3>-->
-    <!--<div class="hline"></div>-->
-    <!--<div class="spacing"></div>-->
-    <!--<ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205"> STICKY NAV BAR-->
-    <ul class="nav nav-pills nav-stacked">
-        <h3 style="text-align:center;">Navigation</h3>
-        <div class="hline"></div>
-        <li {% if page.title == "Computer Science Home" %}class="active"{% endif %}><a href="/cs/">HOME</a></li>
-        <li {% if page.title == "Computer Science - Programmes" %}class="active dropdown"{% endif %}> <!--class="dropdown">-->
-            <a class="dropdown-toggle" data-toggle="dropdown" href="/cs/programmes.html">
-                **Programmes of Study**<span class="caret"><span>
-            </a>
-            <ul class="dropdown-menu">
-                <li><a href="/cs/programmes.html/">See All Programmes</a></li>
-                <li class="divider"></li>
-                <li><a href="/cs/programmes.html/#ugp">Undergraduate Programmes</a></li>
-                <li class="divider"></li>
-                <li><a href="/cs/programmes.html/#cmp">Combined Majors</a></li>
-                <li class="divider"></li>
-                <li><a href="/cs/programmes.html/#mos">Masters Programmes</a></li>
-                <li class="divider"></li>
-                <li><a href="/cs/programmes.html/#mop">Masters of Philosopy</a></li>
-            </ul>
-        </li>
-        <li {% if page.title == "Computer Science - Partnerships" %}class="active"{% endif %}><a href="/cs/partnerships.html">Partnerships</a></li>
-        <li {% if page.title == "Computer Science - Staff" %}class="active"{% endif %}><a href="/cs/staff.html">Staff</a></li>
-        <li {% if page.title == "Research" %}class="active"{% endif %}><a href="/cs/research.html">Research</a></li>
-        <li {% if page.title == "CS Communities" %}class="active"{% endif %}><a href="/cs/cs_communities.html">Communities</a></li>
-        <li {% if page.title == "Gallery" %}class="active"{% endif %}><a href="/cs/gallery.html">*Gallery*</a></li>
-        <li {% if page.title == "Computer Science - About Us" %}class="active"{% endif %}><a href="/cs/about_cs.html">About</a></li>
-    </ul>
+	<div class="row">
+	
+		<div id="navCol">
+			<ul class="nav nav-pills nav-stacked">
+				<h3 style="text-align:center;">Navigation</h3>
+				<div class="hline"></div>
+				<li {% if page.title == "Computer Science Home" %}class="active"{% endif %}><a href="/cs/">HOME</a></li>
+				<li {% if page.title == "Computer Science - Programmes" %}class="active dropdown"{% endif %}> <!--class="dropdown">-->
+					<a class="dropdown-toggle" data-toggle="dropdown" href="/cs/programmes.html">
+						**Programmes of Study**<span class="caret"><span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="/cs/programmes.html/">See All Programmes</a></li>
+						<li class="divider"></li>
+						<li><a href="/cs/programmes.html/#ugp">Undergraduate Programmes</a></li>
+						<li class="divider"></li>
+						<li><a href="/cs/programmes.html/#cmp">Combined Majors</a></li>
+						<li class="divider"></li>
+						<li><a href="/cs/programmes.html/#mos">Masters Programmes</a></li>
+						<li class="divider"></li>
+						<li><a href="/cs/programmes.html/#mop">Masters of Philosopy</a></li>
+					</ul>
+				</li>
+				<li {% if page.title == "Computer Science - Partnerships" %}class="active"{% endif %}><a href="/cs/partnerships.html">Partnerships</a></li>
+				<li {% if page.title == "Computer Science - Staff" %}class="active"{% endif %}><a href="/cs/staff.html">Staff</a></li>
+				<li {% if page.title == "Research" %}class="active"{% endif %}><a href="/cs/research.html">Research</a></li>
+				<li {% if page.title == "CS Communities" %}class="active"{% endif %}><a href="/cs/cs_communities.html">Communities</a></li>
+				<li {% if page.title == "CS Gallery" %}class="active"{% endif %}><a href="/cs/gallery.html">*Gallery*</a></li>
+				<li {% if page.title == "Computer Science - About Us" %}class="active"{% endif %}><a href="/cs/about_cs.html">About</a></li>
+			</ul>
+		</div>
+	</div> <!-- /row -->
+	
+	
+<!-- </div> -->
+<!-- /affix -->
     
-    <div class="hline"></div>
-    
-</div>
+</div> <!-- /col-lg-4 col-md-4 -->

@@ -19,21 +19,22 @@ permalink: /
 		
 		<!-- NEWS COLUMN -->
 		<div class="col-lg-6 col-md-6">
-			<div class="panel panel-primary">
+			<div class="panel panel-news-events">
 				<div class="panel-heading">
 					<h3 class="panel-title">LATEST NEWS</h3>
 				</div>
 				<div class="panel-body">
 					{% for post in site.categories['blog'] limit:5 %} 
 						<p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-					{% endfor %} 
+					{% endfor %}
+					<button type="button" class="btn btn-default btn-sm" style="float:right;">All News</button>
 				</div>
 			</div>
 		</div> <!-- /col-lg-5 -->
 		
 		<!-- EVENTS COLUMN -->
 		<div class="col-lg-6 col-md-6">
-			<div class="panel panel-primary">
+			<div class="panel panel-news-events">
 				<div class="panel-heading">
 					<h3 class="panel-title">UPCOMING EVENTS</h3>
 				</div>
@@ -41,6 +42,7 @@ permalink: /
 					{% for post in site.categories['question'] %} 
 						<p style="text-align:right"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
 					{% endfor %}
+					<button type="button" class="btn btn-default btn-sm" style="float:right;"><a href="#">All Events</a></button>
 				</div>
 			</div>
         </div> <!-- /col-lg-5 -->

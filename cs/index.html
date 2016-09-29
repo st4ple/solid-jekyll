@@ -14,65 +14,79 @@ permalink: /cs/
         
         <div class="row centered">
             
-            <div class="col-lg-8 col-md-8 col-sm-8">
+            <div class="col-lg-8 col-md-8">
 			
 				<!--WELCOME MESSAGE-->
-				<h1>WELCOME TO COMPUTER SCIENCE</h1>
-				<h4>System.out.print("Hello World!")</h4>
+				<div class="row">
+					<h1>WELCOME TO COMPUTER SCIENCE</h1>
+					<h4>System.out.print("Hello World!")</h4>
+				</div>
                 
                 <div class="spacing"></div>
             
-                <!--IMAGES AND/OR CAROUSEL-->
-                <!--<img src="/assets/img/departments/compsciImg.jpg">-->
-                {% include cs_carousel.html %}
+				<div class="row">
+					<!--IMAGES AND/OR CAROUSEL-->
+					<!--<img src="/assets/img/departments/compsciImg.jpg">-->
+					{% include cs_carousel.html %}
+				</div>
             
                 <div class="spacing"></div>
                 <div class="spacing"></div>
             
-                <div class="col-md-6">
-                    <i class="fa fa-star fa-3x"></i>
-                    <h4>Vision </h4>
-                    <p>To be a leading Department of the University of Botswana and academic Center of Excellence in Africa and the region through 
-                    advancement and promotion of scholarship, research and innovation
-                    </p>
-                </div>
-            
-                <div class="col-md-6">
-                    <i class="fa fa-location-arrow fa-3x"></i>
-                    <h4>Mission</h4>
-                    <p>To advance the intellectual capacity of the nation and the international community by offering quality 
-                    academic programmes that are bench-marked against international standards.</p>
-                    <p>To produce computer scientists that are professionally compentent, responsible and innovative in solving real-world problems.
-                    </p></br></br>
-                </div>
+				<div class="row">
+					<div class="col-md-6">
+						<i class="fa fa-star fa-3x"></i>
+						<h4>Vision </h4>
+						<p>To be a leading Department of the University of Botswana and academic Center of Excellence in Africa and the region through 
+						advancement and promotion of scholarship, research and innovation
+						</p>
+					</div>
+				
+					<div class="col-md-6">
+						<i class="fa fa-location-arrow fa-3x"></i>
+						<h4>Mission</h4>
+						<p>To advance the intellectual capacity of the nation and the international community by offering quality 
+						academic programmes that are bench-marked against international standards.</p>
+					</div>
+				</div>
                 
                 <div class="spacing"></div>
-                <div class="spacing"></div>
+				<hr>
                 
                 <!--QUICK LINKS TO FACULTY SUB PAGES-->
-                <div class="col-md-3">
-                    <a href="/cs/programmes.html/"><i class="fa fa-laptop fa-3x"></i></a>
-                    <h4>Study With Us</h4>
-                </div>
-                
-                <div class="col-md-3">
-                    <a href="/cs/about_cs.html/"><i class="fa fa-map-marker fa-3x"></i></a>
-                    <h4>Find Us Here</h4>
-                </div>
-                
-                <div class="col-md-3">
-                    <a href="/cs/staff.html/"><i class="fa fa-users fa-3x"></i></a>
-                    <h4>Meet Our People</h4>
-                </div>
-                
-                <div class="col-md-3">
-                    <a href="/cs/cs_communities.html/"><i class="fa fa-globe fa-3x"></i></a>
-                    <h4>Join Our Communities</h4>
-                </div>
+				<div class="row">
+					<i class="fa fa-link fa-3x"></i>
+					<h4>Quick Links</h4>
+				</div> <!-- /Row -->
+				
+				<div class="spacing"></div>
+				
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<a href="/cs/programmes.html/"><i class="fa fa-laptop fa-3x"></i></a>
+						<h4>Study With Us</h4>
+					</div>
+					
+					<div class="col-md-3 col-sm-3">
+						<a href="/cs/about_cs.html/"><i class="fa fa-map-marker fa-3x"></i></a>
+						<h4>Find Us Here</h4>
+					</div>
+					
+					<div class="col-md-3 col-sm-3">
+						<a href="/cs/staff.html/"><i class="fa fa-users fa-3x"></i></a>
+						<h4>Meet Our People</h4>
+					</div>
+					
+					<div class="col-md-3 col-sm-3">
+						<a href="/cs/cs_communities.html/"><i class="fa fa-globe fa-3x"></i></a>
+						<h4>Join Our Communities</h4>
+					</div>
+				</div> <!-- /Row : Quick Links -->
                 
             </div><!--col-lg-8-->
             
-        {% include cs_dep_sidebar.html %}
+			<!-- CS DEP SIDEBAR -->
+			{% include cs_dep_sidebar.html %}
             
         </div><!--row-->
         
