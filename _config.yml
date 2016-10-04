@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Hack Boise!
+description: "Building a better Boise, by connecting developers, not-for-profit organizations, and our awesome sponsors!"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+baseurl:
+url: "https://boise-hack-a-thon.github.io/"
 
 # Build settings
 markdown: kramdown
@@ -13,15 +13,15 @@ permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031" 
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  primary: "#00b3fe" #"#F70031"
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
   secondary: "#384452" #"#33004D"
   link: "#428bca"
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
-  
-  
+
+
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
@@ -31,79 +31,55 @@ social:
   - title: facebook
     url:
   - title: twitter
-    url: 
+    url:
   - title: instagram
-    url: 
+    url:
   - title: tumblr
-    url: 
-    
+    url:
+
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
-  - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+  - lines:
+
+email:
+tel:
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
-# Members information. Shown on About page.
-members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team02.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team03.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team04.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-    
-# Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
-    
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 
-# Testimonial content. Shown on Home and About page. 
-testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+# # Members information. Shown on About page.
+# members:
+#   - name: Richard Newman
+#     position: Director
+#     text:
+#     img: team02.jpg
+#     social:
+#       - title: envelope #use for email address
+#         url: mailto:richard@newmanworks.com
+#       - title: twitter
+#         url: http://twitter.com/rdnewman
+#   - name: Ben Kline
+#     position: Project Manager
+#     text: Ben is a free lance developer in town is a student at [http://bloc.io](http://bloc.io).
+#     img: team01.jpg
+#     social:
+#       - title: envelope #use for email address
+#         url: mailto:benkline@gmail.com
+#       - title: twitter
+#         url: http://twitter.com/boisebenkline
+
+# Sponsor information. Shown on Home and About pages.
+# sponsors:
+#   - name: just an example - imagine your name here
+#     img: sponsor02.png
+#   - name: another example
+#     img: sponsor03.png
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Building an (even) better Boise through bringing not-for-profit organizations, for-profit sponsors, and developer / designers together for mutual benefit and radness."
+
+# # Testimonial content. Shown on Home and About page.
+# testimonial:
+#     message: "There is just no other way that small, cash strapped organizations like mine would otherwise be able to share our stories. It is important that everyone, not matter what it is, deserve to have their story heard."
+#     author: Jessica Adams
+#     position: Counselor/Trainer - http://www.jessica-adams.com - Growing up Gay in Idaho
