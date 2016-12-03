@@ -2,10 +2,10 @@
 
 # Site settings
 title: MindGarage
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+description: "Ovation MindGarage is an independent 'lab' under the guidance of Marcus Liwicki. It is connected to the teaching activities of Marcus in the area of deep learning, including the lecture 'Very Deep Learning', his supervised projects and theses, and individual studies."
+analytics: "UA-86445551-2" #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "http://mindgarage.de"
 
 # Build settings
 markdown: kramdown
@@ -31,9 +31,9 @@ social:
   - title: facebook
     url:
   - title: twitter
-    url:
+    url: https://twitter.com/mindgarage1
   - title: instagram
-    url:
+    url: https://www.instagram.com/mindgarage/
   - title: tumblr
     url:
 
