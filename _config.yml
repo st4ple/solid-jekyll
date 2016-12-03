@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: MindGarage.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: MindGarage
+description: "The Ovation MindGarage is an independent "lab" under the guidance of Marcus Liwicki. It is connected to the teaching activities of Marcus in the area of deep learning, including the lecture "Very Deep Learning", his supervised projects and theses, and individual studies."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "http://mindgarage.de"
 
 # Build settings
 markdown: kramdown
@@ -40,51 +40,43 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+    - Rooms 36-(307/309/310),
+    - TU Kaiserslautern,
+    - Paul-Ehrlich-Str. 36.
+    - 67663 Kaiserslautern
+email: liwicki@cs.uni-kl.de
+tel:
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
     
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team01.jpg
+  - name: Marcus Liwicki
+    position: Founder
+    text: I am Marcus Liwicki – with the MindGarage I want to offer students a platform to discover and develop cutting-edge DeepLearning methods.
+    img: liwicki.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:name@domain.com
+        url: mailto:liwicki@cs.uni-kl.de
       - title: twitter
         url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
+  - name: Muhammad Zeshan Afzal
+    position: Co-Founder
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team02.jpg
+    img: shan.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:name@domain.com
+        url: mailto:afzal@iupr.com
       - title: twitter
         url: http://twitter.com/handle
   - name: Laura Sommers
-    position: Lead Developer
+    position: Full Stack Web developer
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team03.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team04.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
+        url: mailto:dash.ayushman.99@gmail.com
       - title: twitter
         url: http://twitter.com/handle
     
