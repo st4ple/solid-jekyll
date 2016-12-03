@@ -4,7 +4,7 @@
 title: MindGarage
 description: "The Ovation MindGarage is an independent 'lab' under the guidance of Marcus Liwicki. It is connected to the teaching activities of Marcus in the area of deep learning, including the lecture 'Very Deep Learning', his supervised projects and theses, and individual studies."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/" #important: start with /
+baseurl: "" #important: start with /
 url: "http://mindgarage.de"
 
 # Build settings
@@ -45,7 +45,7 @@ address:
     - Paul-Ehrlich-Str. 36.
     - 67663 Kaiserslautern
 email: liwicki@cs.uni-kl.de
-tel: ""
+tel:
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
