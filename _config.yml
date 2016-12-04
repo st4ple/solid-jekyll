@@ -40,11 +40,13 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+    - Rooms 36-(307/309/310),
+    - TU Kaiserslautern,
+    - Paul-Ehrlich-Str. 36,
+    - 67663 Kaiserslautern,
+    - Germany
+email: liwicki@cs.uni-kl.de
+tel: +
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
