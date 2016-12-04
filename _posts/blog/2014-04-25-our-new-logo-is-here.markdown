@@ -5,8 +5,6 @@ date:   2014-04-25 16:54:46
 author: Admin
 categories: 
 - blog
-- Web-Design
-- Development
 img: post02.jpg
 thumb: thumb02.jpg
 ---
