@@ -5,6 +5,7 @@ date: 2016-10-01 16:54:46
 author: Marcus Liwicki
 categories:
 - blog
+- intro
 img: post1.png
 thumb: blog_thumb.png
 ---
@@ -13,4 +14,3 @@ Starting in autumn 2016 we formed a kind of independent “lab” at the Univers
 
 I am greatful for all support given and looking forward to a successful research/industry partnership leading to novel research perspectives and applications in Kaiserslautern.
 
-[hampden]: https://github.com/jekyll/jekyll
