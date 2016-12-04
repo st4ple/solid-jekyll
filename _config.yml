@@ -26,25 +26,27 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url:
+  #- title: dribbble
+  #  url:
+  #- title: facebook
+  #  url:
   - title: twitter
     url: https://twitter.com/mindgarage1
   - title: instagram
     url: https://www.instagram.com/mindgarage/
-  - title: tumblr
-    url:
+  #- title: tumblr
+  #  url:
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+    - Rooms 36-(307/309/310),
+    - TU Kaiserslautern,
+    - Paul-Ehrlich-Str. 36,
+    - 67663 Kaiserslautern,
+    - Germany
+email: liwicki@cs.uni-kl.de
+tel: +
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
@@ -89,18 +91,18 @@ members:
         url: http://twitter.com/handle
 
 # Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+partners:
+  - name: Insiders Technologies
+    img: insidersLogo.png
+  - name: TU Kaiserslautern
+    img: tukl_logo.png
+  #- name: Vimeo
+  #  img: client03.png
+  #- name: VimeoPro
+  #  img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "We believe that creativity comes with freedom and to solve challenging problems in AI we need to have freedom and creative thinking. We provide an unconstrained environment to highly motivated students to do whatever that comes to their minds and explore deep learning."
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
