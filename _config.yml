@@ -64,8 +64,8 @@ members:
         url: hhttps://www.linkedin.com/in/liwicki/en
   - name: Muhammad Zeshan Afzal
     position: Co-founder
-    text: With MindGarage I want to collaborate with people and students and explore the depths of deep learning.
-    img: shan_team.png
+    text: MindGarage is a workplace that allows me to convert creative ideas to real application by mentoring the whole process and motivating, inspiring, encouraging, and helping the students as well to explore the area to best of their abilities.
+    img: shan_team.jpg
     social:
       - title: envelope #use for email address
         url: mailto:afzal@iupr.com 
@@ -89,7 +89,7 @@ members:
         url: mailto:vaulttech@gmail.com 
       #- title: twitter
       #  url: http://twitter.com/handle
-  - name: Dominik
+  - name: Dominik Bermühler
     position: Bachelors - Computer Science
     text: Hello I am Dominik.
     img: dominik.jpg
