@@ -45,8 +45,8 @@ address:
     - Paul-Ehrlich-Str. 36,
     - 67663 Kaiserslautern,
     - Germany
-email: liwicki@cs.uni-kl.de
-tel: +
+email: liwicki@cs.uni-kl.de 
+tel: +34 8493-4893
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
@@ -106,6 +106,6 @@ about: "We believe that creativity comes with freedom and to solve challenging p
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+    message: "MindGarage is not an organisation, it is a family. Solving problems, meeting new people, discussing ideas and havining fun is what MindGarage is all about."
+    author: Ayushman Dash
+    position: Machine Learning Engineer/ Full Stack Web Developer  - Mind Garage

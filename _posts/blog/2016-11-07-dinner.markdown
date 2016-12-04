@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Dinner for the Volunteers"
+date: 2016-11-07 16:54:46
+author: Marcus Liwicki
+categories: 
+- blog
+- fun
+img: post2.jpg
+thumb: blog_thumb.png
+images:
+- image_path: /assets/img/gallary/dinner_party/1.jpg
+- image_path: /assets/img/gallary/dinner_party/6.jpg
+- image_path: /assets/img/gallary/dinner_party/7.jpg
+- image_path: /assets/img/gallary/dinner_party/4.jpg
+- image_path: /assets/img/gallary/dinner_party/5.jpg
+- image_path: /assets/img/gallary/dinner_party/11.jpg
+- image_path: /assets/img/gallary/dinner_party/8.jpg
+- image_path: /assets/img/gallary/dinner_party/9.jpg
+- image_path: /assets/img/gallary/dinner_party/10.jpg
+
+- image_path: /assets/img/gallary/dinner_party/12.jpg
+
+---
+
+Last week we have [set-up](http://blogs.rhrk.uni-kl.de/mindgarage/2016/10/the-mindgarage-is-born/) the MindGarage. As a small token of appreciation, [Marcus](http://blogs.rhrk.uni-kl.de/mindgarage/marcus-liwicki/) invited the volunteers to a dinner at the Saigon restaurant. It was a gorgeous dinner and we had nice discussions about what we are going to do in the MindGarage. Some impressions below.
+
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li>
+    	<a href="{{ image.image_path | prepend: site.baseurl }}" target="_blank">
+        <img src="{{ image.image_path }}" alt="">
+        </a>
+    </li>
+  {% endfor %}
+</ul>
