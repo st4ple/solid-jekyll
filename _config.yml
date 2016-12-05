@@ -131,10 +131,6 @@ partners:
     img: insidersLogo.png
   - name: TU Kaiserslautern
     img: tukl_logo.png
-  #- name: Vimeo
-  #  img: client03.png
-  #- name: VimeoPro
-  #  img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "We believe that creativity comes with freedom and to solve challenging problems in AI we need to have freedom and creative thinking. We provide an unconstrained environment to highly motivated students to do whatever that comes to their minds and explore deep learning."
