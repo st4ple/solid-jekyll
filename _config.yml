@@ -46,7 +46,7 @@ address:
     - 67663 Kaiserslautern,
     - Germany
 email: liwicki@cs.uni-kl.de 
-tel: +34 8493-4893
+tel: better write a mail ;)
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
@@ -144,18 +144,20 @@ supporters:
         url: mailto:M.Ebbecke@insiders-technologies.de 
 
         
-# Clients information. Shown on Home and About pages.
+# Partner information. Shown on Home and About pages.
 partners:
   - name: Insiders Technologies
     img: insidersLogo.png
   - name: TU Kaiserslautern
     img: tukl_logo.png
 
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+# Short text about your Lab. Shown in footer on every page and also separately on Home and Contact page.
 about: "We believe that creativity comes with freedom and to solve challenging problems in AI we need to have freedom and creative thinking. We provide an unconstrained environment to highly motivated students to do whatever that comes to their minds and explore deep learning."
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
     message: "MindGarage is not an organisation, it is a family. Solving problems, meeting new people, discussing ideas and havining fun is what MindGarage is all about."
     author: Ayushman Dash
-    position: Machine Learning Engineer/ Full Stack Web Developer  - Mind Garage
+    position: Machine Learning Engineer/ Full Stack Web Developer  - MindGarage
+    author: Marcus Liwicki
+    position: apl. Prof. at the University of Kaiserslautern / Head of MindGarage
