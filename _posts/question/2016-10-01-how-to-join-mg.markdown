@@ -1,8 +1,8 @@
 ---
 layout: question
 title:  "How do I become a part of MindGarage?"
-date:   2014-04-25 16:54:46
-author: Marcel Newman
+date:   2016-10-01 18:55:46
+author: interested student
 categories:
 - question
 ---
