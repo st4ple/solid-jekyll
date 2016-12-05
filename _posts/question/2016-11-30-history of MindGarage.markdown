@@ -2,9 +2,9 @@
 layout: question
 title:  "How did the MindGarage start?"
 date:   2016-11-30 17:53:46
-author: Marcel Newman
+author: Supporter
 categories:
-- question How did the MindGarage start?
+- question
 ---
 
 The MindGarage originates in a movement of students, teachers, and friends who are interested in Deep Learning. It is closely connected to the development at the University of Kaiserslautern. The main milestones are the following:
