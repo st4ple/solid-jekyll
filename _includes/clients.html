@@ -1,12 +1,49 @@
-<div id="cwrap">
-    <div class="container">
-        <div class="row centered">
-            <h3>OUR CLIENTS</h3>
-            {% for client in site.clients %}
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                    <img src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}" class="img-responsive">
-                </div>
-            {% endfor %}
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/cwrap -->
+<section class="clients">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p class="lead">Some awesome companies we've had the pleasure to work with</p>
+						</div>
+					</div><!--end of row-->
+
+					<div class="row client-row">
+						<div class="row-wrapper">
+							<div class="col-sm-3 text-center">
+								<img alt="client" src="/assets/img/client4.png">
+							</div>
+
+							<div class="col-sm-3 text-center">
+								<img alt="client" src="/assets/img/client2.png">
+							</div>
+
+							<div class="col-sm-3 text-center">
+								<img alt="client" src="/assets/img/client3.png">
+							</div>
+
+							<div class="col-sm-3 text-center">
+								<img alt="client" src="/assets/img/client1.png">
+							</div>
+						</div>
+					</div><!--end of row-->
+
+					<div class="row client-row">
+						<div class="row-wrapper">
+							<div class="col-sm-3 text-center">
+								<img alt="client" src="/assets/img/client5.png">
+							</div>
+
+							<div class="col-sm-3 text-center">
+								<img alt="client" src="/assets/img/client6.png">
+							</div>
+
+							<div class="col-sm-3 text-center">
+								<img alt="client" src="/assets/img/client7.png">
+							</div>
+
+							<div class="col-sm-3 text-center">
+								<img alt="client" src="/assets/img/client8.png">
+							</div>
+						</div>
+					</div><!--end of row-->
+				</div><!--end of container-->
+			</section>

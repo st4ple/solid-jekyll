@@ -4,56 +4,177 @@ title: Home
 permalink: /
 ---
 
-<div id="service">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-md-4">
-                <i class="fa fa-heart-o"></i>
-                <h4>Handsomely Crafted</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-flask"></i>
-                <h4>Retina Ready</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-trophy"></i>
-                <h4>Quality Theme</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>		 				
-        </div>
-    </div><! --/container -->
-</div><! --/service -->
+<section class="duplicatable-content">
 
-{% include portfolio.html title="LATEST WORKS" limit=10 %}
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1>Showcase services in a<br>spacious &amp; clean manner</h1>
+			</div>
+		</div><!--end of row-->
 
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-4 col-lg-offset-1">
-            <h4>More About Our Agency.</h4>
-            <p>{{ site.about }}</p>
-            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
-        </div>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="feature feature-icon-large">
+					<div class="pull-left">
+						<i class="icon icon-genius"></i>
+					</div>
+					<div class="pull-right">
+						<h5>Distinct Visual Style</h5>
+						<p>
+							Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+						</p>
+					</div>
+				</div>
+			</div><!--end 6 col-->
 
-        <div class="col-lg-3">
-            <h4>Frequently Asked</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
-        </div>
+			<div class="col-sm-6">
+				<div class="feature feature-icon-large">
+					<div class="pull-left">
+						<i class="icon icon-linegraph"></i>
+					</div>
+					<div class="pull-right">
+						<h5>Multiple Demos</h5>
+						<p>
+							Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+						</p>
+					</div>
+				</div>
+			</div><!--end 6 col-->
 
-        <div class="col-lg-3">
-            <h4>Latest Posts</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
-        </div>
+			<div class="col-sm-6">
+				<div class="feature feature-icon-large">
+					<div class="pull-left">
+						<i class="icon icon-tools-2"></i>
+					</div>
+					<div class="pull-right">
+						<h5>Flexible Page Builder</h5>
+						<p>
+							Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+						</p>
+					</div>
+				</div>
+			</div><!--end 6 col-->
 
-    </div><! --/row -->
-</div><! --/container -->
+			<div class="col-sm-6">
+				<div class="feature feature-icon-large">
+					<div class="pull-left">
+						<i class="icon icon-desktop"></i>
+					</div>
+					<div class="pull-right">
+						<h5>Fully Responsive</h5>
+						<p>
+							Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+						</p>
+					</div>
+				</div>
+			</div><!--end 6 col-->
+
+		</div><!--end of row-->
+	</div>
+
+</section>
+
+<section class="pure-text-centered">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+
+							<h1><strong>Learn why over 1,600 people love Pivot</strong></h1>
+							<p class="lead">
+								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+							</p>
+						</div>
+					</div><!--end of row-->
+
+				</div><!--end of container-->
+			</section>
+
+<section class="side-image clearfix">
+				<div class="image-container col-md-5 col-sm-4 pull-left">
+					<div class="background-image-holder" style="background: url(&quot;https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?fit=crop&amp;fm=jpg&amp;h=775&amp;q=75&amp;w=1050&quot;) 50% 0%;">
+						<img class="background-image" alt="Background Image" src="https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?fit=crop&amp;fm=jpg&amp;h=775&amp;q=75&amp;w=1050" style="display: none;">
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-6 col-sm-7 col-sm-offset-5 content clearfix">
+							<h1>Pivot includes many element<br>variations to showcase your content.</h1>
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+							</p>
+
+							<div class="row">
+								<div class="col-md-6 no-pad-left">
+									<div class="feature feature-icon-left">
+										<div class="icon-holder">
+											<i class="icon icon-genius"></i>
+										</div>
+										<div class="feature-text">
+											<h6>Clear Documentation</h6>
+											<p>
+												Both Variant and Pivot come with clear concise docs written in plain English.</p>
+										</div>
+									</div>
+								</div><!--end of feature-->
+
+								<div class="col-md-6 no-pad-left">
+									<div class="feature feature-icon-left">
+										<div class="icon-holder">
+											<i class="icon icon-flag"></i>
+										</div>
+										<div class="feature-text">
+											<h6>Support Forum Access</h6>
+											<p>In the rare event that you run into a problem - we're there to help out.</p>
+										</div>
+									</div>
+								</div><!--end of feature-->
+							</div><!--end of row-->
+
+							<div class="row">
+								<div class="col-md-6 no-pad-left">
+									<div class="feature feature-icon-left">
+										<div class="icon-holder">
+											<i class="icon icon-twitter icon-large"></i>
+										</div>
+										<div class="feature-text">
+											<h6>Socially Aware</h6>
+											<p>
+												We've built working Twitter and Instagram feeds in to inject your new site with social flare.</p>
+										</div>
+									</div>
+								</div><!--end of feature-->
+
+								<div class="col-md-6 no-pad-left">
+									<div class="feature feature-icon-left">
+										<div class="icon-holder">
+											<i class="icon icon-pencil icon-large"></i>
+										</div>
+										<div class="feature-text">
+											<h6>Variant Builder</h6>
+											<p>
+												Our real-time HTML builder is a joy to use. Create your next site in the comfort of your browser!</p>
+										</div>
+									</div>
+								</div><!--end of feature-->
+							</div><!--end of row-->
+
+						</div>
+					</div><!--end of row-->
+				</div>
+			</section>
+
+			<section class="strip bg-secondary-1">
+							<div class="container">
+								<div class="row clearfix">
+									<div class="col-sm-6 col-xs-12 pull-left">
+										<h3 class="text-white"><strong>Purchase Pivot.</strong>&nbsp;Start building today.</h3>
+									</div>
+
+									<div class="col-sm-4 col-xs-12 pull-right text-center">
+										<a href="http://themeforest.net/item/pivot-responsive-multipurpose-html-with-builder-v141/8748103" class="btn btn-primary btn-white" target="_blank">PURCHASE PIVOT</a>
+									</div>
+								</div>
+							</div>
+						</section>

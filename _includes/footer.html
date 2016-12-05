@@ -1,29 +1,64 @@
-<div id="footerwrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <h4>About</h4>
-                <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Social Links</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Our Bunker</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
-            </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+<div class="footer-container">
+			<footer class="details">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<img alt="logo" class="logo" src="/assets/img/sf_logo_color_transparent.png">
+							<p>
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+							</p>
+						</div>
+
+						<div class="col-sm-4">
+							<h1>Contact</h1>
+							<p>
+								hello@snowflake-analytics.com<br>
+								1800 123 123<br>
+								<br>
+								Level 3, 1 Buckingham Street<br>
+								300 Collins St<br>
+								Surry Hills 2010
+							</p>
+						</div>
+						<div class="col-sm-4">
+		            <h1>Latest Posts</h1>
+		            <div class="hline"></div>
+		            {% for post in site.categories['blog'] limit:5 %}
+		                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+		            {% endfor %}
+		        </div>
+					</div><!--end of row-->
+				</div><!--end of container-->
+			</footer>
+		</div>
+
+		<div class="footer-container">
+					<footer class="short bg-secondary-1">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-10">
+									<span class="sub">© Copright 2016 Snowflake Analytics Pty. Ltd.</span>
+									<ul>
+										<li><a href="#">Terms Of Use</a></li>
+										<li><a href="#">Privacy &amp; Security Statement</a></li>
+										<li><a href="#">Sitemap</a></li>
+									</ul>
+								</div>
+								<div class="col-sm-2 text-right">
+									<ul class="social-icons">
+										<li>
+											<a href="#">
+												<i class="icon social_twitter"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="icon social_facebook"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div><!--end of row-->
+						</div><!--end of container-->
+					</footer>
+				</div>
