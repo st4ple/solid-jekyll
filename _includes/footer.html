@@ -1,64 +1,71 @@
-<div class="footer-container">
-			<footer class="details">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-4">
-							<img alt="logo" class="logo" src="/assets/img/sf_logo_color_transparent.png">
-							<p>
-								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-							</p>
-						</div>
-
-						<div class="col-sm-4">
-							<h1>Contact</h1>
-							<p>
-								hello@snowflake-analytics.com<br>
-								1800 123 123<br>
-								<br>
-								Level 3, 1 Buckingham Street<br>
-								Surry Hills 2010<br>
-								Sydney, Australia
-							</p>
-						</div>
-						<div class="col-sm-4">
-		            <h1>Latest Posts</h1>
-		            <div class="hline"></div>
-		            {% for post in site.categories['blog'] limit:5 %}
-		                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-		            {% endfor %}
-		        </div>
-					</div><!--end of row-->
-				</div><!--end of container-->
-			</footer>
+<footer class="short bg-secondary-1">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-2">
+		<dl class="st-nav-link-list">
+      <dt>Product</dt>
+      <dd><a href="/features">Features</a></dd>
+      <dd><a href="/integrations">Integrations</a></dd>
+      <dd><a href="/pricing">Pricing</a></dd>
+    </dl>
+		</div>
+		<div class="col-sm-2">
+			<dl class="st-nav-link-list">
+			      <dt>Company</dt>
+			      <dd><a href="/company">About</a></dd>
+			      <dd><a href="/contact">Contact</a></dd>
+			      <dd><a href="/customers">Customers</a></dd>
+			      <dd><a href="/partners">Partners</a></dd>
+			    </dl>
+		</div>
+		<div class="col-sm-2">
+			<dl class="st-nav-link-list">
+			      <dt>Community</dt>
+			      <dd><a href="https://github.com/stitchdata">Github</a></dd>
+			      <dd><a href="https://twitter.com/stitch_data">Twitter</a></dd>
+			      <dd><a href="https://www.linkedin.com/company/stitch-data">LinkedIn</a></dd>
+			    </dl>
 		</div>
 
-		<div class="footer-container">
-					<footer class="short bg-secondary-1">
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-10">
-									<span class="sub">© Copyright 2016 Snowflake Analytics Pty. Ltd.</span>
-									<ul>
-										<li><a href="#">Terms Of Use</a></li>
-										<li><a href="#">Privacy &amp; Security Statement</a></li>
-										<li><a href="#">Sitemap</a></li>
-									</ul>
-								</div>
-								<div class="col-sm-2 text-right">
-									<ul class="social-icons">
-										<li>
-											<a href="https://twitter.com/snowflake_data">
-												<i class="icon social_twitter"></i>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/company/snowflake-analytics">
-												<i class="icon social_linkedin"></i>
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div><!--end of row-->
-						</div><!--end of container-->
-					</footer>
-				</div>
+		<div class="col-sm-3">
+			<dt>Contact</dt>
+			<span> 
+				<a href="mailto:hello@snowflake-analytics.com?Subject=Hello%20again" target="_top">
+					hello@snowflake-analytics.com
+				</a>
+				phone: <a href="tel:1-800-123-123">1-800-123-123</a>
+				<br>
+				Level 3, 1-9 Buckingham Street<br>
+				Surry Hills 2010, Sydney, Australia
+			</span>
+		</div>
+		<div class="col-sm-3">
+			<span class="sub">© Copyright 2016 Snowflake Analytics Pty. Ltd.</span>
+			<ul>
+				<li><a href="#">Terms Of Use</a></li>
+				<li><a href="#">Privacy &amp; Security Statement</a></li>
+				<li><a href="#">Sitemap</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-2 text-right">
+			<ul class="social-icons">
+				<li>
+					<a href="https://twitter.com/snowflake_data">
+						<i class="icon social_twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/company/snowflake-analytics">
+						<i class="icon social_linkedin"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+	</div><!--end of row-->
+</div><!--end of container-->
+
+
+
+
+</footer>
