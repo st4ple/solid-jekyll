@@ -273,7 +273,7 @@ section.duplicatable-content {
   padding-bottom: 40px;
 }
 section:nth-of-type(odd) {
-  background: #f4f4f4;
+  background: rgba(245, 245, 245, 0.08);
 }
 section:nth-of-type(even) {
   background: #ffffff;
@@ -781,6 +781,7 @@ header .btn:last-child {
   padding: 0px;
   padding: 160px 0px;
   border-bottom: none;
+  background-color: #4d6f8e;
 }
 .page-header h1 {
   font-size: 40px;
@@ -1745,6 +1746,8 @@ img.phone-portrait {
 .team-1-member img {
   display: inline-block;
   margin-bottom: 16px;
+  border-radius: 50%;
+  width: 70%;
 }
 .team-1-member h5 {
   margin-bottom: 8px;
