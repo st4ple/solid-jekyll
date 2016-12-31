@@ -1,109 +1,163 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+title: MindGarage
+description: "Ovation MindGarage is an independent 'lab' under the guidance of Marcus Liwicki. It is connected to the teaching activities of Marcus in the area of deep learning, including the lecture 'Very Deep Learning', his supervised projects and theses, and individual studies."
+analytics: "UA-86445551-2" #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "http://mindgarage.de"
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
+permalink: /:categories/:year-:month-:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031" 
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  primary: "#00b3fe" #"#F70031"
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
   secondary: "#384452" #"#33004D"
   link: "#428bca"
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
-  
-  
+
+
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url:
+  #- title: dribbble
+  #  url:
+  #- title: facebook
+  #  url:
   - title: twitter
-    url: 
+    url: https://twitter.com/mindgarage1
   - title: instagram
-    url: 
-  - title: tumblr
-    url: 
-    
+    url: https://www.instagram.com/mindgarage/
+  #- title: tumblr
+  #  url:
+
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
-  - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+  - lines:
+    - Rooms 36-(307/309/310),
+    - TU Kaiserslautern,
+    - Paul-Ehrlich-Str. 36,
+    - 67663 Kaiserslautern,
+    - Germany
+email: liwicki@cs.uni-kl.de 
+tel: better write a mail ;)
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
+
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team01.jpg
+  - name: Marcus Liwicki
+    position: Head
+    text:  With the MindGarage I want to offer students a platform to discover and explore DeepLearning.
+    img: liwicki_team.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team02.jpg
+        url: mailto:liwicki@cs.uni-kl.de 
+      - title: linkedin
+        url: hhttps://www.linkedin.com/in/liwicki/en
+  - name: Muhammad Zeshan Afzal
+    position: Co-founder
+    text: MindGarage is a workplace that allows me to convert creative ideas to real application by mentoring the whole process and motivating, inspiring, encouraging, and helping the students as well to explore the area to best of their abilities.
+    img: shan_team.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team03.jpg
+        url: mailto:afzal@iupr.com 
+      - title: linkedin
+        url: https://www.linkedin.com/in/muhammad-zeshan-afzal-7a8148105
+  - name: Ayushman Dash
+    position: MS - Computer Science
+    text: love for applications of Artificial Intelligence, music and audio production drive me.
+    img: ayush_team.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team04.jpg
+        url: mailto:dash.ayushman.99@gmail.com
+      - title: linkedin
+        url: https://de.linkedin.com/in/ayushman-dash-18a9a4108
+  - name: John Gamboa
+    position: MS - Computer Science
+    text: Iam an insatiable learner, highly curious on new Deep Learning ideas. Hopefully I can quench some of my curiosity with the Mind Garage
+    img: john_team.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-    
-# Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
-    
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        url: mailto:vaulttech@gmail.com 
+      #- title: twitter
+      #  url: http://twitter.com/handle
+  - name: Dominik Bermühler
+    position: Bachelors - Computer Science
+    text: Hello I am Dominik.
+    img: dominik.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:dominik.bermuehler@gmail.com
+      #- title: twitter
+      #  url: http://twitter.com/handle
+  - name: Amit Sahu
+    position: MS - Computer Science
+    text: I am Amit Sahu -  My (not evil) goal is of creating super-intelligence which surpasses human and machine intelligence.
+    img: amit_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:amit.sahu89@gmail.com 
+      - title: linkedin
+        url: https://www.linkedin.com/in/amit-sahu-90975212
+  - name: Manabendra Saha
+    position: MS - Computer Science
+    text: I like changes and change is the only thing constant in my life.
+    img: mana_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:amit.sahu89@gmail.com 
+      - title: linkedin
+        url: https://www.linkedin.com/in/manabendra-saha-a5b58b17
+  - name: Vinay Chandran Pondenkandath
+    position: MS - Computer Science
+    text: Hello I am Vinay.
+    img: vinay_team.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:vinaychandranp@gmail.com
+      - title: linkedin
+        url: https://www.linkedin.com/in/vinaychandranp
 
-# Testimonial content. Shown on Home and About page. 
+# Supporters information. Shown on About page.
+supporters:
+  - name: Werner Weiss
+    position: CEO of Insiders Technologies GmbH
+    text: The MindGarage is an opportunity for the Region of Kaiserslautern
+    img: mg_team.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:w.weiss@insiders-technologies.de 
+  - name: Markus Ebbecke
+    position: Head of the Deep Learning Competence Center at Insiders Technologies GmbH
+    text: Deep Learning is a technology which offers amazing opportunities for future business. It is fantastic to see people having an enormous competence working at the MindGarage. They attract other young talents and together they are able to push the limits of technology further. I am very happy about this place as an opportunity in Kaiserslautern.
+    img: mg_team.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:M.Ebbecke@insiders-technologies.de 
+
+        
+# Partner information. Shown on Home and About pages.
+partners:
+  - name: Insiders Technologies
+    img: insidersLogo.png
+  - name: TU Kaiserslautern
+    img: tukl_logo.png
+
+# Short text about your Lab. Shown in footer on every page and also separately on Home and Contact page.
+about: "We believe that creativity comes with freedom and to solve challenging problems in AI we need to have freedom and creative thinking. We provide an unconstrained environment to highly motivated students to do whatever that comes to their minds and explore deep learning."
+
+# Testimonial content. Shown on Home and About page.
 testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+    message: "MindGarage is not an organisation, it is a family. Solving problems, meeting new people, discussing ideas and havining fun is what MindGarage is all about."
+    author: Ayushman Dash
+    position: Machine Learning Engineer/ Full Stack Web Developer  - MindGarage
+    author2: Marcus Liwicki
+    position2: apl. Prof. at the University of Kaiserslautern / Head of MindGarage
