@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Logo design contest starts now"
-date: 2014-04-25 16:54:46
+title: "เทคนิคการถ่ายภาพหน้าชัดหลังเบลอ"
+date: 11/5/2014 3:30:25 AM 
 author: Admin
 categories:
 - blog
@@ -11,21 +11,12 @@ img: post03.jpg
 thumb: thumb03.jpg
 ---
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <!--more-->
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Contrary to popular belief, <b>Lorem Ipsum is not simply random text</b>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<
-
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-####Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+**เทคนิคการถ่ายภาพหน้าชัดหลังเบลอ** <br><br>
+ 	ภาพชัดตื้นนั้นเป็นภาพที่ชัดเจนเฉพาะจุดที่เราโฟกัสเท่านั้น ส่วนจุดอื่นๆที่อยู่หลังตรงจุดที่เราโฟกัสจะเบลอทั้งหมด การถ่ายภาพแบบชัดตื้นนี้เหมาะสำหรับการถ่ายภาพ Portrait หรือวัตถุที่เราต้องการให้เห็นแค่วัตถุชิ้นนั้นเท่านั้น และตัดสิ่งที่ไม่ต้องการให้เห็นในฉากหลักที่รกรุงรังออกไปโดยการเบลอ<br><br>
+วิธีการถ่ายหน้าชัดหลังเบลอ<br>
+1.	ก่อนอื่นปรับรูรับแสง ( ค่า f ) ให้กว้างๆ โดยอยู่ที่ประมาณ f/1.8 – f/1.4 <br>การเปิดรูรับแสงกว้างจะทำให้ภาพมีความชัดตื้น แต่มีข้อควรระวังคือ หากเราเปิดรูรับแสงกว้างจนเกินไป ฉากหลังก็จะเบลอมากเกินไปจนอาจทำให้เสียรายละเอียดของภาพไป ดังนั้นเปิดให้พอดีกับความต้องการ และเหมาะกับงานที่ต้องถ่าย<br>
+2.	ให้ถ่ายใกล้นางแบบหรือวัตถุที่ต้องการถ่ายให้มาก แต่พยายามให้นางแบบหรือวัตถุอยู่ห่างจากฉากหลังให้มากเช่นกัน<br>
+3.	การเลือกเลนส์ในการถ่ายก็มีส่วนสำคัญ ให้เลือกใช้ Telephoto Lens เพราะเลนส์ประเภทนี้มีทางยาวโฟกัสสูง จะทำให้เกิดภาพชัดตื้นได้ง่ายกว่าเลนส์ที่มีทางยาวโฟกัสต่ำกว่า  เมื่อเปิดรูรับแสงที่ค่าเท่ากัน
 
 
->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-
-[hampden]: https://github.com/jekyll/jekyll

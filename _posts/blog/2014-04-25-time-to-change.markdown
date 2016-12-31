@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "แสงกับการถ่ายภาพ"
-date: 11/5/2014 3:23:22 AM 
+date: 25/4/2014 3:23:22 AM 
 author: Admin
 categories: 
 - blog 
 - Wordpress
 - Photoshop
-img: post01.jpg
-thumb: thumb01.jpg
+img: post04.jpg
+thumb: thumb04.jpg
 ---
 
 <b>แสงกับการถ่ายภาพ</b> <br>
