@@ -1,6 +1,12 @@
 Snowflake analytics site
 ============
 
+### Latest Changes
+
+1. Added DataTables to the JS and CSS (needs cleaning up, conflict in various libraries)
+2. pages to review native DataTables `/tables_dynamic.html`
+3. See `/adwords` for an example page using the website template and data tables
+
 ## Installation
 
 `gem install jekyll bundler`
@@ -15,7 +21,7 @@ Snowflake analytics site
 ##Usage
 This theme can be customized, built and published straight from GitHub, thanks to [GitHub Pages](https://pages.github.com/). A local installation of Jekyll isn't even necessary!
 
-[Fork this repository](https://github.com/st4ple/solid-jekyll/fork) to get started. 
+[Fork this repository](https://github.com/st4ple/solid-jekyll/fork) to get started.
 ####Customize  
 Most general settings and data like site name, colors, address, etc. can be configured and changed right in the main config file: `/_config.yml`
 The content of the Home page can be changed here: `/home.html`
@@ -84,4 +90,4 @@ Of course you can!
 To publish with [GitHub Pages](https://pages.github.com/), simply create a branch called `gh-pages`in your repository. GitHub will build your site automatically and publish it at `http://yourusername.github.io/repositoryname/`.  
 If there are problems with loading assets like CSS files and images, make sure that the `baseurl` in the `_config.yml`is set correctly (it should say `/repositoryname`).
 
-If you want to host your website somewhere else than GitHub (or just would like to customize and build your site locally), please check out the [Jekyll documentation](http://jekyllrb.com/). 
+If you want to host your website somewhere else than GitHub (or just would like to customize and build your site locally), please check out the [Jekyll documentation](http://jekyllrb.com/).
