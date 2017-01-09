@@ -975,11 +975,34 @@ header.signup:before {
   margin-right: 16px;
 }
 .product-right .product-image {
-  position: absolute;
+  position: relative;
   right: -40px;
-  bottom: -80px;
+  bottom: 0px;
   max-width: 750px;
 }
+
+.product-right2 {
+  height: 650px;
+  position: relative;
+  overflow: hidden;
+  padding: 0px;
+}
+.product-right2 h1 {
+  margin-bottom: 32px;
+}
+.product-right2 p.lead {
+  margin-bottom: 32px;
+}
+.product-right2 .btn {
+  margin-right: 16px;
+}
+.product-right2 .product-image {
+  position: relative;
+  right: 40px;
+  bottom: 0px;
+  max-width: 750px;
+}
+
 .hero-divider {
   padding: 160px 0px;
   position: relative;
