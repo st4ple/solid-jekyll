@@ -1,26 +1,13 @@
-<section class="bg-primary">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-8 col-sm-offset-2">
-							<div class="testimonials-slider text-center">
-								<ul class="slides">
-									<li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
-										<p class="text-white lead">Pivot is hands down the most flexible and enjoyable HTML template I've ever used. I was a startup framework die-hard but now my eyes have been opened to the sheer power of Variant page builder, I won't be going back!</p>
-										<span class="author text-white">Louise Duke - Mother Goose</span>
-									</li>
-
-									<li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class="">
-										<p class="text-white lead">I was getting fed up with the hassle of setting up bloated WordPress themes. Luckily I've now found Pivot with Variant. Building pages in real-time without a CMS gives me all the power and flexibility I could want.</p>
-										<span class="author text-white">Elizabeth Atkinson - Shapewear Australia</span>
-									</li>
-
-									<li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class="">
-										<p class="text-white lead">The plethora of content blocks available in Pivot has made it my go-to template of choice. I've already used it for a number of clients - all of which have been thrilled with the outcome. Well done Medium Rare!</p>
-										<span class="author text-white">Toby Whittaker - Design Dojo</span>
-									</li>
-								</ul>
-							<ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a class="">2</a></li><li><a class="">3</a></li></ol></div>
-						</div>
-					</div><!--end of row-->
-				</div><!--end of container-->
-			</section>
+<div id="twrap">
+    <div id="twrapback"></div>
+    <div class="container centered">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+            <i class="fa fa-comment-o"></i>
+            <p>{{ site.testimonial.message }}</p>
+            <h4><br/>{{ site.testimonial.author }}</h4>
+            <p>{{ site.testimonial.position }}</p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/twrap -->

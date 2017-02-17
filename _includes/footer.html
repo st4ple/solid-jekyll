@@ -1,59 +1,36 @@
-<footer class="short bg-secondary-1">
-<div class="container">
-	<div class="row">
-		<div class="col-sm-3">
-			<dt>Contact</dt>
-			<dd>
-				<a href="mailto:hello@snowflake-analytics.com?Subject=Hello%20again" target="_top">
-					hello@snowflake-analytics.com
-				</a><br>
-				phone: <a href="tel:1300940487">1300 940 487</a>
-				<br>
-				Level 3, 1-9 Buckingham Street<br>
-				Surry Hills 2010, Sydney, Australia
-			</dd>
-		</div>
-		<div class="col-sm-3">
-			<dl class="st-nav-link-list">
-			      <dt>Company</dt>
-			      <dd><a href="/company">About</a></dd>
-			      <dd><a href="/contact">Contact</a></dd>
-			      <dd><a href="/managed-services">Product</a></dd>
-			    </dl>
-		</div>
-		<div class="col-sm-3">
-			<dl class="st-nav-link-list">
-			      <dt>Community</dt>
-			      <dd><a href="https://github.com/snowflake-analytics">Github</a></dd>
-			      <dd><a href="https://twitter.com/snowflake_data">Twitter</a></dd>
-			      <dd><a href="https://www.linkedin.com/company/snowflake-analytics">LinkedIn</a></dd>
-			    </dl>
-		</div>
-		<div class="col-sm-3">
-	<dl class="st-nav-link-list">
-				<dt>Security</dt>
-				<dd><a href="#">Terms Of Use</a></dd>
-				<dd><a href="#">Privacy &amp; Security Statement</a></dd>
-				<dd><a href="#">Sitemap</a></dd>
-			</dl>
-</div>
-	</div><!--end of row-->
-</div><!--end of container-->
-</footer>
-<div class="footer-container">
-			<footer class="bg-primary short-2">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<span class="sub">© Copyright 2016 Snowflake Analytics Pty. Ltd.</span>
-						</div>
-					</div><!--end for row-->
-				</div><!--end of container-->
-				<div class="contact-action">
-					<div class="align-vertical" style="padding-top: 80px;">
-						<i class="icon text-white icon_mail"></i>
-						<a href="/contact" class="text-white"><span class="text-white">Get in touch with us <i class="icon arrow_right"></i></span></a>
-					</div>
-				</div>
-			</footer>
-		</div>
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <h4>About</h4>
+                <div class="hline-w"></div>
+                <p>{{ site.about }}</p>
+            </div>
+            <div class="col-lg-3">
+                <h4>Social Links</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <h4>Our Bunker</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <h4>Latest Posts</h4>
+                <div class="hline-w"></div>
+                {% for post in site.categories['blog'] limit:5 %}
+                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                {% endfor %}
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->

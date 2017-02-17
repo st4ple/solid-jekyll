@@ -1,7 +1,6 @@
 <div class="container mtb">
     <div class="row centered">
         <h3 class="mb">MEET OUR TEAM</h3>
-        
         {% for member in site.members %}
         <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="he-wrap tpl6">
@@ -13,14 +12,14 @@
                             <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
                         {% endfor %}
                     </div><!-- he bg -->
-                </div><!-- he view -->		
+                </div><!-- he view -->
             </div><!-- he wrap -->
             <h4>{{ member.name }}</h4>
             <h5 class="ctitle">{{ member.position }}</h5>
             <p>{{ member.text }}</p>
             <div class="hline"></div>
-        </div><! --/col-lg-3 -->	 	
+        </div><! --/col-lg-3 -->
         {% endfor %}
-        
+
     </div><! --/row -->
 </div><! --/container -->

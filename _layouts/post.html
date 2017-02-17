@@ -1,20 +1,8 @@
 ---
 layout: default
 ---
-<header class="title">
-					<div class="background-image-holder parallax-background skrollable skrollable-between" data-bottom-top="-webkit-transform: translate3d(0px,-100px, 0px)" data-center="-webkit-transform: translate3d(0px,0px, 0px)" data-top-bottom="-webkit-transform: translate3d(0px,100px, 0px)" style="background: url(&quot;/assets/img/hero10.jpg&quot;) 50% 0%; transform: translate3d(0px, 36.136px, 0px);">
-						<img class="background-image" alt="Background Image" src="/assets/img/hero10.jpg" style="display: none;">
-					</div>
 
-					<div class="container align-bottom" style="padding-top: 448px;">
-						<div class="row">
-							<div class="col-xs-12">
-								<h1 class="text-white">{{ page.title }}</h1>
-								<span class="sub alt-font text-white">{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }} - 3 Minute Read</span>
-							</div>
-						</div><!--end of row-->
-					</div><!--end of container-->
-			</header>
+{% include wrap.html %}
 
 <div class="container mtb">
     <div class="row">
@@ -24,7 +12,7 @@ layout: default
             <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
             <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
-
+              
             {{ content }}
 
             <div class="spacing"></div>
@@ -33,10 +21,10 @@ layout: default
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-tumblr"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>		 		
             </p> -->
         </div><! --/col-lg-8 -->
-
+        
         {% include sidebar.html %}
 
     </div><! --/row -->
