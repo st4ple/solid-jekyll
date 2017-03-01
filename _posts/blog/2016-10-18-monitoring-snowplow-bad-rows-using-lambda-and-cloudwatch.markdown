@@ -4,9 +4,9 @@ title: "Monitoring Snowplow bad rows using Lambda and Cloudwatch"
 date: 2016-10-18 16:54:46
 author: Mike Robins
 categories:
+- blog
 - Infrastructure
-img: post01.jpg
-thumb: thumb01.jpg
+img: 4a44.lambda.jpg
 ---
 
 In this tutorial we'll use Amazon Lambda and Amazon Cloudwatch to set up monitoring for the number of bad rows that are inserted into Elasticsearch over a period of time. This allows us to set an alert for the threshold of bad rows, and generates an email or notification when this threshold has been exceeded. Snowplow users on the realtime pipeline will find this most useful, however users running loads in batch can also adapt this monitoring.

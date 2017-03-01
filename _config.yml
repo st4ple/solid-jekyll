@@ -27,15 +27,11 @@ colors:  #in hex code if not noted else
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
   - title: github
-    url:
+    url: https://github.com/snowflake-analytics
   - title: twitter
-    url:
+    url: https://twitter.com/snowflake_data
   - title: linkedin
-    url:
-  - title: instagram
-    url:
-  - title: tumblr
-    url:
+    url: https://www.linkedin.com/company/snowflake-analytics
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:

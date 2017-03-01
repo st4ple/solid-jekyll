@@ -4,8 +4,9 @@ title: "Decoding Snowplow real-time bad rows (Thrift)"
 date: 2016-12-13 16:54:46
 author: Mike Robins
 categories:
+- blog
 - Infrastructure
-img: post01.jpg
+img: snowplow-data-processing-bad-bucket-flow-chart-cropped.png
 thumb: thumb01.jpg
 ---
 

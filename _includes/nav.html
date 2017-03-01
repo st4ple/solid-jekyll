@@ -17,7 +17,13 @@
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Technology" %}class="active"{% endif %}><a href="{{"/technology/" | prepend: site.baseurl }}">TECHNOLOGY</a></li>
-        <li {% if page.title == "Solutions" %}class="active"{% endif %}><a href="{{"/solutions/" | prepend: site.baseurl }}">SOLUTIONS</a></li>
+        <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">SOLUTIONS <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/ecommerce-solutions/">Commerce Solutions</a></li>
+                <li><a href="/media-solutions/">Media Solutions</a></li>
+              </ul>
+            </li>
         <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a></li>
         <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
         <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">BLOG</a></li>

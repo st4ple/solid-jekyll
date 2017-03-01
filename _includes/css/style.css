@@ -30,9 +30,15 @@ body {
 	font-weight: 400;
 	}
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+	font-weight: 100;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 29px;
 }
 
 p {
@@ -482,7 +488,7 @@ csmall {
 .popular-posts li {
 	list-style: none;
 	margin-bottom: 20px;
-	min-height: 70px;
+	min-height: 1px;
 }
 .popular-posts li a,
 .popular-posts li a:hover {
@@ -586,7 +592,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 }
 /*
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
-   /* Medium desktop: 4 tiles 
+   /* Medium desktop: 4 tiles
    .box {
       width: 1%;
       padding-bottom: 1%;
@@ -610,20 +616,20 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
     letter-spacing: 1px;
     text-transform: uppercase;
 }
- 
+
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
- 
+
 .btn-primary {
     background: #0099cc;
     color: #ffffff;
 }
- 
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     background: #33a6cc;
 }
- 
+
 .btn-primary:active, .btn-primary.active {
     background: #007299;
     box-shadow: none;
