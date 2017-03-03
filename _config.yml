@@ -100,7 +100,7 @@ clients:
     img: 11.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: " We exist to make organisations better understand their businesses by enabling all decision makers in a company to work with the same version of the truth."
 
 # Testimonial content. Shown on Home and About page.
 testimonial:

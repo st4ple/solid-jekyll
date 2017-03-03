@@ -31,20 +31,28 @@ body {
 	}
 
 h1, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 100;
+	font-family: 'Avenir Next W01','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 h2 {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 29px;
 }
 
-p {
+h3 {
+	font-weight: 400;
+	font-size: 29px;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 15px;
+}
+
+p, li {
 	padding: 0;
 	margin-bottom: 12px;
-	font-family: 'Lato', sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont,'Roboto', 'Helvetica', 'Arial', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
@@ -133,7 +141,7 @@ a:focus {
 }
 
 .navbar-default {
-	background-color: #21406f;
+	background-color: #99CCFF;
 	border-color: transparent;
 }
 
@@ -231,12 +239,11 @@ a:focus {
 }
 
 #headerwrap-solutions {
-	background-color: {{ site.colors.primary }};
+	background-color: #99CCFF;
 	min-height: 0px;
 	padding-top: 100px;
 	padding-bottom: 50px;
 	text-align: center;
-	background-image: url(/assets/img/PNG/SF00w-icons_Homepage-Header.png);
 }
 
 
@@ -264,6 +271,17 @@ a:focus {
 	color: {{ site.colors.primary }};
 	font-size: 60px;
 	padding: 15px;
+}
+
+#service p {
+    padding: 0;
+    margin-bottom: 12px;
+    font-family: 'Avenir Next W01','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: #384452;
+    margin-top: 10px;
 }
 
 /* Portfolio Wrap */
@@ -601,12 +619,33 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 */
 
 /* HERO for every hero page */
-#hero{
-  background-image:url(/assets/img/PNG/SF00w-icons_Homepage-Header.png);
+#hero {
   background-size:inherit;
-  background-color: #21406f;
+  background-color: #99CCFF;
   position:relative;
   height:100vh;
+}
+
+#hero h1, h2, h3, h4, h5, h6 {
+	font-family: 'Avenir Next W01','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#hero h3 {
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 70px;
+    padding-top: 4px;
+    margin-bottom: 10px;
+		text-align: center;
+}
+
+#hero h5 {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+		text-align: center;
 }
 
 .btn {
