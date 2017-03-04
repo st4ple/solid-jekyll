@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://snowflake-analytics.com/sitemap.xml

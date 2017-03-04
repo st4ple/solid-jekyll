@@ -1,7 +1,11 @@
 ---
 layout: blog
-title: Categories
+title: Blog Categories
 permalink: /category/
+sitemap:
+    priority: 0.7
+    changefreq: 'monthly'
+    lastmod: 2017-03-02T04:49:30+11:00
 ---
 <div class="container mtb">
     <div class="row">
@@ -13,7 +17,7 @@ permalink: /category/
                     <ul class="popular-posts">
                         {% for post in site.categories[category.first] %}
                             <li>
-                                
+
                                 <p><a href="{{ post.url }}">{{ post.title }}</a></p>
                                 <em>Posted on {{ post.date | date_to_string }}</em>
                             </li>

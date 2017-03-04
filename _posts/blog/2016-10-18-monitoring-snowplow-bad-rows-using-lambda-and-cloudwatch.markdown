@@ -1,12 +1,14 @@
 ---
 layout: post
 title: "Monitoring Snowplow bad rows using Lambda and Cloudwatch"
+description: Snowplow Analytics tutorial using Amazon Lambda and Amazon Cloudwatch to set up monitoring for the number of bad rows that are inserted into Elasticsearch over a period of time.
 date: 2016-10-18 16:54:46
 author: Mike Robins
 categories:
 - blog
 - Infrastructure
 img: 4a44.lambda.jpg
+tags: Snowplow Analytics lambda
 ---
 
 In this tutorial we'll use Amazon Lambda and Amazon Cloudwatch to set up monitoring for the number of bad rows that are inserted into Elasticsearch over a period of time. This allows us to set an alert for the threshold of bad rows, and generates an email or notification when this threshold has been exceeded. Snowplow users on the realtime pipeline will find this most useful, however users running loads in batch can also adapt this monitoring.
@@ -29,7 +31,7 @@ First, let's set up an execution role for our AWS Lambda function. This executio
 3. Select 'Create Your Own Policy'
 4. Name the policy document and provide a description. Under the 'Policy document' we'll use the following configuration.
 
-```json
+{% highlight ruby linenos %}
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -51,7 +53,7 @@ First, let's set up an execution role for our AWS Lambda function. This executio
         }
     ]
 }
-```
+{% endhighlight %}
 
 
 ![Lambda bad rows AWS IAM Policy](/assets/img/blog/iam-policy-bad-rows-lambda.png)
@@ -74,7 +76,7 @@ Next, we'll create a role for the Lambda function to use, and attach this policy
 5. In this example we will use the 'Python 2.7' runtime.
 6. For the function code copy and paste the function below.
 
-```python
+{% highlight ruby linenos %}
 import json
 import urllib2
 import boto3
@@ -104,7 +106,7 @@ def lambda_handler(event, context):
     # prepare a payload to send with the name 'bad_rows_count'
     client.put_metric_data(Namespace='snowplow', MetricData=data) # send the data to Cloudwatch using the 'snowplow' namespace
     return bad_row_count # return the number of bad rows in the last 5 minutes
-```
+{% endhighlight %}
 
 In the above snippet change the host variable to point to your Elasticsearch cluster. This is likely to be either a load balancer if you're running Elasticsearch on EC2 instances, or the Elasticsearch endpoint if using AWS Elasticsearch Service.
 
@@ -155,22 +157,3 @@ Running this monitoring will cost approximately $0.69 a month depending on your 
 * ~$0.09 for Cloudwatch PutMetricData (9000 requests/month, assuming rule triggers every 5 minutes)
 
 If you have any questions or comments feel free to leave them in the comment section below, or in the Snowplow discourse forum.
-
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <!--more-->
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Contrary to popular belief, <b>Lorem Ipsum is not simply random text</b>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<
-
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-####Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-
-
->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-
-[hampden]: https://github.com/jekyll/jekyll
