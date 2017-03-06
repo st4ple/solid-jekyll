@@ -141,7 +141,7 @@ a:focus {
 }
 
 .navbar-default {
-	background-color: #99CCFF;
+	background-color: #023E73;
 	border-color: transparent;
 }
 
@@ -239,7 +239,7 @@ a:focus {
 }
 
 #headerwrap-solutions {
-	background-color: #99CCFF;
+	background-color: #216EA9;
 	min-height: 0px;
 	padding-top: 100px;
 	padding-bottom: 50px;
@@ -621,7 +621,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 /* HERO for every hero page */
 #hero {
   background-size:inherit;
-  background-color: #99CCFF;
+  background-color: #216EA9;
   position:relative;
   height:100vh;
 }
