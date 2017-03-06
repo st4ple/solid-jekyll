@@ -16,6 +16,13 @@
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
+
+@media only screen and (max-width: 767px) {
+.logo, .logo a, .logo img {
+max-height: 30px!important; }
+.responsive .mobile_slide_out .logo img {
+margin-left: -30px!important; }}
+
 	* {
 		margin: 0;
 		padding: 0px;
@@ -230,12 +237,33 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: {{ site.colors.primary }};
+	background-color: #216EA9;
 	min-height: 0px;
 	padding-top: 180px;
 	padding-bottom: 50px;
 	text-align: center;
-	background-image: url(/assets/img/PNG/SF00w-icons_Homepage-Header.png);
+}
+
+#headerwrap	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Avenir Next W01','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#headerwrap h3 {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 70px;
+    padding-top: 4px;
+    margin-bottom: 10px;
+		text-align: center;
+}
+
+#headerwrap h5 {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+		text-align: center;
 }
 
 #headerwrap-solutions {
@@ -259,6 +287,40 @@ a:focus {
 
 #headerwrap, #headerwrap-solutions .img-responsive {
 	margin: 0 auto;
+}
+
+#cwrap, .img-responsive {
+	display: -webkit-inline-box;
+}
+
+/* HERO for every hero page */
+#hero {
+  background-size:inherit;
+  background-color: #216EA9;
+  position:relative;
+  height:100vh;
+}
+
+#hero h1, h2, h3, h4, h5, h6 {
+	font-family: 'Avenir Next W01','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#hero h3 {
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 70px;
+    padding-top: 4px;
+    margin-bottom: 10px;
+		text-align: center;
+}
+
+#hero h5 {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+		text-align: center;
 }
 
 /* Services Wrap */
@@ -617,36 +679,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
    }
 }
 */
-
-/* HERO for every hero page */
-#hero {
-  background-size:inherit;
-  background-color: #216EA9;
-  position:relative;
-  height:100vh;
-}
-
-#hero h1, h2, h3, h4, h5, h6 {
-	font-family: 'Avenir Next W01','Helvetica Neue',Helvetica,Arial,sans-serif;
-}
-
-#hero h3 {
-    font-size: 65px;
-    font-weight: 400;
-    line-height: 70px;
-    padding-top: 4px;
-    margin-bottom: 10px;
-		text-align: center;
-}
-
-#hero h5 {
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-		text-align: center;
-}
 
 .btn {
     padding: 14px 24px;
