@@ -9,7 +9,7 @@ url: "snowflake-analytics.com"
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
+permalink: /:categories/:title/
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
@@ -35,7 +35,7 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - 3/ 1-9 Buckingham Street
+    - 3/1-9 Buckingham Street
     - Surry Hills, 2010, Surry Hills,
     - NSW, Australia
 email: contact@snowflake-analytics.com
