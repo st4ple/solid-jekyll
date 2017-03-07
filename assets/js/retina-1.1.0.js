@@ -34,7 +34,8 @@
     var existing_onload = context.onload || new Function;
 
     context.onload = function() {
-      var images = document.getElementsByTagName("img"), retinaImages = [], i, image;
+      //var images = document.getElementsByTagName("img"), retinaImages = [], i, image;
+      var images = document.getElementsByClassName('has-retina'), retinaImages = [], i, image;
       for (i = 0; i < images.length; i++) {
         image = images[i];
         retinaImages.push(new RetinaImage(image));
@@ -149,4 +150,3 @@
   }
 
 })();
-
