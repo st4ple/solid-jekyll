@@ -1,21 +1,456 @@
-<div id="portfoliowrap">
-    <div class="portfolio-centered">
-        {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
-        <div class="recentitems portfolio">
-            {% for project in site.categories['project'] limit:include.limit %}
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-                    <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.img }}" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">{{ project.title }}</h3>
-                                <a data-rel="prettyPhoto" href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.img }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="{{  project.url | prepend: site.baseurl }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->		
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-            {% endfor %}
-        </div><!-- portfolio -->
-    </div><!-- portfolio container -->
-</div><!--/Portfoliowrap -->
+  <!--[if lt IE 9]>
+
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>a
+  <![endif]-->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+  $(function () {
+
+    var filterList = {
+
+      init: function () {
+
+        // MixItUp plugin
+        // http://mixitup.io
+        $('#portfoliolist').mixItUp({
+          selectors: {
+            target: '.portfolio',
+            filter: '.filter'
+          },
+          load: {
+            filter: '.app'
+          }
+        });
+
+      }
+
+    };
+
+    // Run the show!
+    filterList.init();
+  });
+  </script>
+
+  <div class="container">
+    <ul id="filters" class="clearfix">
+      <li><span class="filter active" data-filter=".advertising, .affiliate, .analytics, .database, .email, .experiments, .phone, .podcasts, .social, .video">All</span></li>
+      <li><span class="filter" data-filter=".advertising">Advertising</span></li>
+      <li><span class="filter" data-filter=".affiliate">Affiliate</span></li>
+      <li><span class="filter" data-filter=".analytics">Analytics</span></li>
+      <li><span class="filter" data-filter=".database">Database</span></li>
+      <li><span class="filter" data-filter=".email">Email</span></li>
+      <li><span class="filter" data-filter=".experiments">Experiments</span></li>
+      <li><span class="filter" data-filter=".phone">Phone</span></li>
+      <li><span class="filter" data-filter=".podcasts">Podcasts</span></li>
+      <li><span class="filter" data-filter=".social">Social</span></li>
+      <li><span class="filter" data-filter=".video">Video</span></li>
+    </ul>
+
+    <div id="portfoliolist">
+
+      <div class="portfolio advertising" data-cat="advertising">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Google Adwords</a>
+              <span class="text-category">Advertising</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio advertising" data-cat="advertising">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Google Doubleclick</a>
+              <span class="text-category">Advertising</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio advertising" data-cat="advertising">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Facebook Ads</a>
+              <span class="text-category">Advertising</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio advertising" data-cat="advertising">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Kenshoo</a>
+              <span class="text-category">Advertising</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio advertising" data-cat="advertising">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Smartly</a>
+              <span class="text-category">Advertising</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio advertising" data-cat="advertising">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Criteo</a>
+              <span class="text-category">Advertising</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio advertising" data-cat="advertising">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">The Trade Desk</a>
+              <span class="text-category">Advertising</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+<!-- END ADVERTISING -->
+<!-- START AFFILIATE -->
+      <div class="portfolio affiliate" data-cat="affiliate">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Rakuten</a>
+              <span class="text-category">Affiliate</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio affiliate" data-cat="affiliate">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Commission Factory</a>
+              <span class="text-category">Affiliate</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio affiliate" data-cat="affiliate">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Performance Horizon</a>
+              <span class="text-category">Affiliate</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <!-- END AFFILIATE -->
+      <!-- START ANALYTICS -->
+      <div class="portfolio analytics" data-cat="analytics">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Google Analytics</a>
+              <span class="text-category">Analytics</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <!-- END ANALYTICS -->
+      <!-- START Database -->
+      <div class="portfolio database" data-cat="database">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">MYSQL</a>
+              <span class="text-category">Database</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio database" data-cat="database">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">MSSQL</a>
+              <span class="text-category">Database</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio database" data-cat="database">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Postgres</a>
+              <span class="text-category">Database</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <!-- END Database -->
+      <!-- START Email -->
+      <div class="portfolio email" data-cat="email">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Mandrill</a>
+              <span class="text-category">Email</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio email" data-cat="email">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Salesforce marketing Cloud</a>
+              <span class="text-category">Email</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio email" data-cat="email">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Campaign Monitor</a>
+              <span class="text-category">Email</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio email" data-cat="email">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Marketo</a>
+              <span class="text-category">Email</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <!-- END Email -->
+      <!-- START Experiments -->
+      <div class="portfolio experiments" data-cat="experiments">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Optimizely</a>
+              <span class="text-category">Experiments</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <!-- END Experiments -->
+      <!-- START Phone -->
+      <div class="portfolio phone" data-cat="phone">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Delacon</a>
+              <span class="text-category">Phone</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio phone" data-cat="phone">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Fone Dynamics</a>
+              <span class="text-category">Phone</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <!-- END Phone -->
+      <!-- START Podcasts -->
+      <div class="portfolio podcasts" data-cat="podcasts">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">KittyPic</a>
+              <span class="text-category">Podcasts</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <!-- END Podcasts -->
+      <!-- START Social -->
+      <div class="portfolio social" data-cat="social">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Facebook</a>
+              <span class="text-category">Social</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio social" data-cat="social">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Twitter</a>
+              <span class="text-category">Social</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio social" data-cat="social">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Instagram</a>
+              <span class="text-category">Social</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio social" data-cat="social">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Apple News</a>
+              <span class="text-category">Social</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio social" data-cat="social">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Disqus</a>
+              <span class="text-category">Social</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio social" data-cat="social">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Bitly</a>
+              <span class="text-category">Social</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <!-- END Social -->
+      <!-- START Video -->
+      <div class="portfolio video" data-cat="video">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Brightcove</a>
+              <span class="text-category">Video</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio video" data-cat="video">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Youtube</a>
+              <span class="text-category">Video</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio video" data-cat="video">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">TubeMogal</a>
+              <span class="text-category">Video</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio video" data-cat="video">
+        <div class="portfolio-wrapper">
+          <img src="/assets/img/portfolios/app/1.jpg" alt="" />
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Teads</a>
+              <span class="text-category">Video</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+      <!-- END Video -->
+    </div>
+  </div><!-- container -->

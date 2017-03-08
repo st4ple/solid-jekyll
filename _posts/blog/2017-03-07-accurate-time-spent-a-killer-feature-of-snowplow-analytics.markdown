@@ -6,7 +6,7 @@ date: 2017-03-06 16:54:46
 author: Simon Rumble
 categories:
 - blog
-- data modeling
+- data-modeling
 img: time-spent-banner.png
 tags: Snowplow Analytics, time spent, page pings
 ---
