@@ -16,7 +16,12 @@
     </div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
-        <li {% if page.title == "Technology" %}class="active"{% endif %}><a href="{{"/technology/" | prepend: site.baseurl }}">TECHNOLOGY</a></li>
+        <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">TECHNOLOGY <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/snowplow-analytics/">Snowplow Analytics</a></li>
+              </ul>
+            </li>
         <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">SOLUTIONS <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -24,9 +29,15 @@
                 <li><a href="/media-solutions/">Media Solutions</a></li>
               </ul>
             </li>
-        <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a></li>
-        <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
+            <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">COMPANY <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                  </ul>
+                </li>
         <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">BLOG</a></li>
+        <li {% if page.title == "Demo" %}class="active"{% endif %}><a href="{{"/demo/" | prepend: site.baseurl }}">Schedule a Demo</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
