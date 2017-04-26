@@ -114,7 +114,8 @@ html {
 
 			.portfolio .text-category {
 				display:block;
-				font-size:9px;
+				font-size:10px;
+        padding-top: 5px;
 			}
 
 	.portfolio:hover .label {

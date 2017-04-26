@@ -84,9 +84,26 @@ margin-left: -30px!important;
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 280px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_1_of_8, .span_2_of_8, .span_3_of_8, .span_4_of_8, .span_5_of_8, .span_6_of_8, .span_7_of_8, .span_8_of_8 { width: 100%; }
+}
+
+
+.custom-bullet li {
+display: block;
+}
+
+.custom-bullet li:before
+{
+/*Using a Bootstrap glyphicon as the bullet point*/
+content: "\e080";
+font-family: 'Glyphicons Halflings';
+font-size: 9px;
+float: left;
+margin-top: 4px;
+margin-left: -17px;
+color: #CCCCCC;
 }
 
 
@@ -110,25 +127,24 @@ h1, h3, h4, h5, h6 {
 
 h2 {
 	font-weight: 400;
-	font-size: 29px;
+	font-size: 22px;
 }
 
 h3 {
 	font-weight: 400;
-	font-size: 29px;
+	font-size: 25px;
 }
 
 h4 {
 	font-weight: 400;
-	font-size: 15px;
 }
 
 p, li {
 	padding: 0;
 	margin-bottom: 12px;
 	font-family: -apple-system, BlinkMacSystemFont,'Roboto', 'Helvetica', 'Arial', sans-serif;
-	font-weight: 400;
-	font-size: 14px;
+	font-weight: 300;
+	font-size: 16px;
 	line-height: 24px;
 	color: {{ site.colors.secondary }};
 	margin-top: 10px;
@@ -220,7 +236,7 @@ a:focus {
 }
 
 .dropdown-menu {
-	background: {{ site.colors.secondary }};
+	background: #023E73;
 }
 
 .dropdown-menu > li > a {
@@ -279,7 +295,7 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 80px;
+	margin-top: 100px;
 	margin-bottom: 80px;
 }
 
@@ -303,78 +319,52 @@ a:focus {
 	SITE WRAPS
 ################################################################# */
 
-#headerwrap {
+#headerwrap, #headerwrap-solutions {
 	background-color: #216EA9;
 	min-height: 0px;
-	padding-top: 180px;
-	padding-bottom: 50px;
+	padding-top: 140px;
+	padding-bottom: 90px;
 	text-align: center;
 }
 
-#headerwrap	h1, h2, h3, h4, h5, h6 {
-		font-family: 'Avenir Next W01','Helvetica Neue',Helvetica,Arial,sans-serif;
-}
-
-#headerwrap h3 {
-    font-size: 44px;
+#headerwrap,#headerwrap-solutions h3 {
+    font-size: 32px;
     font-weight: 400;
-    line-height: 70px;
-    padding-top: 4px;
-    margin-bottom: 10px;
+    line-height: 50px;
 		text-align: center;
+		color: white;
+		padding-bottom: 10px;
 }
 
-#headerwrap h5 {
+#headerwrap, #headerwrap-solutions h5 {
     font-size: 22px;
     font-weight: 300;
-    line-height: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    line-height: 35px;
 		text-align: center;
-}
-
-#headerwrap-solutions {
-	background-color: #216EA9;
-	min-height: 0px;
-	padding-top: 100px;
-	padding-bottom: 50px;
-	text-align: center;
-}
-
-
-#headerwrap, #headerwrap-solutions h3, h5 {
-	color: white;
-	font-weight: 400;
-}
-
-#headerwrap, #headerwrap-solutions h1 {
-	color: white;
-	margin-bottom: 25px;
+		color: white;
+		padding-bottom: 20px;
 }
 
 #headerwrap, #headerwrap-solutions .img-responsive {
 	margin: 0 auto;
 }
 
-/* HERO for every hero page */
-#hero {
-  background-size:inherit;
-  background-color: #216EA9;
+/* HERO for every hero page background-image:url("/assets/img/a_blue.jpg"); */
+
+#hero{
+  background-size:cover;
+	background-color: #216EA9;
   position:relative;
   height:100vh;
 }
 
-#hero h1, h2, h3, h4, h5, h6 {
-	font-family: 'Avenir Next W01','Helvetica Neue',Helvetica,Arial,sans-serif;
-}
-
 #hero h3 {
-    font-size: 65px;
-    font-weight: 400;
+    font-size: 49px;
+    font-weight: 300;
     line-height: 70px;
-    padding-top: 4px;
+    padding-top: 40px;
     margin-bottom: 10px;
-		text-align: center;
+		text-align: left;
 }
 
 #hero h5 {
@@ -383,10 +373,55 @@ a:focus {
     line-height: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-		text-align: center;
+		text-align: left;
 }
 
-/* Services Wrap */
+#herosp{
+  background-size:cover;
+	background-color: #216EA9;
+  position:relative;
+  height:100vh;
+}
+
+#herosp h3 {
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 50px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+		text-align: left;
+}
+
+#herosp h5 {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+		text-align: left;
+}
+
+.header{
+  position:absolute;
+  top:50%;
+	margin-top: 0px;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);
+}
+
+#content{
+  padding:100px 50px;
+  text-align:center;
+  width:80%;
+  margin:0px auto;
+}
+
+/* Services Snowplow Wrap */
 #service {
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -399,14 +434,34 @@ a:focus {
 }
 
 #service p {
-    padding: 0;
-    margin-bottom: 12px;
-    font-family: 'Avenir Next W01','Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding-bottom: 20px;
+    font-weight: 200;
+		font-size: 20px;
+    line-height: 30px;
+    color: #384452;
+    margin-top: 10px;
+		text-align: justify;
+}
+
+/* Services Snowplow Wrap */
+#servicesp {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#servicesp i {
+	color: {{ site.colors.primary }};
+	font-size: 60px;
+	padding: 15px;
+}
+
+#servicesp p {
+    padding-bottom: 20px;
     font-weight: 300;
-    font-size: 20px;
     line-height: 27px;
     color: #384452;
     margin-top: 10px;
+		text-align: justify;
 }
 
 /* Portfolio Wrap */
@@ -745,11 +800,13 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 */
 
 .btn {
-    padding: 14px 24px;
+    /*
+		padding: 14px 24px;
     border: 0 none;
     font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+		text-transform: uppercase;
+		*/
+    letter-spacing: 0.5px;
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
@@ -768,19 +825,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 .btn-primary:active, .btn-primary.active {
     background: #007299;
     box-shadow: none;
-}
-
-.header{
-  position:absolute;
-  top:50%;
-	margin-top: 60px;
-  text-align:center;
-  width:100%;
-  color:#fff;
-  font-size:36px;
-  -ms-transform: translate(0,-50%); /* IE 9 */
-    -webkit-transform: translate(0,-50%); /* Safari */
-    transform: translate(0,-50%);
 }
 
 .feature-selector ul {

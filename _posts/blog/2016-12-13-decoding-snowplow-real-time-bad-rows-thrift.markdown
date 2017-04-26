@@ -19,7 +19,7 @@ Before we start you’ll need 3 things.
 
 1. A copy of Python 3
 2. The `thriftpy` library which can be installed using `pip install thriftpy`
-3. A local copy of the [Snowplow Analytics collector payload thrift] file(https://github.com/snowplow/snowplow/blob/master/2-collectors/thrift-schemas/collector-payload-1/src/main/thrift/collector-payload.thrift)
+3. A local copy of the [Snowplow Analytics collector payload thrift file](https://github.com/snowplow/snowplow/blob/master/2-collectors/thrift-schemas/collector-payload-1/src/main/thrift/collector-payload.thrift)
 
 If you’re running real-time you can either take a sample payload from your Elasticsearch index (the line property) from a record in bad rows - otherwise we’ll use a sample event I’ve generated below.
 
