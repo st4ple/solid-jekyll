@@ -6,10 +6,10 @@
       .cls-1{stroke:#d3d3d3;}.cls-2{fill:#fff;}
       .cls-3{stroke:#001443;}
       .cls-4{stroke:#001443;}
-      .cls-3,.cls-6{stroke-width:4px;}
-      .cls-4,.cls-7{stroke-width:2px;}
+      .cls-3,.cls-6{stroke-width:2px;}
+      .cls-4,.cls-7{stroke-width:1px;}
       .cls-5{fill:#001443;}
-      .cls-6,.cls-7{stroke:#023E73;}
+      .cls-6,.cls-7{stroke:#99CCFF;}
       .cls-7{stroke-linecap:round;}
       .cls-8{fill:#008acf;}
     </style>
