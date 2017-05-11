@@ -440,7 +440,7 @@ a:focus {
     line-height: 30px;
     color: #384452;
     margin-top: 10px;
-		text-align: justify;
+		text-align: left;
 }
 
 /* Services Snowplow Wrap */
@@ -461,7 +461,7 @@ a:focus {
     line-height: 27px;
     color: #384452;
     margin-top: 10px;
-		text-align: justify;
+		text-align: left;
 }
 
 /* Portfolio Wrap */
