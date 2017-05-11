@@ -1,4 +1,5 @@
-= TODO =
+TODO
+====
 * Validate to ensure IDs are unique throughout
 * Update timestamps on all the sitemaps
 * Push it all through a lint or prettifier to fix up Narbeh's hinky indenting
