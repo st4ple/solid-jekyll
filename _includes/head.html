@@ -71,4 +71,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-NXZZT8V');</script>
 <!-- End Google Tag Manager -->
+<script>
+  dataLayer.push({
+    'page_title': '{{ page.title }}',
+    'page_description': '{{ page_description }}',
+    'page_author': '{{ page.author }}',
+    'page_date': '{{ page.date }}',
+    'page_categories': '{{ page.categories }}'.split(','),
+    'page.tags': '{{ page.tags}}'.split(',')
+  });
+</script>
 </head>
