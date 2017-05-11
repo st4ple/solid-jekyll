@@ -477,14 +477,18 @@ a:focus {
 }
 
 /* /ecommerce-solutions/ */
-
 #product-analytics, #attribution-analytics, #customer-analytics {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
 
-/* /snowplow-analytics/ */
+/* /media-solutions/ */
+#audience-analytics, #campaign-analytics, #content-analytics {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
 
+/* /snowplow-analytics/ */
 #data-ownership, #transaction-volume, #complex-event-models, #analytics-in-product {
 	padding-top: 60px;
 	padding-bottom: 60px;
