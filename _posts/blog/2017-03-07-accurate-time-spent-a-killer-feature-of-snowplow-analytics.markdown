@@ -49,12 +49,6 @@ snowplow('trackPageView');
 
 So once the page loads, a ping is sent every five seconds recording that the page is still open. That gives an accuracy of at least five seconds to calculating the actual time a user spent.
 
-Other tools
-
-For tools that use the traditional mechanism of measuring Time Spent, there are some workarounds to get better numbers. Though none are ideal. The biggest problem is that there is no reliable mechanism to ensure a pixel is sent out when a user leaves your site.
-
-So once the page loads, a ping is sent every five seconds recording that the page is still open. That gives an accuracy of at least five seconds to calculating the actual time a user spent.
-
 ## Other tools
 
 For tools that use the traditional mechanism of measuring Time Spent, there are some workarounds to get better numbers. Though none are ideal. The biggest problem is that there is no reliable mechanism to ensure a pixel is sent out when a user leaves your site.
