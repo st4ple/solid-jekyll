@@ -494,6 +494,14 @@ a:focus {
 	padding-bottom: 60px;
 }
 
+/* /ndex use cases */
+#executive-usecase, #engineer-usecase, #analyst-usecase, #snowplow-partner {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+
+
 /*
 .portfolio {
 	padding:0 !important;
