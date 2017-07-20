@@ -9,7 +9,7 @@ url: "http://yourdomain.com"
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
+permalink: /:categories/:title/
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
