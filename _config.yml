@@ -107,7 +107,7 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "Jeux.IO est un site de jeux en ligne gratuits. Tous nos jeux sont jouables sur tablette, téléphone ou encore ordinateur."
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
