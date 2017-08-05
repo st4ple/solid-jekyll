@@ -13,7 +13,10 @@ iframe-w: 800
 iframe-h: 600
 ---
 
-<iframe seamless="seamless" id="iframegame" scrolling="no" frameborder="0" height="100%" width="100%" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" webkit-playsinline="true" src="http://games.cdn.spilcloud.com/vsr/1500019201_vsr/index.html?gp=1&amp;siteid=193&amp;channelid=100&amp;siteLocale=en-US&amp;spilStorageId=67649306516"></iframe>
+<div class="gameplayer" data-sub="cdn" data-width="480" data-height="640" data-gid="576742227280304267"></div>
+<script>
+(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'http://cdn.gameplayer.io/api/js/publisher.js'; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'gameplayer-publisher'));
+</script>
 
 ### DESCRIPTION
 Join Valerian and his fellow agents for a mad dash through Alpha, the City of a Thousand Planets. They’re going in search of tons of precious coins but there’s lots of dangerous barriers, immense gaps and other hazards that they’ll need to avoid while they run, jump and slide through the intergalactic metropolis. Can you keep them from falling to their doom in this intense action game based on the sci-fi blockbuster from director Luc Besson?
