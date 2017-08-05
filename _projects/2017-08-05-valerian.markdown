@@ -8,7 +8,7 @@ categories:
 img: valerian.png
 thumb: valerian.png
 tagged: plateforme
-gameurl: "<div class="gameplayer" data-sub="cdn" data-width="480" data-height="640" data-gid="576742227280304267"></div>"
+gameurl: <div class="gameplayer" data-sub="cdn" data-width="480" data-height="640" data-gid="576742227280304267"></div>
 ---
 
 
