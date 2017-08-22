@@ -10,9 +10,10 @@ thumb: valerian.png
 tagged: runner
 ---
 
-<iframe title="exemple 1 avec iframe" src="http://games.cdn.spilcloud.com/gamesdistribution/bfa34043832142e3a942127ba2537701/index.html">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+<div class=non-floater>
+  <iframe src="http://games.cdn.spilcloud.com/gamesdistribution/bfa34043832142e3a942127ba2537701/index.html"></iframe>
+</div>
+
 
 ### DESCRIPTION
 Join Valerian and his fellow agents for a mad dash through Alpha, the City of a Thousand Planets. They’re going in search of tons of precious coins but there’s lots of dangerous barriers, immense gaps and other hazards that they’ll need to avoid while they run, jump and slide through the intergalactic metropolis. Can you keep them from falling to their doom in this intense action game based on the sci-fi blockbuster from director Luc Besson?
