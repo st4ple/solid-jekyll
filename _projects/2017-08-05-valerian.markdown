@@ -8,6 +8,7 @@ categories:
 img: valerian.png
 thumb: valerian.png
 tagged: runner
+src: "http://games.cdn.spilcloud.com/gamesdistribution/bfa34043832142e3a942127ba2537701/index.html"
 ---
 
 <div class=non-floater>
