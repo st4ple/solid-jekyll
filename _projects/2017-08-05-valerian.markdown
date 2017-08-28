@@ -1,0 +1,20 @@
+---
+layout: project
+title:  "Valerian"
+date:   2017-08-05 16:54:46
+author: Marcel Newman
+categories:
+- project
+img: valerian.png
+thumb: valerian.png
+tagged: runner
+src: "http://games.cdn.spilcloud.com/gamesdistribution/bfa34043832142e3a942127ba2537701/index.html"
+width: "600"
+height: "800"
+id-game: "576742227280302373"
+---
+
+
+
+### DESCRIPTION
+Join Valerian and his fellow agents for a mad dash through Alpha, the City of a Thousand Planets. They’re going in search of tons of precious coins but there’s lots of dangerous barriers, immense gaps and other hazards that they’ll need to avoid while they run, jump and slide through the intergalactic metropolis. Can you keep them from falling to their doom in this intense action game based on the sci-fi blockbuster from director Luc Besson?

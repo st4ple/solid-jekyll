@@ -7,26 +7,18 @@ layout: default
 <div class="container mt">
     <div class="row">
 
-        {% include carousel.html %}
 
-        <div class="col-lg-5 col-lg-offset-1">
-            <div class="spacing"></div>
 
-            {{ content }}
+            <div class=non-floater style="overflow:hidden;">
+              <iframe width="{{page.width}}" height="{{page.height}}" src="{{page.src}}"></iframe>
+            </div>
 
-        </div>
-        <div class="col-lg-4 col-lg-offset-1">
-            <div class="spacing"></div>
-            <h4>Project Details</h4>
-            <div class="hline"></div>
-            <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
-            <p><b>Author:</b> {{ page.author }}</p>
-            <p><b>Categories:</b> {{ page.categories }}</p>
-            <p><b>Tagged:</b> {{ page.tagged }}</p>
-            <p><b>Client:</b> {{ page.client }}</p>
-            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
-        </div>
+            <div class="gameplayer" data-sub="cdn" data-width="{{page.width}}" data-height="{{page.height}}" data-gid="{{page.id-game}}"></div>
+        <script>
+        (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'https://cdn.gameplayer.io/api/js/publisher.js'; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'gameplayer-publisher'));
+         </script>
+
     </div><! --/row -->
 </div><! --/container -->
-	 
-{% include portfolio.html title="Related Works." limit=5 %}
+
+{% include portfolio.html title="Jeux similaires" limit=5 %}

@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+title: JEUX.IO
+description: "Prenez un break, have fun :)"
+analytics: UA-104145220-1
+baseurl: "https://oswaldb.github.io/jeux.io" #important: start with /
+url: "https://oswaldb.github.io/jeux.io"
 
 # Build settings
 markdown: kramdown
@@ -48,11 +48,10 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+    - 6 route de saint germain
+    - 78860, Saint nom la breteche,
+    - France.
+email: hello@jeux.io
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
@@ -108,7 +107,7 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "Jeux.IO est un site de jeux en ligne gratuits. Tous nos jeux sont jouables sur tablette, téléphone ou encore ordinateur."
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
