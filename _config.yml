@@ -3,9 +3,9 @@
 # Site settings
 title: SOLID.
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+analytics: UA-50546869-2
+baseurl: "/solid-jekyll" #important: start with /
+url: "http://st4ple.github.io"
 
 # Build settings
 markdown: kramdown
