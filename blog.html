@@ -7,11 +7,11 @@ permalink: /blog/
 <div class="container mtb">
     <div class="row">
 
-        <! -- BLOG POSTS LIST -->
+        <!-- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
             {% for post in site.posts %}
-                <! -- Blog Post -->
+                <!-- Blog Post -->
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
                 </a>
@@ -24,9 +24,9 @@ permalink: /blog/
                 <div class="spacing"></div>
             {% endfor %}
 
-        </div><! --/col-lg-8 -->
+        </div><!--/col-lg-8 -->
 
         {% include sidebar.html %}
 
-    </div><! --/row -->
-</div><! --/container -->
+    </div><!--/row -->
+</div><!--/container -->
