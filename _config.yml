@@ -1,8 +1,8 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: OptiKrech.
+description: "Den Durchblick bekommen"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://yourdomain.com"
@@ -23,9 +23,9 @@ colors:  #in hex code if not noted else
 
 # Making projects separate from posts
 collections:
-  projects:
+  services:
     output: true
-    permalink: /projects/:title/
+    permalink: /services/:title/
   questions:
     output: true
     permalink: /questions/:title/
@@ -34,84 +34,56 @@ collections:
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
   - title: facebook
     url:
   - title: twitter
     url:
   - title: instagram
     url:
-  - title: tumblr
-    url:
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+    - Hindenburgstr. 5A
+    - 37441 Bad Sachsa
+    - Germany
+email: hello [add] optikrech.de
+tel: +49 555 123456
 
+# Öffnungszeiten (add as many lines as necessary). Shown in footer and on Contact page.
+businesshours:
+  - lines:
+    - Mo.- Fr. 9:00 - 18:00
+    - Sa. 9:00 - 14:00
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
+  - name: Oliver Krech
     position: CEO
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team01.jpg
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team02.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team03.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team04.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
 
-# Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+# Marken Informationen. Auf Home und About pages.
+marken:
+  - name: Ray Ban
+    img: rayban.jpg
+  - name: Rodenstock
+    img: rodenstock.jpg
+  - name: Timberland
+    img: timberland.jpg
+  - name: Bogner
+    img: bogner.jpg
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+    message: "Der beste Optiker den man sich wünschen kann. Ein Fachmann auf seinem Gebiet. Es hat nie einen kompetenteren Optiker gegeben."
+    author: Jacqueline Krech
+    position: WEB DESIGNER - jkrech.de

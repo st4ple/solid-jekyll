@@ -2,9 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <h4>About</h4>
+                <h4>Öffnungszeiten</h4>
                 <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
+                <p>
+                    {% for line in site.businesshours.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
             </div>
             <div class="col-lg-4">
                 <h4>Social Links</h4>
@@ -19,7 +23,7 @@
                 </p>
             </div>
             <div class="col-lg-4">
-                <h4>Our Bunker</h4>
+                <h4>Adresse</h4>
                 <div class="hline-w"></div>
                 <p>
                     {% for line in site.address.first.lines %}
