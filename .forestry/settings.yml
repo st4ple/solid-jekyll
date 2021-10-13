@@ -9,6 +9,8 @@ sections:
   label: Services
   create: documents
   match: "**/*"
+  templates:
+  - service
 - type: directory
   path: _questions
   label: Questions
