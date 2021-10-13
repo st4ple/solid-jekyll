@@ -29,9 +29,3 @@ fields:
 - type: text
   name: tagged
   label: tagged
-- type: text
-  name: client
-  label: client
-- type: text
-  name: website
-  label: website
