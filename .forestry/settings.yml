@@ -5,9 +5,9 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: _projects
-  label: Projects
-  create: all
+  path: _services
+  label: Services
+  create: documents
   match: "**/*"
 - type: directory
   path: _questions
