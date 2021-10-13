@@ -47,8 +47,10 @@ address:
     - Hindenburgstr. 5A
     - 37441 Bad Sachsa
     - Germany
-email: hello [add] optikrech.de
-tel: +49 555 123456
+
+email: hello@optikrech.de
+
+telefon: +49 555 123456
 
 # Öffnungszeiten (add as many lines as necessary). Shown in footer and on Contact page.
 businesshours:
