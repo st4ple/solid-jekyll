@@ -8,6 +8,5 @@ img: ''
 thumb: ''
 carousel: []
 tagged: ''
-published: false
 
 ---
