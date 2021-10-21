@@ -29,3 +29,5 @@ fields:
 - type: text
   name: tagged
   label: tagged
+pages:
+- _services/blub.md
