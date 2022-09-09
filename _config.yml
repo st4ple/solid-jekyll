@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
+title: Privacy and Security Lab
 description: "Website for the Privacy and Security Lab, School of Computing and Augmented Intelligence at Arizona State University."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
@@ -9,15 +9,15 @@ url: "http://privacy-and-security-lab.github.io"
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031"
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#384452" #"#33004D"
+  primary: "#a30046" #"#F70031"
+  primary_rgb: "163,0,70" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "darkgrey" #"#33004D"
   link: "#428bca"
-  link_hover: "#01b2fe"
+  link_hover: "#a30046"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
 
@@ -25,10 +25,10 @@ colors:  #in hex code if not noted else
 collections:
   projects:
     output: true
-    permalink: /projects/:title/
+    # permalink: /projects/:title/
   questions:
     output: true
-    permalink: /questions/:title/
+    # permalink: /questions/:title/
 
 ### CONTACT SETTINGS ###
 

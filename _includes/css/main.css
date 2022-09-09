@@ -113,8 +113,8 @@ a:focus {
 
 .navbar-default .navbar-nav > li > a {
 	color: white;
-	font-weight: 700;
-	font-size: 12px;
+	font-weight: 500;
+	font-size: 16px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -362,7 +362,7 @@ a:focus {
 }
 
 #footerwrap p {
-	color: {{ site.colors.footer_content }};
+	color: {{ site.colors.primary }};
 }
 
 #footerwrap h4 {
@@ -504,4 +504,9 @@ a.anchor{
     position: relative; 
     top: -80px; 
     visibility: hidden;
+}
+
+.lab-name {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 35px;
 }

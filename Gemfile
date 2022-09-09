@@ -34,3 +34,4 @@ gem 'jekyll-sitemap'
 # gem "github-pages", "~> 207", group: :jekyll_plugins
 # gem 'jekyll-autoprefixer'
 # gem 'therubyracer'
+gem "webrick", "~> 1.7"

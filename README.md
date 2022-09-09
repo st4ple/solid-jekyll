@@ -4,7 +4,7 @@
 2. Open cmd and run `gem install bundler`.
 3. Open the directory of the project and run `bundle install`.
 4. Run `bundle exec jekyll serve`
-5. Install additional gems if error occurs. I installed `faraday-retry`
+5. Install additional gems if error occurs. I executed `gem install faraday-retry` and `bundle add webrick`
 
 # Solid. A Bootstrap theme for Jekyll.
 
