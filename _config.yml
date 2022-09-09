@@ -2,10 +2,10 @@
 
 # Site settings
 title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Website for the Privacy and Security Lab, School of Computing and Augmented Intelligence at Arizona State University."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "http://privacy-and-security-lab.github.io"
 
 # Build settings
 markdown: kramdown
