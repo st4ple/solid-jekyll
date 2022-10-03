@@ -547,7 +547,6 @@ a.anchor{
 	object-position: center;
 }
 
-
 .team-social-container {
 	display: flex;
 	flex-direction: row;
@@ -560,6 +559,26 @@ a.anchor{
 	margin-left: 7px;
 }
 /***********************************************************/
+
+
+/***********************************************************/
+/* team-members */
+.team-individual-img {
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.team-individual-bio {
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	font-size: 16px;
+}
+/***********************************************************/
+
 
 /***********************************************************/
 /* home */
