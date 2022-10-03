@@ -506,13 +506,46 @@ a.anchor{
     visibility: hidden;
 }
 
-.lab-name {
-	font-family: 'Cabin Sketch', cursive;
-	font-size: 35px;
-}
-
 .team-head {
 	font-size: 24px;
 	font-weight: bold;
 	color: {{ site.colors.secondary }};
 }
+
+/***********************************************************/
+/* home */
+.home-lab-name-container {
+	height: calc(100vh - 70px);
+	margin-top: 70px;
+	background: url(../img/asu.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.home-lab-name-container-inner {
+	background-color: rgba(163,0,70,.8);
+	color: white;
+
+	height: 100%;
+	width: 100%;
+
+	padding: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.home-lab-name {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+.home-lab-moto {
+	font-size: 17px;
+}
+/***********************************************************/
