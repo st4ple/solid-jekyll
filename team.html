@@ -5,14 +5,60 @@ permalink: /team
 ---
 
 <div class="container mtb">
-	<div class="row">
-		<div class="col-lg-12 team-head">Faculty</div>
+	<div class="row mb-50">
+		<div class="col-lg-12 team-head mb-25">Faculty</div>
+		<div class="col-lg-12">
+			{% for member in site.faculty %}
+			<div class="col-lg-3 col-md-3 col-sm-3 team-member-box">
+				<img class="team-member-img" src="{{ "/assets/img/members/faculty/" |
+				prepend: site.baseurl}}{{ member.img }}" alt="">
+				<h4>{{ member.name }}</h4>
+				<h5 class="ctitle">{{ member.position }}</h5>
+				<p>{{ member.text }}</p>
+				{% for entry in member.social %}
+				<div class="team-social-container">
+					<i class="fa fa-{{ entry.title }}"></i>
+					<a
+						href="{{ entry.url }}"
+						class="team-social-container-link"
+						data-animate="fadeInUp"
+						>{{ entry.link_to_show }}</a
+					>
+				</div>
+				{% endfor %}
+				<div class="hline mt-10"></div>
+			</div>
+			{% endfor %}
+		</div>
 	</div>
-	<div class="row">
-		<div class="col-lg-12 team-head">Current Graduate Students</div>
+	<div class="row mb-50">
+		<div class="col-lg-12 team-head mb-25">Current Graduate Students</div>
+		<div class="col-lg-12">
+			{% for member in site.current_grad_students %}
+			<div class="col-lg-3 col-md-3 col-sm-3 team-member-box">
+				<img class="team-member-img" src="{{ "/assets/img/members/graduate/" |
+				prepend: site.baseurl}}{{ member.img }}" alt="">
+				<h4>{{ member.name }}</h4>
+				<h5 class="ctitle">{{ member.position }}</h5>
+				<p>{{ member.text }}</p>
+				{% for entry in member.social %}
+				<div class="team-social-container">
+					<i class="fa fa-{{ entry.title }}"></i>
+					<a
+						href="{{ entry.url }}"
+						class="team-social-container-link"
+						data-animate="fadeInUp"
+						>{{ entry.link_to_show }}</a
+					>
+				</div>
+				{% endfor %}
+				<div class="hline mt-10"></div>
+			</div>
+			{% endfor %}
+		</div>
 	</div>
-	<div class="row">
+	<!-- <div class="row">
 		<div class="col-lg-12 team-head">Current Undergraduate Students</div>
 	</div>
-	<div class="row"><div class="col-lg-12 team-head">Alumni</div></div>
+	<div class="row"><div class="col-lg-12 team-head">Alumni</div></div> -->
 </div>

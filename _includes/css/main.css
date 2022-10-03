@@ -506,11 +506,55 @@ a.anchor{
     visibility: hidden;
 }
 
+/***********************************************************/
+/* common styles */
+.mb-25 {
+	margin-bottom: 25px;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+/***********************************************************/
+
+
+/***********************************************************/
+/* team */
+.team-member-box {
+	padding-left: 0px;
+}
+
 .team-head {
 	font-size: 24px;
 	font-weight: bold;
 	color: {{ site.colors.secondary }};
 }
+
+.team-member-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+
+.team-social-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+}
+
+.team-social-container-link {
+	color: {{ site.colors.primary }};
+	margin-left: 7px;
+}
+/***********************************************************/
 
 /***********************************************************/
 /* home */

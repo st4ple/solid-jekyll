@@ -57,6 +57,45 @@ tel: +34 8493-4893
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
+# Faculty
+faculty:
+  - name: Dr. Rakibul Hasan
+    position: Faculty
+    img: dr_rakibul_hasan.png
+    short_bio: short_bio of professor
+    social: 
+      - title: envelope
+        url: mailto:rakibul.hasan@asu.edu
+        link_to_show: rakibul.hasan@asu.edu
+      - title: twitter
+        url: https://twitter.com/rakib
+        link_to_show: '@rakib'
+
+# Current graduate students
+current_grad_students:
+  - name: Protik Bose Pranto
+    position: Ph.D. student
+    img: protik_bose_pranto.jpg
+    short_bio: Protik started his ph.d. on fall-22 
+    social: 
+      - title: envelope
+        url: mailto:ppranto@asu.edu
+        link_to_show: ppranto@asu.edu
+      - title: twitter
+        url: https://twitter.com/BoseProtik
+        link_to_show: '@BoseProtik'
+  - name: Waqar Hassan Khan
+    position: Ph.D. student
+    img: waqar_hassan_khan.jpeg
+    short_bio: Waqar started his ph.d. on fall-22.
+    social:
+      - title: envelope
+        url: mailto:wkhan17@asu.edu
+        link_to_show: wkhan17@asu.edu
+      - title: twitter
+        url: https://twitter.com/Waqar_107
+        link_to_show: '@Waqar_107'
+
 # Members information. Shown on About page.
 members:
   - name: Mark Webber
