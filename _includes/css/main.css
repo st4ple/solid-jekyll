@@ -510,3 +510,9 @@ a.anchor{
 	font-family: 'Cabin Sketch', cursive;
 	font-size: 35px;
 }
+
+.team-head {
+	font-size: 24px;
+	font-weight: bold;
+	color: {{ site.colors.secondary }};
+}
