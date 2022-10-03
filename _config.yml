@@ -21,48 +21,13 @@ colors:  #in hex code if not noted else
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
 
-# Making projects separate from posts
-collections:
-  projects:
-    output: true
-    # permalink: /projects/:title/
-  questions:
-    output: true
-    # permalink: /questions/:title/
-
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url:
-  - title: twitter
-    url:
-  - title: instagram
-    url:
-  - title: tumblr
-    url:
-
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
-
-
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-
 # Faculty
 faculty:
   - name: Dr. Rakibul Hasan
     position: Faculty
     img: dr_rakibul_hasan.png
     short_bio: short_bio of professor
+    bio_link: dr-rakibul-hasan.html
     social: 
       - title: envelope
         url: mailto:rakibul.hasan@asu.edu
@@ -76,7 +41,8 @@ current_grad_students:
   - name: Protik Bose Pranto
     position: Ph.D. student
     img: protik_bose_pranto.jpg
-    short_bio: Protik started his ph.d. on fall-22 
+    short_bio: Protik started his ph.d. on fall-22
+    bio_link: protik-bose-pranto.html
     social: 
       - title: envelope
         url: mailto:ppranto@asu.edu
@@ -88,6 +54,7 @@ current_grad_students:
     position: Ph.D. student
     img: waqar_hassan_khan.jpeg
     short_bio: Waqar started his ph.d. on fall-22.
+    bio_link: waqar-hassan-khan.html
     social:
       - title: envelope
         url: mailto:wkhan17@asu.edu
@@ -96,55 +63,6 @@ current_grad_students:
         url: https://twitter.com/Waqar_107
         link_to_show: '@Waqar_107'
 
-# Members information. Shown on About page.
-members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team02.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team03.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team04.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-
-# Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."

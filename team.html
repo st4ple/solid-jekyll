@@ -12,7 +12,7 @@ permalink: /team
 			<div class="col-lg-3 col-md-3 col-sm-3 team-member-box">
 				<img class="team-member-img" src="{{ "/assets/img/members/faculty/" |
 				prepend: site.baseurl}}{{ member.img }}" alt="">
-				<h4>{{ member.name }}</h4>
+				<h4><a class="team-member-name" href="{{ member.bio_link | prepend: "/team/" }}">{{ member.name }}</a></h4>
 				<h5 class="ctitle">{{ member.position }}</h5>
 				<p>{{ member.text }}</p>
 				{% for entry in member.social %}
@@ -39,7 +39,7 @@ permalink: /team
 			<div class="col-lg-3 col-md-3 col-sm-3 team-member-box">
 				<img class="team-member-img" src="{{ "/assets/img/members/graduate/" |
 				prepend: site.baseurl}}{{ member.img }}" alt="">
-				<h4>{{ member.name }}</h4>
+				<h4><a class="team-member-name" href="{{ member.bio_link | prepend: "/team/" }}">{{ member.name }}</a></h4>
 				<h5 class="ctitle">{{ member.position }}</h5>
 				<p>{{ member.text }}</p>
 				{% for entry in member.social %}
