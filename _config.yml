@@ -35,6 +35,9 @@ faculty:
       - title: twitter
         url: https://twitter.com/rakib062
         link_to_show: '@rakib062'
+      - title: globe
+        url: https://rakib062.github.io/
+        link_to_show: https://rakib062.github.io
 
 # Current graduate students
 current_grad_students:
@@ -50,6 +53,9 @@ current_grad_students:
       - title: twitter
         url: https://twitter.com/BoseProtik
         link_to_show: '@BoseProtik'
+      - title: globe
+        url: https://protikbose.github.io/
+        link_to_show: https://protikbose.github.io
   - name: Waqar Hassan Khan
     position: Ph.D. student
     img: waqar_hassan_khan.jpeg
@@ -62,6 +68,9 @@ current_grad_students:
       - title: twitter
         url: https://twitter.com/Waqar_107
         link_to_show: '@Waqar_107'
+      - title: globe
+        url: https://waqar-107.github.io/portfolio/#/
+        link_to_show: https://waqar-107.github.io
 
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
