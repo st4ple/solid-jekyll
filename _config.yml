@@ -13,21 +13,22 @@ markdown: kramdown
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#a30046" #"#F70031"
-  primary_rgb: "163,0,70" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "darkgrey" #"#33004D"
+  primary: "#9D2235" #"#a30046"
+  primary_rgb: "157, 34, 53" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#777" #"#33004D"
   link: "#428bca"
-  link_hover: "#a30046"
+  link_hover: "#9D2235"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
 
 # Faculty
 faculty:
-  - name: Dr. Rakibul Hasan
+  - name: "Dr. Rakibul Hasan"
     position: Faculty
     img: dr_rakibul_hasan.png
     short_bio: short_bio of professor
     bio_link: dr-rakibul-hasan.html
+    bio: "Professors bio"
     social: 
       - title: envelope
         url: mailto:rakibul.hasan@asu.edu
@@ -41,11 +42,12 @@ faculty:
 
 # Current graduate students
 current_grad_students:
-  - name: Protik Bose Pranto
+  - name: "Protik Bose Pranto"
     position: Ph.D. student
     img: protik_bose_pranto.jpg
     short_bio: Protik started his ph.d. on fall-22
     bio_link: protik-bose-pranto.html
+    bio: "Protik is a Ph.D. student in Computer Science at Arizona State University. He joined the ASU Privacy lab in Fall’22. He completed his undergrad in Computer Science and Engineering from Bangladesh University of Engineering and Technology. Besides research, Protik is interested in sports, traveling, and music."
     social: 
       - title: envelope
         url: mailto:ppranto@asu.edu
@@ -56,11 +58,15 @@ current_grad_students:
       - title: globe
         url: https://protikbose.github.io/
         link_to_show: https://protikbose.github.io
-  - name: Waqar Hassan Khan
+      - title: github
+        url: https://github.com/protikbose
+        link_to_show: protikbose
+  - name: "Waqar Hassan Khan"
     position: Ph.D. student
     img: waqar_hassan_khan.jpeg
     short_bio: Waqar started his ph.d. on fall-22.
     bio_link: waqar-hassan-khan.html
+    bio: "Waqar's bio"
     social:
       - title: envelope
         url: mailto:wkhan17@asu.edu
@@ -71,6 +77,9 @@ current_grad_students:
       - title: globe
         url: https://waqar-107.github.io/portfolio/#/
         link_to_show: https://waqar-107.github.io
+      - title: github
+        url: https://github.com/Waqar-107
+        link_to_show: Waqar-107
 
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.

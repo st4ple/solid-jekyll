@@ -5,11 +5,21 @@ permalink: /team/waqar-hassan-khan
 ---
 
 <div class="container">
-	<h3>Waqar Hassan Khan</h3>
-	<img
-		src="/assets/img/members/graduate/waqar_hassan_khan.jpeg"
-		alt=""
-		class="team-individual-img"
-	/>
-	<p class="team-individual-bio mt-10">waqar's bio</p>
+	{% assign member = site.current_grad_students | where_exp: "item", "item.name == 'Waqar Hassan Khan'" | first %} 
+	<img src="{{"/assets/img/members/graduate/" | prepend: site.baseurl}}{{ member.img }}" alt="" class="team-individual-img" />
+	<h3>{{ member.name }}</h3>
+	{% for entry in member.social %}
+	<div class="team-social-container">
+		<i class="fa fa-{{ entry.title }}"></i>
+		<a
+			href="{{ entry.url }}"
+			target="_blank"
+			class="team-social-container-link"
+			data-animate="fadeInUp"
+			>{{ entry.link_to_show }}
+		</a>
+	</div>
+	{% endfor %}
+	<div class="hline mt-10"></div>
+	<p class="team-individual-bio mt-10">{{ member.bio }}</p>
 </div>
