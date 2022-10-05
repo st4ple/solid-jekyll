@@ -691,6 +691,54 @@ a.anchor {
 
 /***********************************************************/
 
+
+/***********************************************************/
+/* projects */
+.project-thumbnail-img {
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.project-name {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.project-name a {
+	color: {{ site.colors.primary }};
+}
+
+.project-name a:hover {
+	color: {{ site.colors.secondary }};
+}
+
+.project-box {
+	height: 350px;
+	width: 100%;
+	padding: 25px;
+	border: 3px solid {{ site.colors.primary }};
+	margin-bottom: 25px;
+	border-radius: 15px
+}
+
+.project-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.project-individual-img {
+	height: 350px;
+	width: auto;
+	object-fit: cover;
+	object-position: center;
+}
+/***********************************************************/
+
+
 @media (max-width: 767px) {
 	.team-member-box {
 		padding-top: 50px;

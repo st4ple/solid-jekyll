@@ -21,6 +21,18 @@ colors:  #in hex code if not noted else
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
 
+# Projects
+projects:
+  - name: "Thwarting the dissemination of misinformation through online platforms"
+    img: "misinformation.PNG"
+    link: "misinformation.html"
+  - name: "Discovering and alleviating the harmful impacts of digitizing and datafying educational processes"
+    img: "edtech.PNG"
+    link: "edtech.html"
+  - name: "Making online social media safer"
+    img: "social_network_security.PNG"
+    link: "social-network-security.html"
+
 # Faculty
 faculty:
   - name: "Dr. Rakibul Hasan"
