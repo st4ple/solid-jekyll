@@ -657,7 +657,7 @@ a.anchor {
 .home-lab-name-container {
 	height: calc(100vh - 70px);
 	margin-top: 70px;
-	background: url(../img/asu.jpg) no-repeat center center fixed;
+	background: url(../img/brickyard.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -665,7 +665,7 @@ a.anchor {
 }
 
 .home-lab-name-container-inner {
-	background-color: rgba(163, 0, 70, .8);
+	/* background-color: rgba(163, 0, 70, .8); */
 	color: white;
 
 	height: 100%;
