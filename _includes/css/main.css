@@ -129,6 +129,11 @@ a:focus {
 	color: white;
 }
 
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: white !important;
+}
+
 .navbar-default .navbar-nav>li>a {
 	color: white;
 	font-weight: 500;
@@ -143,7 +148,7 @@ a:focus {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
 	color: {{ site.colors.primary }};
-	background-color: transparent;
+	font-weight: bold;
 }
 
 .navbar-default {
@@ -399,7 +404,7 @@ h5 {
 }
 
 #footerwrap p {
-	color:{{ site.colors.primary }};
+	color: white;
 }
 
 #footerwrap h4 {
