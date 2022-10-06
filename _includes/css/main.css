@@ -662,13 +662,17 @@ a.anchor {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .home-lab-name-container-inner {
-	/* background-color: rgba(163, 0, 70, .8); */
+	background-color: rgba(107, 107, 107, .8);
 	color: white;
 
-	height: 100%;
+	height: auto;
 	width: 100%;
 
 	padding: 5%;
@@ -680,8 +684,9 @@ a.anchor {
 }
 
 .home-lab-name {
-	font-family: 'Cabin Sketch', cursive;
+	font-family: 'Comic Neue', 'Cabin Sketch', cursive;
 	font-size: 35px;
+	font-weight: bold;
 	margin-bottom: 30px;
 }
 
