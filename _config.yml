@@ -25,13 +25,13 @@ colors:  #in hex code if not noted else
 # Projects
 projects:
   - name: "Privacy on social platforms"
-    img: "privacy-on-social-platforms.PNG"
+    img: "privacy-on-social-platforms.png"
     link: "privacy-on-social-platforms.html"
   - name: "Privacy, Security, and Safety issues in Education Technology"
-    img: "edtech.PNG"
+    img: "edtech.png"
     link: "privacy-security-and-safety-issues-in-education-technology.html"
   - name: "Interdependent and multi-party privacy"
-    img: "interdependent-privacy.PNG"
+    img: "interdependent-privacy.png"
     link: "interdependent-and-multi-party-privacy.html"
 
 # Faculty
