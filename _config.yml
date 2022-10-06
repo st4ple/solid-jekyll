@@ -1,7 +1,8 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: Privacy and Security Lab
+title: Private, Reliable and Secure Computing Lab (PERSUE)
+title_abbreviation: PERSUE
 description: "Website for the Privacy and Security Lab, School of Computing and Augmented Intelligence at Arizona State University."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
@@ -23,15 +24,15 @@ colors:  #in hex code if not noted else
 
 # Projects
 projects:
-  - name: "Thwarting the dissemination of misinformation through online platforms"
-    img: "misinformation.PNG"
-    link: "misinformation.html"
-  - name: "Discovering and alleviating the harmful impacts of digitizing and datafying educational processes"
+  - name: "Privacy on social platforms"
+    img: "privacy-on-social-platforms.PNG"
+    link: "privacy-on-social-platforms.html"
+  - name: "Privacy, Security, and Safety issues in Education Technology"
     img: "edtech.PNG"
-    link: "edtech.html"
-  - name: "Making online social media safer"
-    img: "social_network_security.PNG"
-    link: "social-network-security.html"
+    link: "privacy-security-and-safety-issues-in-education-technology.html"
+  - name: "Interdependent and multi-party privacy"
+    img: "interdependent-privacy.PNG"
+    link: "interdependent-and-multi-party-privacy.html"
 
 # Faculty
 faculty:

@@ -550,20 +550,20 @@ a.anchor {
 
 /***********************************************************/
 /* common styles */
-.mb-25 {
-	margin-bottom: 25px;
-}
-
-.mb-50 {
-	margin-bottom: 50px;
-}
-
 .mt-10 {
 	margin-top: 10px;
 }
 
 .mt-20 {
 	margin-top: 20px;
+}
+
+.mb-25 {
+	margin-bottom: 25px;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
 }
 
 .mb-100 {
