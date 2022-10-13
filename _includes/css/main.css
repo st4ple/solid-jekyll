@@ -655,7 +655,7 @@ a.anchor {
 /***********************************************************/
 /* home */
 .home-lab-name-container {
-	height: calc(100vh - 70px);
+	min-height: calc(100vh - 70px);
 	margin-top: 70px;
 	background: url(../img/brickyard.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -685,15 +685,34 @@ a.anchor {
 
 .home-lab-name {
 	font-family: 'Comic Neue', 'Cabin Sketch', cursive;
-	font-size: 35px;
+	font-size: 45px;
 	font-weight: bold;
 	margin-bottom: 30px;
 }
 
 .home-lab-moto {
-	font-size: 17px;
+	font-size: 1.75em;
 }
 
+.home-learn-more {
+	margin-top: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: {{ site.colors.primary }};
+	border: 0px;
+}
+
+.home-learn-more a {
+	color: white;
+}
+
+.home-prospective-students {
+	margin-top: 15px;
+	background-color: white;
+	padding: 5px;
+	color: {{ site.colors.primary }};
+	font-size: 1.75em;
+}
 /***********************************************************/
 
 
