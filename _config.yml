@@ -22,6 +22,11 @@ colors:  #in hex code if not noted else
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
 
+collections:
+  team_members:
+    output: true
+    permalink: /team/:title/
+
 # Projects
 projects:
   - name: "Privacy on social platforms"
@@ -41,8 +46,7 @@ faculty:
     img: dr_rakibul_hasan.png
     short_bio: short_bio of professor
     bio_link: dr-rakibul-hasan.html
-    bio: 
-    "I direct the PERSUE lab. I am an assistant professor in the School of Computing and Augmented Intelligence at ASU. I am also affiliated with theCybersecurity and Trusted Foundations." 
+    bio: "I direct the PERSUE lab. I am an assistant professor in the School of Computing and Augmented Intelligence at ASU. I am also affiliated with theCybersecurity and Trusted Foundations." 
     social: 
       - title: envelope
         url: mailto:rakibul.hasan@asu.edu
@@ -79,7 +83,7 @@ current_grad_students:
     position: Ph.D. student
     img: waqar_hassan_khan.jpeg
     short_bio: Waqar started his ph.d. on fall-22.
-    bio_link: waqar-hassan-khan.html
+    bio_link: waqar-hassan-khan
     bio: "Waqar's bio"
     social:
       - title: envelope
