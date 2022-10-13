@@ -42,9 +42,7 @@ faculty:
     short_bio: short_bio of professor
     bio_link: dr-rakibul-hasan.html
     bio: 
-    "I direct the PERSUE lab.
-    I am an assistant professor in the School of Computing and Augmented Intelligence at ASU. 
-    I am also affiliated with the <a href="https://globalsecurity.asu.edu/expertise/cybersecurity-and-trusted-foundations/">Cybersecurity and Trusted Foundations</a>" 
+    "I direct the PERSUE lab. I am an assistant professor in the School of Computing and Augmented Intelligence at ASU. I am also affiliated with theCybersecurity and Trusted Foundations." 
     social: 
       - title: envelope
         url: mailto:rakibul.hasan@asu.edu
