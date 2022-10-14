@@ -26,37 +26,28 @@ collections:
   team_members:
     output: true
     permalink: /team/:title/
+  project_details:
+    output: true
+    permalink: /projects/:title/
 
 # Projects
 projects:
   - name: "Privacy on social platforms"
     img: "privacy-on-social-platforms.png"
-    link: "privacy-on-social-platforms.html"
+    link: "privacy-on-social-platforms"
   - name: "Privacy, Security, and Safety issues in Education Technology"
     img: "edtech.png"
-    link: "privacy-security-and-safety-issues-in-education-technology.html"
+    link: "privacy-security-and-safety-issues-in-education-technology"
   - name: "Interdependent and multi-party privacy"
     img: "interdependent-privacy.png"
-    link: "interdependent-and-multi-party-privacy.html"
+    link: "interdependent-and-multi-party-privacy"
 
 # Faculty
 faculty:
   - name: "Dr. Rakibul Hasan"
     position: Faculty
     img: dr_rakibul_hasan.png
-    short_bio: short_bio of professor
-    details_link: dr-rakibul-hasan.html
-    bio: "I direct the PERSUE lab. I am an assistant professor in the School of Computing and Augmented Intelligence at ASU. I am also affiliated with theCybersecurity and Trusted Foundations." 
-    social: 
-      - title: envelope
-        url: mailto:rakibul.hasan@asu.edu
-        link_to_show: rakibul.hasan@asu.edu
-      - title: twitter
-        url: https://twitter.com/rakib062
-        link_to_show: '@rakib062'
-      - title: globe
-        url: https://rakib062.github.io/
-        link_to_show: https://rakib062.github.io
+    details_link: dr-rakibul-hasan
 
 # Current graduate students
 current_grad_students:
