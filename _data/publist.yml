@@ -1,0 +1,169 @@
+
+- title: "Exploring Privacy and Security Concerns of EdTech Users: A Qualitative Analysis of User Written Reviews"
+  image: soups_23_poster.jpg
+  description: "[Click here](/downloads/soups_23_poster.pdf) for Abstract"
+  authors: Waqar Hassan Khan, Protik Bose Pranto, Tianyi Yang, Rakibul Hasan
+  link:
+    url: https://persue-lab-asu.github.io/assets/publications/SOUPS_23_poster_edtech/abstract.pdf
+    display:
+  highlight: 1
+
+- title: "Understanding the Effect of Private Data in Disinformation Propagation"
+  image: SOUPS_23_poster_misinfo/poster.jpg
+  description: "[Click here] (https://persue-lab-asu.github.io/assets/publications/SOUPS_23_poster_misinfo/abstract.pdf) for Abstract"
+  authors: Protik Bose Pranto, Waqar Hassan Khan, Sahar Abdelnabi, Rebecca Weil, Mario Fritz, Rakibul Hasan
+  link:
+    url: https://persue-lab-asu.github.io/assets/publications/SOUPS_23_poster_misinfo/abstract.pdf
+    display: 
+  highlight: 1
+ 
+
+- title: "From Bad to Worse: Using Private Data to Propagate Disinformation on Online Platforms with a Greater Efficiency"
+  description: "[Click here] (https://persue-lab-asu.github.io/assets/publications/CHI_23_Design_Policy_misinfo.pdf)"
+  authors: Protik Bose Pranto, Waqar Hassan Khan, Sahar Abdelnabi, Rebecca Weil, Mario Fritz, Rakibul Hasan
+  link:
+    url: https://persue-lab-asu.github.io/assets/publications/CHI_23_Design_Policy_misinfo.pdf
+    display: 
+  highlight: 1
+  
+
+
+- title: "A Psychometric Scale to Measure Individuals' Value of Other People's Privacy (VOPP)"
+  description: "[Click here] (https://publications.cispa.saarland/3930/1/VOPP_Hasan_et_al_2023.pdf)"
+  authors: Rakibul Hasan, Rebecca Weil, Rudolf Siegel, Katharina Krombholz
+  link:
+    url: https://publications.cispa.saarland/3930/1/VOPP_Hasan_et_al_2023.pdf
+    display:
+  highlight: 1
+ 
+
+- title: "Understanding the Perception and Awareness of Education Technologies' Privacy and Security Issues"
+  description: "[Click here] (https://www.petsymposium.org/2023/files/papers/issue4/popets-2023-0110.pdf)"
+  authors: Rakibul Hasan
+  link:
+    url: https://www.petsymposium.org/2023/files/papers/issue4/popets-2023-0110.pdf
+    display: 
+  highlight: 0
+
+
+- title: "Developing a Psychometric Scale to Measure One’s Valuation of Other People’s Privacy"
+  image: prof/soups2022-poster57_hasan_final_1.jpg
+  description: "[Click here] https://www.usenix.org/system/files/soups2022-poster57_hasan_abstract_final_1.pdf"
+  authors: Rakibul Hasan, Rudolf Siegel, Rebecca Weil, Katharina Krombholz
+  link:
+    url: https://www.usenix.org/system/files/soups2022-poster57_hasan_abstract_final_1.pdf
+    display:  
+  highlight: 1
+ 
+
+- title: "The Impact of Viral Posts on Visibility and Behavior of Professionals: A Longitudinal Study of Scientists on Twitter"
+  image: 
+  description: "[Click here] https://persue-lab-asu.github.io/assets/publications/prof/aaai-paper-22.pdf"
+  authors: Rakibul Hasan, Cristobal Cheyre, Yong-Yeol Ahn, Roberto Hoyle, Apu Kapadia
+  link:
+    url: https://persue-lab-asu.github.io/assets/publications/prof/aaai-paper-22.pdf
+    display:  
+  highlight: 1
+
+- title: "Understanding Utility and Privacy of Demographic Data in Education Technology by Causal Analysis and Adversarial-Censoring"
+  image: 
+  description:"[Click here] https://petsymposium.org/popets/2022/popets-2022-0044.pdf"
+  authors: Rakibul Hasan, Mario Fritz
+  link:
+    url: https://petsymposium.org/popets/2022/popets-2022-0044.pdf
+    display: 
+  highlight: 0
+  news2:
+
+
+- title: "Open-domain, content-based, multi-modal fact-checking of out-of-context images via online resources"
+  image: 
+  description: "[Click here] https://openaccess.thecvf.com/content/CVPR2022/papers/Abdelnabi_Open-Domain_Content-Based_Multi-Modal_Fact-Checking_of_Out-of-Context_Images_via_Online_Resources_CVPR_2022_paper.pdf"
+  authors: Sahar Abdelnabi, Rakibul Hasan, Mario Fritz
+  link:
+    url: https://openaccess.thecvf.com/content/CVPR2022/papers/Abdelnabi_Open-Domain_Content-Based_Multi-Modal_Fact-Checking_of_Out-of-Context_Images_via_Online_Resources_CVPR_2022_paper.pdf
+    display: 
+  highlight: 1
+  news2: 
+
+- title: "Your photo is so funny that i don’t mind violating your privacy by sharing it: effects of individual humor styles on online photo-sharing behaviors"
+  image: 
+  authors: Rakibul Hasan, Bennett I Bertenthal, Kurt Hugenberg, Apu Kapadia
+  description: "[Click here] https://dl.acm.org/doi/pdf/10.1145/3411764.3445258"
+  link:
+    url: https://dl.acm.org/doi/pdf/10.1145/3411764.3445258
+    display:  
+  highlight: 1
+  news2:
+
+- title: "Automatically detecting bystanders in photos to reduce privacy risks"
+  image: 
+  authors:  Rakibul Hasan, David Crandall, Mario Fritz, Apu Kapadia 
+  description: "[Click here] https://publications.cispa.saarland/3051/1/bystander-oakland-2020.pdf"
+  link:
+    url: https://publications.cispa.saarland/3051/1/bystander-oakland-2020.pdf 
+    display: 
+  highlight: 0
+  news2:
+
+- title: "Influencing photo sharing decisions on social media: A case of paradoxical findings"
+  image: 
+  description: "[Click here] https://par.nsf.gov/servlets/purl/10183400"
+  authors: Mary Jean Amon, Rakibul Hasan, Kurt Hugenberg, Bennett I Bertenthal, Apu Kapadia
+  link:
+    url: https://par.nsf.gov/servlets/purl/10183400
+    display:  
+  highlight: 0
+  news2:
+
+- title: "Reducing Privacy Risks in the Context of Sharing Photos Online"
+  image: 
+  description: "[Click here] https://drive.google.com/file/d/1bbDJc8BD0yg2EdLWjkW_AyWZJFfZDiJn/view"
+  authors: Rakibul Hasan
+  link:
+    url: https://drive.google.com/file/d/1bbDJc8BD0yg2EdLWjkW_AyWZJFfZDiJn/view
+    display:  
+  highlight: 1
+  news2:
+
+- title: "Can privacy be satisfying? on improving viewer satisfaction for privacy-enhanced photos using aesthetic transforms"
+  image: 
+  description: "[Click here] https://dl.acm.org/doi/pdf/10.1145/3290605.3300597"
+  authors: Rakibul Hasan, Yifang Li, Eman Hassan, Kelly Caine, David J Crandall, Roberto Hoyle, Apu Kapadia
+  link:
+    url: https://dl.acm.org/doi/pdf/10.1145/3290605.3300597
+    display: 
+  highlight: 1
+  news2: 
+  
+- title: "Viewer experience of obscuring scene elements in photos to enhance privacy"
+  image: 
+  description: "[Click here] https://dl.acm.org/doi/pdf/10.1145/3173574.3173621" 
+  authors: Rakibul Hasan, Eman Hassan, Yifang Li, Kelly Caine, David J Crandall, Roberto Hoyle, Apu Kapadia
+  link:
+    url: https://dl.acm.org/doi/pdf/10.1145/3173574.3173621
+    display: 
+  highlight: 1
+  news2:
+
+- title: "Cartooning for enhanced privacy in lifelogging and streaming videos"
+  image: 
+  description: "[Click here] https://openaccess.thecvf.com/content_cvpr_2017_workshops/w16/papers/Kapadia_Cartooning_for_Enhanced_CVPR_2017_paper.pdf"
+  authors: Rakibul Hasan, Patrick Shaffer, David Crandall, Eman T Apu Kapadia
+  link:
+    url: https://openaccess.thecvf.com/content_cvpr_2017_workshops/w16/papers/Kapadia_Cartooning_for_Enhanced_CVPR_2017_paper.pdf
+    display: 
+  highlight: 1
+  news2:
+
+- title: "A novel approach for constructing emulator for Microsoft Kinect XBOX 360 Sensor in the. NET platform"
+  image: 
+  description: "[Click here] https://persue-lab-asu.github.io/assets/publications/prof/ISMS2013.pdf"
+  authors: Mohammad Raihanul Islam, Sazzadur Rahaman, Rakibul Hasan, Ridwan Rashid Noel, Asif Salekin, Hasan Shahid Ferdous
+  link:
+    url: https://persue-lab-asu.github.io/assets/publications/prof/ISMS2013.pdf
+    display:  
+  highlight: 1
+  news1:
+  news2: 
+

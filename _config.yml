@@ -1,117 +1,307 @@
-### GENERAL SETTINGS ###
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+title: 'PERSUE: PrivatE, Reliable and SecUrE Computing Lab'
+title_abbreviation: PERSUE
+email: your-email@domain.com
+description: Website for the PERSUE Lab, School of Computing and Augmented
+  Intelligence at Arizona State University.
+analytics: null #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: '' #important: start with /
+url: http://privacy-and-security-lab.github.io
 
-# Build settings
+include:
+  - .htaccess
+  - _pages
+
+sass:
+  sass_dir: _sass
+
+# Conversion
 markdown: kramdown
-permalink: /:categories/:title/
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+highlighter: rouge
+lsi: false
+excerpt_separator: ""
+incremental: false
 
-colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031"
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#384452" #"#33004D"
-  link: "#428bca"
-  link_hover: "#01b2fe"
-  footer_heading: "#ffffff"
-  footer_content: "#bfc9d3"
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
-# Making projects separate from posts
 collections:
-  projects:
+  team_members:
+    output: true
+    permalink: /team/:title/
+  project_details:
     output: true
     permalink: /projects/:title/
-  questions:
-    output: true
-    permalink: /questions/:title/
 
-### CONTACT SETTINGS ###
+# Projects
+projects:
+  - name: Understanding-and-preventing-fake-news-propagation
+    img: fake-news.jpg
+    link: Understanding-and-preventing-fake-news-propagation
+  - name: Privacy, Security, and Safety issues in Education Technology
+    img: edtech.jpg
+    link: privacy-security-and-safety-issues-in-education-technology
+  - name: Privacy on social platforms
+    img: social_media.jpg
+    link: privacy-on-social-platforms
+  - name: Interdependent and multi-party privacy
+    img: interdependent-privacy.png
+    link: interdependent-and-multi-party-privacy
 
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url:
-  - title: twitter
-    url:
-  - title: instagram
-    url:
-  - title: tumblr
-    url:
+# Faculty
+faculty:
+  - name: Dr. Rakibul Hasan
+    position: Faculty
+    img: dr_rakibul_hasan.png
+    details_link: dr-rakibul-hasan
 
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+# Current graduate students
+current_phd_students:
+  - name: Syed Zami-Ul-Haque Navid
+    position: Ph.D. student
+    img: navid.jpg
+    details_link: syed-zami-ul-haque-navid
+  - name: Khalid Alasiri
+    position: Ph.D. student 
+    img: Khalid.jpg 
+    details_link: khalid-alasiri
 
+#current_ms_students:
+  - name: Sri Harsha Gajavalli
+    position: Masters student 
+    img: SriHarshaGajavalli-profilepic.png
+    details_link: sri-harsha-gajavilli
 
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
+# Current undergrad students
+current_undergrad_students:
+  - name: Easton Kelso
+    position: Undergrad Student
+    img: easton_kelso.jpg
+    details_link: easton-kelso
+  - name: Junichi Koizumi
+    position: Undergrad Student
+    img: Junichi.jpeg
+    details_link: junichi-koizumi
+  - name: Mrinaal Ramachandran
+    position: Undergraduate Student
+    img: Mrinaal.jpeg
+    details_link: mrinaal-ramachandran
+  - name: Saharsh Goenka
+    position: Undregraduate Student
+    img: saharsh.png
+    details_link: saharsh-goenka
+  - name: : Adit Prabhu
+    position : Undergraduate Student 
+    img : Adit_PFP1.jpeg
 
-# Members information. Shown on About page.
-members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team02.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team03.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team04.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-
-# Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+ 
+former_students:
+  - name: Tianyi Yang
+    position: Research Aide
+    img: tianyi_yang.jpg
+    details_link: tianyi-yang
+  - name: Sanskar Srivastava
+    position: Undergrad Researcher
+    img: sanskar_srivastava.jpg
+    details_link: sanskar-srivastava
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: We aim to enhance the privacy, security, and reliability of computing
+  technologies. Our research activities identify and understand privacy,
+  security, and reliability issues with information technologies and explore
+  mitigation strategies toward a safer technology ecosystem. We take a
+  human-centered perspective to understand the problem space while combining
+  techniques from AI and Machine Learning, Internet Measurement, Cognitive
+  Psychology, and Statistical Causal Inference methodologies to solve the
+  identified problems.
 
 # Testimonial content. Shown on Home and About page.
-testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+
+
+# publication-list
+publications:
+  - type: poster
+    name: 'Exploring Privacy and Security Concerns of EdTech Users: A Qualitative
+      Analysis of User Written Reviews'
+    authors: Waqar Hassan Khan, Protik Bose Pranto, Tianyi Yang, Rakibul Hasan
+    year: 2023
+    venue_full_name: Nineteenth Symposium on Usable Privacy and Security
+    venue_short_name: SOUPS'23
+    paper_link: /assets/publications/SOUPS_23_poster_edtech/abstract.pdf
+    poster_link: /assets/publications/SOUPS_23_poster_edtech/poster.pdf
+    poster_image_link: SOUPS_23_poster_edtech/poster.jpg
+
+  - type: poster
+    name: Understanding the Effect of Private Data in Disinformation Propagation
+    authors: Protik Bose Pranto, Waqar Hassan Khan, Sahar Abdelnabi, Rebecca Weil,
+      Mario Fritz, Rakibul Hasan
+    year: 2023
+    venue_full_name: Nineteenth Symposium on Usable Privacy and Security
+    venue_short_name: SOUPS'23
+    paper_link: /assets/publications/SOUPS_23_poster_misinfo/abstract.pdf
+    poster_link: /assets/publications/SOUPS_23_poster_misinfo/poster.pdf
+    poster_image_link: SOUPS_23_poster_misinfo/poster.jpg
+
+  - type: paper
+    name: 'From Bad to Worse: Using Private Data to Propagate Disinformation on
+      Online Platforms with a Greater Efficiency'
+    authors: Protik Bose Pranto, Waqar Hassan Khan, Sahar Abdelnabi, Rebecca Weil,
+      Mario Fritz, Rakibul Hasan
+    year: 2023
+    venue_full_name: 'Designing Technology and Policy Simultaneously: Towards A
+      Research Agenda and New Practice'
+    venue_short_name: CHI'23 Workshop
+    paper_link: /assets/publications/CHI_23_Design_Policy_misinfo.pdf
+
+  - type: paper
+    name: A Psychometric Scale to Measure Individuals' Value of Other People's
+      Privacy (VOPP)
+    authors: Rakibul Hasan, Rebecca Weil, Rudolf Siegel, Katharina Krombholz
+    year: 2023
+    venue_full_name: Proceedings of the 2023 CHI Conference on Human Factors in
+      Computing Systems
+    venue_short_name: CHI'23
+    paper_link: https://publications.cispa.saarland/3930/1/VOPP_Hasan_et_al_2023.pdf
+
+  - type: paper
+    name: Understanding the Perception and Awareness of Education Technologies'
+      Privacy and Security Issues
+    authors: Rakibul Hasan
+    year: 2023
+    venue_full_name: The 23rd Privacy Enhancing Technologies Symposium
+    venue_short_name: PETS 23
+    paper_link: https://www.petsymposium.org/2023/files/papers/issue4/popets-2023-0110.pdf
+
+  - type: poster
+    name: Developing a Psychometric Scale to Measure One’s Valuation of Other
+      People’s Privacy
+    authors: Rakibul Hasan, Rudolf Siegel, Rebecca Weil, Katharina Krombholz
+    year: 2022
+    venue_full_name: The Eighteenth Symposium on Usable Privacy and Security
+    venue_short_name: SOUPS 2022
+    paper_link: https://www.usenix.org/system/files/soups2022-poster57_hasan_abstract_final_1.pdf
+    poster_link: https://www.usenix.org/system/files/soups2022-poster57_hasan_final_1.pdf
+    poster_image_link: prof/soups2022-poster57_hasan_final_1.jpg
+
+  - type: paper
+    name: 'The Impact of Viral Posts on Visibility and Behavior of Professionals: A
+      Longitudinal Study of Scientists on Twitter'
+    authors: Rakibul Hasan, Cristobal Cheyre, Yong-Yeol Ahn, Roberto Hoyle, Apu Kapadia
+    year: 2022
+    venue_full_name: Proceedings of the International AAAI Conference on Web and Social Media
+    venue_short_name: AAAI 22
+    paper_link: /assets/publications/prof/aaai-paper-22.pdf
+
+  - type: paper
+    name: Understanding Utility and Privacy of Demographic Data in Education
+      Technology by Causal Analysis and Adversarial-Censoring
+    authors: Rakibul Hasan, Mario Fritz
+    year: 2022
+    venue_full_name: The 22nd Privacy Enhancing Technologies Symposium
+    venue_short_name: PETS 22
+    paper_link: https://petsymposium.org/popets/2022/popets-2022-0044.pdf
+
+  - type: paper
+    name: Open-domain, content-based, multi-modal fact-checking of out-of-context
+      images via online resources
+    authors: Sahar Abdelnabi, Rakibul Hasan, Mario Fritz
+    year: 2022
+    venue_full_name: Proceedings of the IEEE/CVF Conference on Computer Vision and
+      Pattern Recognition
+    venue_short_name: IEEE/CVF 22
+    paper_link: https://openaccess.thecvf.com/content/CVPR2022/papers/Abdelnabi_Open-Domain_Content-Based_Multi-Modal_Fact-Checking_of_Out-of-Context_Images_via_Online_Resources_CVPR_2022_paper.pdf
+
+  - type: paper
+    name: 'Your photo is so funny that i don’t mind violating your privacy by
+      sharing it: effects of individual humor styles on online photo-sharing
+      behaviors'
+    authors: Rakibul Hasan, Bennett I Bertenthal, Kurt Hugenberg, Apu Kapadia
+    year: 2021
+    venue_full_name: Proceedings of the 2021 CHI Conference on Human Factors in
+      Computing Systems
+    venue_short_name: CHI 21
+    paper_link: https://dl.acm.org/doi/pdf/10.1145/3411764.3445258
+
+  - type: paper
+    name: Automatically detecting bystanders in photos to reduce privacy risks
+    authors: Rakibul Hasan, David Crandall, Mario Fritz, Apu Kapadia
+    year: 2020
+    venue_full_name: IEEE Symposium on Security and Privacy 2020
+    venue_short_name: IEEE S & P 20
+    paper_link: https://publications.cispa.saarland/3051/1/bystander-oakland-2020.pdf
+
+  - type: paper
+    name: 'Influencing photo sharing decisions on social media: A case of
+      paradoxical findings'
+    authors: Mary Jean Amon, Rakibul Hasan, Kurt Hugenberg, Bennett I Bertenthal,
+      Apu Kapadia
+    year: 2020
+    venue_full_name: IEEE Symposium on Security and Privacy 2020
+    venue_short_name: IEEE S & P 20
+    paper_link: https://par.nsf.gov/servlets/purl/10183400
+
+  - type: paper
+    name: Reducing Privacy Risks in the Context of Sharing Photos Online
+    authors: Rakibul Hasan
+    year: 2020
+    venue_full_name: Extended Abstracts of the 2020 CHI Conference on Human Factors
+      in Computing Systems
+    venue_short_name: CHI'20 (EA)
+    paper_link: https://drive.google.com/file/u/0/d/1bbDJc8BD0yg2EdLWjkW_AyWZJFfZDiJn/view
+
+  - type: paper
+    name: Can privacy be satisfying? on improving viewer satisfaction for
+      privacy-enhanced photos using aesthetic transforms
+    authors: Rakibul Hasan, Yifang Li, Eman Hassan, Kelly Caine, David J Crandall,
+      Roberto Hoyle, Apu Kapadia
+    year: 2019
+    venue_full_name: Proceedings of the 2019 CHI Conference on Human Factors in
+      Computing Systems
+    venue_short_name: CHI'19
+    paper_link: https://dl.acm.org/doi/pdf/10.1145/3290605.3300597
+
+  - type: paper
+    name: Viewer experience of obscuring scene elements in photos to enhance privacy
+    authors: Rakibul Hasan, Eman Hassan, Yifang Li, Kelly Caine, David J Crandall,
+      Roberto Hoyle, Apu Kapadia
+    year: 2018
+    venue_full_name: Proceedings of the 2018 CHI Conference on Human Factors in
+      Computing Systems
+    venue_short_name: CHI'18
+    paper_link: https://dl.acm.org/doi/pdf/10.1145/3173574.3173621
+
+  - type: paper
+    name: Cartooning for enhanced privacy in lifelogging and streaming videos
+    authors: Rakibul Hasan, Patrick Shaffer, David Crandall, Eman T Apu Kapadia
+    year: 2017
+    venue_full_name: Proceedings of the IEEE conference on computer vision and
+      pattern recognition workshops
+    venue_short_name: CVPR 17
+    paper_link: https://openaccess.thecvf.com/content_cvpr_2017_workshops/w16/papers/Kapadia_Cartooning_for_Enhanced_CVPR_2017_paper.pdf
+
+  - type: paper
+    name: A novel approach for constructing emulator for Microsoft Kinect XBOX 360
+      Sensor in the. NET platform
+    authors: Mohammad Raihanul Islam, Sazzadur Rahaman, Rakibul Hasan, Ridwan Rashid
+      Noel, Asif Salekin, Hasan Shahid Ferdous
+    year: 2013
+    venue_full_name: 2013 4th International Conference on Intelligent Systems,
+      Modelling and Simulation
+    venue_short_name: ISMS 13
+    paper_link: /assets/publications/prof/ISMS2013.pdf
