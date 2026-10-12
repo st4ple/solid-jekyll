@@ -1,10 +1,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/retina-1.1.0.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/jquery.hoverdir.js" | prepend: site.baseurl }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/1.0.1/retina.min.js" integrity="sha512-DNYQO8ZqpQ+fUoMej2m+VCxfnIsDNTX/cWJkzmo46+uIw1r6KW4rkcmZ/Rl+NDql5HASyJLTt+YVriPQMfzWVw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="{{ "/assets/js/jquery.hoverex.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/jquery.prettyPhoto.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/jquery.isotope.min.js" | prepend: site.baseurl }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.min.js" integrity="sha512-IB7NSySDRedVEsYsOVuzN5O5jwRjV2ewVVmkDFIgE0yNu11GreBCOMv07i7hlQck41T+sTXSL05/cG+De4cZDw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js" integrity="sha512-ZYeIS5cMze3XxDC3kcrULFj/CcEm6/6q+0gxzBv+t3OKmRIj8homuq2N8+sio09Z025JJ4m/MbM2E/j05NskdA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="{{ "/assets/js/custom.js" | prepend: site.baseurl }}"></script>
 {% if site.analytics %}
 <script>
@@ -18,85 +17,4 @@
 
 </script>
 {% endif %}
-<script>
-// Portfolio
-(function($) {
-	"use strict";
-	var $container = $('.portfolio'),
-		$items = $container.find('.portfolio-item'),
-		portfolioLayout = 'fitRows';
-		
-		if( $container.hasClass('portfolio-centered') ) {
-			portfolioLayout = 'masonry';
-		}
-				
-		$container.isotope({
-			filter: '*',
-			animationEngine: 'best-available',
-			layoutMode: portfolioLayout,
-			animationOptions: {
-			duration: 750,
-			easing: 'linear',
-			queue: false
-		},
-		masonry: {
-		}
-		}, refreshWaypoints());
-		
-		function refreshWaypoints() {
-			setTimeout(function() {
-			}, 1000);   
-		}
-				
-		$('nav.portfolio-filter ul a').on('click', function() {
-				var selector = $(this).attr('data-filter');
-				$container.isotope({ filter: selector }, refreshWaypoints());
-				$('nav.portfolio-filter ul a').removeClass('active');
-				$(this).addClass('active');
-				return false;
-		});
-		
-		function getColumnNumber() { 
-			var winWidth = $(window).width(), 
-			columnNumber = 1;
-		
-			if (winWidth > 1200) {
-				columnNumber = 5;
-			} else if (winWidth > 950) {
-				columnNumber = 4;
-			} else if (winWidth > 600) {
-				columnNumber = 3;
-			} else if (winWidth > 400) {
-				columnNumber = 2;
-			} else if (winWidth > 250) {
-				columnNumber = 1;
-			}
-				return columnNumber;
-			}       
-			
-			function setColumns() {
-				var winWidth = $(window).width(), 
-				columnNumber = getColumnNumber(), 
-				itemWidth = Math.floor(winWidth / columnNumber);
-				
-				$container.find('.portfolio-item').each(function() { 
-					$(this).css( { 
-					width : itemWidth + 'px' 
-				});
-			});
-		}
-		
-		function setPortfolio() { 
-			setColumns();
-			$container.isotope('reLayout');
-		}
-			
-		$container.imagesLoaded(function () { 
-			setPortfolio();
-		});
-		
-		$(window).on('resize', function () { 
-		setPortfolio();          
-	});
-})(jQuery);
-</script>
+<script src="{{ "/assets/js/portfolio.js" | prepend: site.baseurl }}"></script>

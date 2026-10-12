@@ -1,23 +1,48 @@
-<!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container">
+        <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link {% if page.title == "Home" %}active{% endif %}" aria-current="page" href="{{"/" | prepend: site.baseurl }}">Home</a>
+                </li>
+                {% if site.show_blog %}
+                    <li class="nav-item">
+                        <a class="nav-link {% if page.title == "Blog" %}active{% endif %}" href="{{"/blog/" | prepend: site.baseurl }}">Blog</a>
+                    </li>
+                {% endif %}
+                {% if site.show_service %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            {% for service in site.services %}
+                                <li><a class="dropdown-item" href="{{ service.permalink }}">{{ service.title }}</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% endif  %}
+                {% if site.show_portfolio %}
+                    <li class="nav-item">
+                        <a class="nav-link {% if page.title == "Portfolio" %}active{% endif %}" href="{{"/portfolio/" | prepend: site.baseurl }}">Portfolio</a>
+                    </li>
+                {% endif %}
+                {% if site.show_about %}
+                    <li class="nav-item">
+                        <a class="nav-link {% if page.title == "About" %}active{% endif %}" href="{{"/about/" | prepend: site.baseurl }}">About</a>
+                    </li>
+                {% endif %}
+                {% if site.show_contact %}
+                    <li class="nav-item">
+                        <a class="nav-link {% if page.title == "Contact" %}active{% endif %}" href="{{"/contact/" | prepend: site.baseurl }}">Contact</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
     </div>
-    <div class="navbar-collapse collapse navbar-right">
-      <ul class="nav navbar-nav">
-        <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
-        <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">BLOG</a></li>
-        <li {% if page.title == "Portfolio" %}class="active"{% endif %}><a href="{{"/portfolio/" | prepend: site.baseurl }}">PORTFOLIO</a></li>
-        <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a></li>
-        <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</div>
+</nav>
